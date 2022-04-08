@@ -36,13 +36,6 @@ Além de proporcionar aos graduandos uma maior conscientização quanto a quest�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Este trabalho tem como foco desenvolver uma ferramenta que facilite a interação entre as ONGs de adoção e o público em geral que queira divulgar algum animal que esteja perdido  passando por dificuldades ou abandonado, então todas as pessoas que já participem de algum projeto beneficente ou não que não gostem de ver animais em situações de risco e que queiram de alguma forma ajudar poderá utilizar o dispositivo.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Desta forma, o público-alvo são as pessoas em geral, empresas, doadores e instituições que tenham foco principal em apoiar animais que não tenham lar e que passam por dificuldades. Através deste trabalho e com a ajuda da tecnologia poderemos divulgar esses animais que precisam tanto serem amparados.
