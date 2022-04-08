@@ -8,40 +8,45 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+"Maria Emília" 
 
-            Maria Emília                                                                                   Jessica Santos
-                                                                                                                                                                                                                                                                                        
-Idade: 64 anos.                                                                                Idade: 27 anos.
-Ocupação: Aposentada do Serviço Público Federal.                                               Ocupação: Trabalha em um escritório de contabilidade.
-Participação:                                                                                  Participação:                                                                                                     Adotou uma cachorrinha.
-Projetos que cuidam de animais abandonados, ONGs.                                              Adotou uma cachorrinha.
-Ame mais os animais de rua.                                                                    Motivações:
-Motivações:                                                                                    Incentivar as pessoas a adotarem.
-Cuidar dos animais de rua.                                                                     Dificuldades:
-E dar um lar para eles.                                                                        Encontrar meios que divulguem os animais. 
-Dificuldades:                                                                                  História:
-Divulgar o animal.                                                                             Não pretendia adotar, mas a história de um animal de rua acabou comovendo.                                                                                
+Idade: 64 anos.
+Ocupação: Aposentada do Serviço Público Federal.
+
+Participação:
+Projetos que cuidam de animais abandonados, ONGs.
+Motivações:
+Cuidar dos animais de rua.
+E dar um lar para eles.
+Dificuldades:
+Divulgar o animal.
 E arrecadar recursos para a ONG.
-
-
 História:
 Quando um animal de rua achar um lar é emocionante.
 
+"Jéssica Santos"
+
+Idade: 27 anos.
+Ocupação: Trabalha em um escritório de contabilidade.
+Participação:
+Adotou uma cachorrinha.
+Motivações:
+Incentivar as pessoas a adotarem.
+Ame mais os animais de rua.
+Dificuldades:
+Encontrar meios que divulguem os animais. 
+História:
+Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+
+
+
+
+
 
 ## Histórias de Usuários
 
