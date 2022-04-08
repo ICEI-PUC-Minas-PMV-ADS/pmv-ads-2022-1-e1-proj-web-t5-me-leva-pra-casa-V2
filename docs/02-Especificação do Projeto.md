@@ -8,45 +8,36 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
- `Maria Emilia` 
+"Maria Emília" 
 
-Idade: 
-64 anos.
-
-Ocupação: 
-Aposentada do Serviço Público Federal.
+Idade: 64 anos.
+Ocupação: Aposentada do Serviço Público Federal.
 
 Participação:
 Projetos que cuidam de animais abandonados, ONGs.
-
 Motivações:
 Cuidar dos animais de rua.
 E dar um lar para eles.
-
 Dificuldades:
 Divulgar o animal.
 E arrecadar recursos para a ONG.
-
 História:
 Quando um animal de rua achar um lar é emocionante.
 
+"Jéssica Santos"
 
-|                                 `Jessica Santos`                                                 |
-|-------------------------------------------------|------------------------------------------------|
-|Idade:                                           | Participação:                                  |         
-|Adotou uma cachorrinha.                          | Adotou uma cachorrinha.                        |
-|27 anos.                                         |                                                |
-|                                                 |                                                |
-|Ocupação:                                        |                                                |
-|Trabalha em um escritório de contabilidade.      |                                                |
-|                                                 |                                                |
-|Motivações:                                      |Dificuldades:                                   |
-|Incentivar as pessoas a adotarem.                |Encontrar meios que divulguem os animais.       |
-|Ame mais os animais de rua.                      |                                                |
-|                                                 |                                                |                                              
-|                                      História:                                                   |
-|Não pretendia adotar, mas a história de um animal de rua acabou comovendo.                        |
-|                                                                                                  |
+Idade: 27 anos.
+Ocupação: Trabalha em um escritório de contabilidade.
+Participação:
+Adotou uma cachorrinha.
+Motivações:
+Incentivar as pessoas a adotarem.
+Ame mais os animais de rua.
+Dificuldades:
+Encontrar meios que divulguem os animais. 
+História:
+Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
+
 
 
 
