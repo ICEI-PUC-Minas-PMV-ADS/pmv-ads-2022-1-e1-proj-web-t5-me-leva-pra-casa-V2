@@ -10,31 +10,44 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
  `Maria Emilia` 
 
-Idade: 64 anos.
-Ocupação: Aposentada do Serviço Público Federal.
+Idade: 
+64 anos.
+
+Ocupação: 
+Aposentada do Serviço Público Federal.
 
 Participação:
 Projetos que cuidam de animais abandonados, ONGs.
+
 Motivações:
 Cuidar dos animais de rua.
 E dar um lar para eles.
+
 Dificuldades:
 Divulgar o animal.
 E arrecadar recursos para a ONG.
+
 História:
 Quando um animal de rua achar um lar é emocionante.
 
 `Jessica Santos` 
 
-Idade: 27 anos.
-Ocupação: Trabalha em um escritório de contabilidade.
+Idade:
+27 anos.
+
+Ocupação: 
+Trabalha em um escritório de contabilidade.
+
 Participação:
 Adotou uma cachorrinha.
+
 Motivações:
 Incentivar as pessoas a adotarem.
 Ame mais os animais de rua.
+
 Dificuldades:
 Encontrar meios que divulguem os animais. 
+
 História:
 Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
