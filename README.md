@@ -13,7 +13,7 @@
 * Elizângela Oliveira
 * Guilherme Henrique 
 * Ian Merlo Corrêa
-* Jéssica Silva
+* Jéssica Silva Santos
 * Warlen alves
 
 ## Orientador
