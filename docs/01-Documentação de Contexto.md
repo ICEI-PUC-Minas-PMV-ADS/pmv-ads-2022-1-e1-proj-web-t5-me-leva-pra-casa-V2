@@ -7,7 +7,7 @@ Muita coisa mudou devido ao novo coronavírus (COVID-19), as pessoas perderam os
 “A maioria dos animais abandonados não são resgatados e sofrem com a fome, doenças, exposição ao tempo, riscos de atropelamento e traumas que interferem em seu bem-estar mental e comportamental”, alerta a médica-veterinária Cristiane Pizzutto, presidente da Comissão Técnica de Bem-estar Animal (CTBEA) do CRMV-SP.
 
 Diante desse cenário, torna-se necessário que existam plataformas e mecanismos que permitam ao usuário acessar e cadastrar ou adotar um animal que se encontre na situação de desamparo.
-Objetivos
+
 
 ## Problema
 
@@ -15,21 +15,24 @@ Conforme exposto, o problema que se busca resolver com este projeto é a falta d
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+objetivo geral deste projeto é a criação de uma plataforma que apresente os animais perdidos e abandonados e os que estão disponíveis para adoção. Serão divulgados virtualmente através de site de fácil uso e que contenha um número variado de pets.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+
+> - A divulgação dos animais, descrevendo suas características.
+> - Através de ONGs cadastradas iremos anunciar campanhas que ajudem financeiramente as instituições que cuidam dos animais.
+> - Integrar com ONGs e usuários.
+> - Através desse trabalho esperamos a diminuição de animais perdidos e abandonados nas ruas.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Segundo a Organização não governamental Ampara, os índices de abandono e recolhimento de animais aumentaram em média 61% entre julho de 2020 e junho de 2021. Esses dados podem ser ainda maiores em outros abrigos chegando a 300%, conforme relata a gerente de projetos da ONG, Rosângela Gebara. 
+ 
+A pandemia intensificou diversos fenômenos, a parte econômica e emocional foram as mais afetadas, as pessoas tiveram dificuldade de se manter financeiramente e por consequência também tiveram dificuldade de manter seus animais. Com essa perspectiva, o trabalho visa desenvolver uma ferramenta que facilite a interação entre as ONGs de adoção e o público em geral que queira divulgar algum animal que esteja perdido e passando por dificuldade e abandono.
+ 
+Além de proporcionar aos graduandos uma maior conscientização quanto a questão social de animais em situação de abandono, proporcionará o embasamento técnico para o desenvolvimento da ferramenta de Aplicação Web Front-End. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
