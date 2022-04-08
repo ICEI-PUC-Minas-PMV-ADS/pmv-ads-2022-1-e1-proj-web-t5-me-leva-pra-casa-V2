@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Warlen Alves
-* Guilherme Henrique
+* Guilherme Henrique Monteiro Cal
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
