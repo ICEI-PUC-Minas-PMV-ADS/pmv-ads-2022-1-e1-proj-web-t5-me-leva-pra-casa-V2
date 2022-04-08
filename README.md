@@ -9,10 +9,12 @@
 
 ## Integrantes
 
-* Warlen Alves
-* Guilherme Henrique Monteiro Cal
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Breno lago
+* Elizângela Oliveira
+* Guilherme Henrique 
+* Ian Merlo Corrêa
+* Jéssica Silva
+* Warlen alves
 
 ## Orientador
 
