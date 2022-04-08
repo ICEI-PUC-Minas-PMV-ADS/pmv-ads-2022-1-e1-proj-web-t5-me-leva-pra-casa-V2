@@ -30,7 +30,7 @@ E arrecadar recursos para a ONG.
 História:
 Quando um animal de rua achar um lar é emocionante.
 
-|--------------------------------------------------------------------------------------------------|
+
 |                                 `Jessica Santos`                                                 |
 |-------------------------------------------------|------------------------------------------------|
 |Idade:                                           | Participação:                                  |         
@@ -39,14 +39,14 @@ Quando um animal de rua achar um lar é emocionante.
 |                                                 |                                                |
 |Ocupação:                                        |                                                |
 |Trabalha em um escritório de contabilidade.      |                                                |
-|-------------------------------------------------|------------------------------------------------|
+|                                                 |                                                |
 |Motivações:                                      |Dificuldades:                                   |
 |Incentivar as pessoas a adotarem.                |Encontrar meios que divulguem os animais.       |
 |Ame mais os animais de rua.                      |                                                |
-|-------------------------------------------------|-----------------------------------------       |                                              
+|                                                 |                                                |                                              
 |                                      História:                                                   |
 |Não pretendia adotar, mas a história de um animal de rua acabou comovendo.                        |
-|--------------------------------------------------------------------------------------------------|
+|                                                                                                  |
 
 
 
