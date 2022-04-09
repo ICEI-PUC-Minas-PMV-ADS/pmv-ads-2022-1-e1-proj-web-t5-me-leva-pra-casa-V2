@@ -61,17 +61,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Maria Emília        | Incentivar as pessoas a não abandonarem os animais. | Para que o número de animais abandonados diminua. |
+|Maria Emília        | Chamar a atenção das pessoas por meio de divulgações. | Para aumentar o número de animais sendo adotados. |
+|Maria Emília        | Conseguir cuidar melhor dos animais através de doações . | Por que dessa forma os animais serão melhor tratados. |
+|Jessica Santos      | Incentivar as pessoas a adotarem   | Discutir com meus familiares, amigos e colegas de trabalho.|
+|Rafael Rodrigues    | Diminuir a transmissão de doenças, divulgando a importância da vacinação. | Por que tratar os animais infectados é uma questão de saúde pública. |
+|Rafael Rodrigues    |Divulgar campanhas de castração feitas pelas ONGs. | Para diminuir o número de animais nas ruas. |
+|Suelen Nogueira     | Incentivar amigos e colegas a importância da adoção responsável. | Para que os animais tenham um lar. |
+|Suelen Nogueira     | Promover campanhas de arrecadação de alimentos e medicamentos para os abrigos. | Ajudar aos abrigos nos custos de manutenção dos animais.|
+|Carlos Gomes        | Anunciar um animal de estimação. | Poder dar um lar ao animal de forma correta sem abandono. |
+|Luiza Helena        | Divulgar um animal resgatado | Para que ela possa encontrar uma nova família. |
+|Isabela Soares      | Encontrar  seu animal perdido.  | Permitir que possam administrar contas |
+|Maria Emília        | Alterar permissões                 | Por que ela sente falta do seu animal perdido. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
