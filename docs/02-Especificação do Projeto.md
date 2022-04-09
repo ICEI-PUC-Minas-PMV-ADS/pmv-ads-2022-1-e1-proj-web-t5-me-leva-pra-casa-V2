@@ -71,8 +71,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Suelen Nogueira     | Promover campanhas de arrecadação de alimentos e medicamentos para os abrigos. | Ajudar aos abrigos nos custos de manutenção dos animais.|
 |Carlos Gomes        | Anunciar um animal de estimação. | Poder dar um lar ao animal de forma correta sem abandono. |
 |Luiza Helena        | Divulgar um animal resgatado | Para que ela possa encontrar uma nova família. |
-|Isabela Soares      | Encontrar  seu animal perdido.  | Permitir que possam administrar contas |
-|Maria Emília        | Alterar permissões                 | Por que ela sente falta do seu animal perdido. |
+|Isabela Soares      | Encontrar  seu animal perdido.  | Por que ela sente falta do seu animal perdido. |
 
 
 ## Requisitos
