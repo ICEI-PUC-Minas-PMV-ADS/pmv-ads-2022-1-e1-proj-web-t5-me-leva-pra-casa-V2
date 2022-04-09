@@ -45,6 +45,100 @@ Encontrar meios que divulguem os animais.
 História:
 Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
+``Rafael Rodrigues
+
+Idade: 42 anos.
+Ocupação: Graduando em Administração.
+
+Participação:
+Voluntário na zoonose de Betim.
+
+Motivações:
+Tratar os animais infectados.
+Encontrar um lar para esse animal.
+
+Dificuldades:
+Quando a eutanásia é sugerida.
+Falta de abrigos para os animais encontrados.
+
+História:
+Infelizmente a zoonose recolhe animais que de alguma forma são de risco para a saúde pública. Aí entra a importância das ONGs, pois elas recolhem o animal de rua e promovem a castração dos animais.
+
+``Suelen Nogueira
+
+Idade: 19 anos.
+Ocupação:Graduanda em Veterinária.
+
+Participação:
+Voluntária na Sociedade Protetora dos Animais de Minas Gerais.  
+
+Motivações:
+Complementar a formação acadêmica.
+Fazer voluntariado.
+
+Dificuldades:
+Escassez de recursos nas ONGs para o manejo dos animais em situação de abandono.
+Falta de conscientização da população quanto à importância da adoção de pets.
+
+História:
+Após realizar uma visita técnica em um abrigo para animais abandonados, decidiu participar ativamente do projeto.
+
+``Carlos Gomes 
+
+Idade: 25 anos.
+Ocupação: Repositor.
+
+Participação:
+Está doando um cachorro.
+
+Motivações:
+Trazer mais pessoas a adotarem ao invés de comprarem. 
+Conscientizar a não julgarem o animal pela raça e idade.
+
+Dificuldades:
+Desinformação sobre raças, o que gera preconceito.
+Encontrar pessoas que adotem animais já de idade e de porte grande.
+
+História:
+Comprou um filhote de American Bull, porém com o crescimento exagerado, foi incapaz de manter o animal e deseja doá-lo. 
+
+``Luiza Helena
+
+Idade: 21 anos.
+Ocupação: Técnica de aparelhos eletrônicos.
+
+Participação:
+Divulgar o animal abandonado que foi resgatado.
+
+Motivações:
+Ver a felicidade de animais resgatados, que antes não conheciam o verdadeiro significado de amor.
+
+Dificuldades:
+Divulgação própria para conseguir encontrar uma nova família para o animal resgatado.
+Conseguir manter a cachorra e seus filhotes alimentados e bem cuidados até encontrar um novo lar para o pet.
+
+História:
+Luiza resgatou uma cachorra abandonada com seus filhotes recém-nascidos.   
+
+``Isabela Soares
+
+Idade: 38 anos.
+Ocupação: Pedagoga.
+
+Participação:
+A procura de sua cachorrinha Lilica.
+
+Motivações:
+Encontrar sua cachorrinha que está perdida.
+
+Dificuldades:
+Não consegue achar sites confiáveis  que possam divulgar o animal.
+Em encontrar sua cachorra perdida.
+
+História:
+Lilica se perdeu no ano novo, fugiu devido aos fogos de artifícios.
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
