@@ -12,8 +12,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |--------------------|------------------------------------|----------------------------------------|
 |Repositório de código fonte   | GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-me-leva-pra-casa-V2.git |
 |Documentos do projeto        | Google Drive | https://docs.google.com/document/d/1p78mMECqnw6SirMCZ-853IemT7KK1ob8/edit# |
-|Maria Emília        | Conseguir cuidar melhor dos animais através de doações . | Por que dessa forma os animais serão melhor tratados. |
-|Jessica Santos      | Incentivar as pessoas a adotarem   | Discutir com meus familiares, amigos e colegas de trabalho.|
+|Projeto de Interface e  Wireframes        | MarvelApp | link aqui |
+|Gerenciamento do Projeto     | Trello   | https://trello.com/invite/b/uqYi9bFY/1c116146eea18db66e8f5d1d21954b4a/gestao-de-projetos|
 
 ## Gerenciamento de Projeto
 
