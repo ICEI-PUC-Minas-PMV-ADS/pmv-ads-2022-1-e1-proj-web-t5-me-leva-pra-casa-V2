@@ -7,8 +7,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 `Relação de Ambientes de Trabalho` 
 
-Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.
-
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 |AMBIENTE| PLATAFORMA |LINK DE ACESSO             |
@@ -19,6 +17,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Gerenciamento do Projeto     | Trello   | https://trello.com/invite/b/uqYi9bFY/1c116146eea18db66e8f5d1d21954b4a/gestao-de-projetos|
 
  `Gestão de código fonte`
+ 
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.
 
 
 ### Divisão de Papéis
