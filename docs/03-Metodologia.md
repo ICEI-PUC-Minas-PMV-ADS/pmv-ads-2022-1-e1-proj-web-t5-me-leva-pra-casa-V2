@@ -16,7 +16,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e  Wireframes        | MarvelApp | link aqui |
 |Gerenciamento do Projeto     | Trello   | https://trello.com/invite/b/uqYi9bFY/1c116146eea18db66e8f5d1d21954b4a/gestao-de-projetos|
 
-## Gerenciamento de Projeto
+ `Gestão de código fonte`
+
 
 ### Divisão de Papéis
 
