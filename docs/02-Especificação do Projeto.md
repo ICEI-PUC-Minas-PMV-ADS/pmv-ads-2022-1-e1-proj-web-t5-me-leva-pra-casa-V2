@@ -45,7 +45,7 @@ Encontrar meios que divulguem os animais.
 História:
 Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
-`Rafael Rodrigues`
+``Rafael Rodrigues
 
 Idade: 42 anos.
 Ocupação: Graduando em Administração.
@@ -64,7 +64,7 @@ Falta de abrigos para os animais encontrados.
 História:
 Infelizmente a zoonose recolhe animais que de alguma forma são de risco para a saúde pública. Aí entra a importância das ONGs, pois elas recolhem o animal de rua e promovem a castração dos animais.
 
-`Suelen Nogueira`
+``Suelen Nogueira
 
 Idade: 19 anos.
 Ocupação:Graduanda em Veterinária.
@@ -83,7 +83,7 @@ Falta de conscientização da população quanto à importância da adoção de 
 História:
 Após realizar uma visita técnica em um abrigo para animais abandonados, decidiu participar ativamente do projeto.
 
-`Carlos Gomes`
+``Carlos Gomes 
 
 Idade: 25 anos.
 Ocupação: Repositor.
@@ -102,7 +102,7 @@ Encontrar pessoas que adotem animais já de idade e de porte grande.
 História:
 Comprou um filhote de American Bull, porém com o crescimento exagerado, foi incapaz de manter o animal e deseja doá-lo. 
 
-`Luiza Helena`
+``Luiza Helena
 
 Idade: 21 anos.
 Ocupação: Técnica de aparelhos eletrônicos.
@@ -120,7 +120,7 @@ Conseguir manter a cachorra e seus filhotes alimentados e bem cuidados até enco
 História:
 Luiza resgatou uma cachorra abandonada com seus filhotes recém-nascidos.   
 
-`Isabela Soares`
+``Isabela Soares
 
 Idade: 38 anos.
 Ocupação: Pedagoga.
