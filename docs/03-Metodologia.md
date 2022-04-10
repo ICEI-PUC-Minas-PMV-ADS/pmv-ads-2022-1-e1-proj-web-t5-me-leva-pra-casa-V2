@@ -7,6 +7,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 `Relação de Ambientes de Trabalho` 
 
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.
+
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 |AMBIENTE| PLATAFORMA |LINK DE ACESSO             |
