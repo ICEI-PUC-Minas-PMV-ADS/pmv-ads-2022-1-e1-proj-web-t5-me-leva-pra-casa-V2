@@ -23,7 +23,7 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 <div align="center">
 <img src="https://user-images.githubusercontent.com/101758971/162644263-efead5ae-8779-434d-b011-166987819339.png" width="400px" />
 </div>
-                          Figura X - Fluxo de controle do código fonte no repositório git
+                         
 ### Divisão de Papéis
 
 Apresente a divisão de papéis entre os membros do grupo.
