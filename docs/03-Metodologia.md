@@ -21,7 +21,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/101758971/162644263-efead5ae-8779-434d-b011-166987819339.png" width="300px" />
+<img src="https://user-images.githubusercontent.com/101758971/162644263-efead5ae-8779-434d-b011-166987819339.png" width="400px" />
 </div>
 
 ### Divisão de Papéis
