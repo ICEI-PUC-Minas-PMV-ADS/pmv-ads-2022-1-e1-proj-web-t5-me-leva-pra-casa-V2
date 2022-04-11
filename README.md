@@ -14,7 +14,7 @@
 * Guilherme Henrique 
 * Ian Merlo Corrêa
 * Jéssica Silva Santos
-* Warlen alves 1
+* Warlen alves 
 
 ## Orientador
 
