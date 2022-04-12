@@ -27,15 +27,15 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 
 A tela de Home-page com base na estrutura padrão traz a Logo, o Menu de Aplicação e Banner, seguido pelo Bloco de conteúdo. Dentre os componentes do Menu estão:
 Home tela inicial.
-- **Sobre** - que leva o usuário à tela de Descrição do projeto.
-- **Doe** - que leva o usuário à tela  Doações.
-- **Adote** - que leva o usuário à tela de Descrição dos animais.
-- **Contate nos** - que leva o usuário à tela de Contato com os responsáveis pelo site.
-- **Pesquisar** - barra _search_ que leva o usuário à tela de Resultado de animais catalogados ou outras telas.
+- **Sobre**  que leva o usuário à tela de Descrição do projeto.
+- **Doe**  que leva o usuário à tela  Doações.
+- **Adote**  que leva o usuário à tela de Descrição dos animais.
+- **Contate nos**  que leva o usuário à tela de Contato com os responsáveis pelo site.
+- **Pesquisar**  barra _search_ que leva o usuário à tela de Resultado de animais catalogados ou outras telas.
 
 O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do subtítulo **Como ajudar?** Com os elementos que vinculam às telas posteriores. 
--  **ONGs e Abrigos** - que leva o usuário à tela das ONGs e abrigos parceiras do site. 
-- **Campanhas de Doação** - que leva o usuário à tela Doações
-- **Campanhas de Vacinação** - que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
-- **Seja Voluntário** - que leva o usuário à tela de voluntariar-se com uma pequena descrição do processo e a lista de ONGs que precisam de voluntários.
+-  **ONGs e Abrigos**  que leva o usuário à tela das ONGs e abrigos parceiras do site. 
+- **Campanhas de Doação**  que leva o usuário à tela Doações
+- **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
+- **Seja Voluntário**  que leva o usuário à tela de voluntariar-se com uma pequena descrição do processo e a lista de ONGs que precisam de voluntários.
 
