@@ -35,7 +35,7 @@ Home tela inicial.
 
 O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do subtítulo **Como ajudar?** Com os elementos que vinculam às telas posteriores. 
 -  **ONGs e Abrigos** - que leva o usuário à tela das ONGs e abrigos parceiras do site. 
-- **Campanhas** - de Doação que leva o usuário à tela Doações
+- **Campanhas de Doação** - que leva o usuário à tela Doações
 - **Campanhas de Vacinação** - que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
 - **Seja Voluntário** - que leva o usuário à tela de voluntariar-se com uma pequena descrição do processo e a lista de ONGs que precisam de voluntários.
 
