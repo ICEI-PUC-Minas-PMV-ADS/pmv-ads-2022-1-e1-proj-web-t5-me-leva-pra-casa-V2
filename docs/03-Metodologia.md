@@ -29,15 +29,15 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada da seguinte maneira:
 
-Scrum Master: Warlen Alves
+	Scrum Master: Warlen Alves
 
-Product Owner: Jéssica Silva Santos
+	Product Owner: Jéssica Silva Santos
 
-Equipe de Desenvolvimento: Breno Lago e Guilherme Henrique Monteiro Cal
+	Equipe de Desenvolvimento: Breno Lago e Guilherme Henrique Monteiro Cal
 
-Equipe de QA: Ian Merlo
+	Equipe de QA: Ian Merlo
 
-Equipe de Design: Elizângela Oliveira
+	Equipe de Design: Elizângela Oliveira
 
 
 ### Processo
@@ -46,55 +46,38 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 Cronograma semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser desenvolvido.
 
-A Fazer: Backlog completo com nossas atividades alinhadas ao sprint atual.
+	A Fazer: Backlog completo com nossas atividades alinhadas ao sprint atual.
 
-Pendente: Lista de tarefas que estão atrasadas ou pendentes de alguma forma.
+	Pendente: Lista de tarefas que estão atrasadas ou pendentes de alguma forma.
 
-Em Teste: Lista com todas as tarefas que estão sendo testadas e validadas.
+	Em Teste: Lista com todas as tarefas que estão sendo testadas e validadas.
 
-Testado: Lista com todas as tarefas já testadas e validadas com sucesso.
+	Testado: Lista com todas as tarefas já testadas e validadas com sucesso.
 
-Finalizado: Lista com todas as tarefas já finalizadas.
+	Finalizado: Lista com todas as tarefas já finalizadas.
 
-Bloqueio: Lista com todas as tarefas que estão sendo impedidas de darem continuidade, devido a um fator além do que a tarefa necessita.
+	Bloqueio: Lista com todas as tarefas que estão sendo impedidas de darem continuidade, devido a um fator além do que a tarefa necessita.
 
-Dúvidas: Lista de perguntas e informações que precisamos de respostas do orientador.
+	Dúvidas: Lista de perguntas e informações que precisamos de respostas do orientador.
 
 
 O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado, no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/54327906/162855970-3a0d2413-99f6-4c44-9ab4-c63a9cbc88c1.png" width="500px" />
+<img src="https://user-images.githubusercontent.com/54327906/162855970-3a0d2413-99f6-4c44-9ab4-c63a9cbc88c1.png" width="1000px" />
 </div>
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/54327906/162856057-5bfb0670-6b07-45bd-a174-9af55cbb3fe3.png" width="500px" />
+<img src="https://user-images.githubusercontent.com/54327906/162856057-5bfb0670-6b07-45bd-a174-9af55cbb3fe3.png" width="1000px" />
 </div>
 
 A tarefas são, ainda, etiquetadas em função da 
 natureza da atividade e seguem o seguinte esquema 
 de cores/categorias:
 
-Docs
 
-Infra
-
-Importante
-
-Ger.Proj
-
-Interface
-
-Marketing de Produto
-
-Dev
-
-Em Teste
-
-Testado
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png" width="500px" />
+<div>
+<img src="https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png" width="300px" />
 </div>
 
