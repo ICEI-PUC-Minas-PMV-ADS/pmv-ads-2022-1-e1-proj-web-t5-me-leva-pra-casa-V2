@@ -27,13 +27,16 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
-
 A equipe está organizada da seguinte maneira:
 
 Scrum Master: Warlen Alves
+
 Product Owner: Jéssica Silva Santos
+
 Equipe de Desenvolvimento: Breno Lago e Guilherme Henrique Monteiro Cal
+
 Equipe de QA: Ian Merlo
+
 Equipe de Design: Elizângela Oliveira
 
 
@@ -61,28 +64,37 @@ Dúvidas: Lista de perguntas e informações que precisamos de respostas do orie
 O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado, no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 <div align="center">
-<img src="![Opera Instantâneo_2022-04-11_213745_trello com](https://user-images.githubusercontent.com/54327906/162855970-3a0d2413-99f6-4c44-9ab4-c63a9cbc88c1.png)" width="500px" />
+<img src="https://user-images.githubusercontent.com/54327906/162855970-3a0d2413-99f6-4c44-9ab4-c63a9cbc88c1.png" width="500px" />
 </div>
 
 
 <div align="center">
-<img src="![Opera Instantâneo_2022-04-11_213829_trello com](https://user-images.githubusercontent.com/54327906/162856057-5bfb0670-6b07-45bd-a174-9af55cbb3fe3.png)" width="500px" />
+<img src="https://user-images.githubusercontent.com/54327906/162856057-5bfb0670-6b07-45bd-a174-9af55cbb3fe3.png" width="500px" />
 </div>
 
 A tarefas são, ainda, etiquetadas em função da 
 natureza da atividade e seguem o seguinte esquema 
 de cores/categorias:
+
 Docs
+
 Infra
+
 Importante
+
 Ger.Proj
+
 Interface
+
 Marketing de Produto
+
 Dev
+
 Em Teste
+
 Testado
 
 <div align="center">
-<img src="![Opera Instantâneo_2022-04-11_213906_trello com](https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png)" width="500px" />
+<img src="https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png" width="500px" />
 </div>
 
