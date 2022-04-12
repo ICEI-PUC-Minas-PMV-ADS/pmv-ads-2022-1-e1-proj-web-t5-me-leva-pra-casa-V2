@@ -26,39 +26,63 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
                          
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe está organizada da seguinte maneira:
+
+Scrum Master: Warlen Alves
+Product Owner: Jéssica Silva Santos
+Equipe de Desenvolvimento: Breno Lago e Guilherme Henrique Monteiro Cal
+Equipe de QA: Ian Merlo
+Equipe de Design: Elizângela Oliveira
+
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
-### Ferramentas
+Cronograma semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser desenvolvido.
 
-As ferramentas empregadas no projeto são:
+A Fazer: Backlog completo com nossas atividades alinhadas ao sprint atual.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Pendente: Lista de tarefas que estão atrasadas ou pendentes de alguma forma.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Em Teste: Lista com todas as tarefas que estão sendo testadas e validadas.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Testado: Lista com todas as tarefas já testadas e validadas com sucesso.
+
+Finalizado: Lista com todas as tarefas já finalizadas.
+
+Bloqueio: Lista com todas as tarefas que estão sendo impedidas de darem continuidade, devido a um fator além do que a tarefa necessita.
+
+Dúvidas: Lista de perguntas e informações que precisamos de respostas do orientador.
+
+
+O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado, no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+
+<div align="center">
+<img src="![Opera Instantâneo_2022-04-11_213745_trello com](https://user-images.githubusercontent.com/54327906/162855970-3a0d2413-99f6-4c44-9ab4-c63a9cbc88c1.png)" width="500px" />
+</div>
+
+
+<div align="center">
+<img src="![Opera Instantâneo_2022-04-11_213829_trello com](https://user-images.githubusercontent.com/54327906/162856057-5bfb0670-6b07-45bd-a174-9af55cbb3fe3.png)" width="500px" />
+</div>
+
+A tarefas são, ainda, etiquetadas em função da 
+natureza da atividade e seguem o seguinte esquema 
+de cores/categorias:
+Docs
+Infra
+Importante
+Ger.Proj
+Interface
+Marketing de Produto
+Dev
+Em Teste
+Testado
+
+<div align="center">
+<img src="![Opera Instantâneo_2022-04-11_213906_trello com](https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png)" width="500px" />
+</div>
+
