@@ -26,7 +26,7 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
                          
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+teste
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
