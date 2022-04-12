@@ -44,23 +44,23 @@ A equipe está organizada da seguinte maneira:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
- `Cronograma semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser 
-desenvolvido.`
+ `Cronograma` semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser 
+desenvolvido.
 
- `A Fazer: Backlog completo com nossas atividades alinhadas ao sprint atual.`
+ `A Fazer:` Backlog completo com nossas atividades alinhadas ao sprint atual.
 
- `Pendente: Lista de tarefas que estão atrasadas ou pendentes de alguma forma.`
+ `Pendente:` Lista de tarefas que estão atrasadas ou pendentes de alguma forma.
 
- `Em Teste: Lista com todas as tarefas que estão sendo testadas e validadas.`
+ `Em Teste:` Lista com todas as tarefas que estão sendo testadas e validadas.
 
- `Testado: Lista com todas as tarefas já testadas e validadas com sucesso.`
+ `Testado:`Lista com todas as tarefas já testadas e validadas com sucesso.
 
- `Finalizado: Lista com todas as tarefas já finalizadas.`
+ `Finalizado:` Lista com todas as tarefas já finalizadas.
 
- `Bloqueio: Lista com todas as tarefas que estão sendo impedidas de darem continuidade, devido a um fator além 
-do que a tarefa necessita.`
+ `Bloqueio:` Lista com todas as tarefas que estão sendo impedidas de darem continuidade, devido a um fator além 
+do que a tarefa necessita.
 
- `Dúvidas: Lista de perguntas e informações que precisamos de respostas do orientador.`
+ `Dúvidas:` Lista de perguntas e informações que precisamos de respostas do orientador.
 
 
 O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado, no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
