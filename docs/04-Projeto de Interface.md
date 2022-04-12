@@ -26,7 +26,8 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 ## Tela Home-Page
 
 A tela de Home-page com base na estrutura padrão traz a Logo, o Menu de Aplicação e Banner, seguido pelo Bloco de conteúdo. Dentre os componentes do Menu estão:
-Home tela inicial.
+
+- **Home** tela inicial.
 - **Sobre**  que leva o usuário à tela de Descrição do projeto.
 - **Doe**  que leva o usuário à tela  Doações.
 - **Adote**  que leva o usuário à tela de Descrição dos animais.
