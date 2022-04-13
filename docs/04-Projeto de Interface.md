@@ -48,7 +48,6 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do s
 
 <div style="text-align:center">                             A figura X representa a Tela Inicial.
 </div>
-</div>
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103081069/163068203-699eb647-1f1d-4555-9a46-fb2ea9508a9c.jpeg" width="700px" />
