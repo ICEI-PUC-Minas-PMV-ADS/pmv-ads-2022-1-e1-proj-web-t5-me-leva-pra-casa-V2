@@ -16,8 +16,8 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 - **Banner** - Imagem que representa o conceito do projeto.
 - **Conteúdo** - apresenta o conteúdo da tela em questão.
 
-					A figura X representa a estrutura padrão do site.
-
+<div style="text-align:center">                             A figura X representa a estrutura padrão do site.
+</div>
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103081269/162963459-b209e441-0c06-46af-95a6-93ab1187087b.PNG" width="500px" />
@@ -40,7 +40,9 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do s
 - **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
 - **Seja Voluntário**  que leva o usuário à tela de voluntariar-se com uma pequena descrição do processo e a lista de ONGs que precisam de voluntários.
 
-
-
-
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103081069/163068203-699eb647-1f1d-4555-9a46-fb2ea9508a9c.jpeg" width="700px" />
+</div>
 
