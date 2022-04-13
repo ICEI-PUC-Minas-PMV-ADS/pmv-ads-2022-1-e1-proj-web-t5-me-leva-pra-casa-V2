@@ -116,7 +116,7 @@ Após a escolha do animal e o usuário ter clicado no botão "adotar" da "tela d
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163095204-94aa652b-6442-42e9-aa4b-050667a9b955.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103081069/163095204-94aa652b-6442-42e9-aa4b-050667a9b955.jpg" width="500px" />
 </div>
 
 
