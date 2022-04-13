@@ -7,7 +7,6 @@ Dentre as preocupações para a montagem da interface do sistema, mantivemos o f
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o XXXX
 
-</div>
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103081069/163089473-aa4d21cc-ee47-4022-aff6-72514ca31614.png" width="1000px" />
