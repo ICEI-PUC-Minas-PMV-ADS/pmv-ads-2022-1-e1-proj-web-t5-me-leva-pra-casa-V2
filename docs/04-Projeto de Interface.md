@@ -7,6 +7,8 @@ Dentre as preocupações para a montagem da interface do sistema, mantivemos o f
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o XXXX
 
+<div style="text-align:center">                             A figura X representa o Fluxo de telas do usuário.
+</div>
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103081069/163089473-aa4d21cc-ee47-4022-aff6-72514ca31614.png" width="1000px" />
@@ -44,6 +46,8 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do s
 - **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
 - **Seja Voluntário**  que leva o usuário à tela de voluntariar-se com uma pequena descrição do processo e a lista de ONGs que precisam de voluntários.
 
+<div style="text-align:center">                             A figura X representa a Tela Inicial.
+</div>
 </div>
 <br>
 <div align="center">
@@ -54,10 +58,34 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do s
 
 A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais disponíveis para adoção junto de uma breve descrição do mesmo, referentes a uma categoria específica, escolhida pelo usuário. 
 
+<div style="text-align:center">                             A figura X representa a Tela da Notícias de Categoria.
 </div>
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103081069/163090112-de70f24b-05d4-49de-8dc0-38c44ece28eb.jpg" width="700px" />
 </div>
+
+## Tela Ongs
+
+A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre as ongs/abrigos. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page.
+
+<div style="text-align:center">                             A figura X representa a Tela de Leitura de Notícia.
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103081069/163092870-4d8cfbfe-ba65-4289-9208-11576679db40.jpg" width="1000px" />
+</div>
+
+## Tela Doações
+
+A Tela de Doações permite o intermédio das pessoas interessadas em doar algum valor financeiro às Ongs,abrigos e afins. a tela de doações é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone “dinheiro com asas" na tela ONgs. Nesta tela, a intenção de doação é registrada e um número pix é exibido.É visualizada e o usuário pode informar um valor e buscar uma Ong específica ou escolher entre os já sugeridos.Em seguida deve confirmar ou cancelar a intenção. Na sequência, a tela é fechada voltando para o ambiente anterior.
+
+<div style="text-align:center">                             A figura X representa a Tela Salvar notícias preferidas.
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103081069/163093619-0b91d754-2403-4026-afb6-80d4acd4d0f4.jpg" width="1000px" />
+</div>
+
 
 
