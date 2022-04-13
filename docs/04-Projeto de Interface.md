@@ -7,6 +7,11 @@ Dentre as preocupações para a montagem da interface do sistema, mantivemos o f
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o XXXX
 
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103081069/163089473-aa4d21cc-ee47-4022-aff6-72514ca31614.png" width="1000px" />
+</div>
 
 ## Wireframes
 
@@ -45,4 +50,15 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do s
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103081069/163068203-699eb647-1f1d-4555-9a46-fb2ea9508a9c.jpeg" width="700px" />
 </div>
+
+## Tela Descrição dos Animais
+
+A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais disponíveis para adoção junto de uma breve descrição do mesmo, referentes a uma categoria específica, escolhida pelo usuário. 
+
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103081069/163090112-de70f24b-05d4-49de-8dc0-38c44ece28eb.jpg" width="700px" />
+</div>
+
 
