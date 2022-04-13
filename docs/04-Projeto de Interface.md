@@ -40,10 +40,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema. Seguido do s
 - **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
 - **Seja Voluntário**  que leva o usuário à tela de voluntariar-se com uma pequena descrição do processo e a lista de ONGs que precisam de voluntários.
 
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/163072737-ce3e7c12-f5d0-4780-bb50-c41e2b4880b2.PNG" width="500px" />
-</div>
+
 
 
 
