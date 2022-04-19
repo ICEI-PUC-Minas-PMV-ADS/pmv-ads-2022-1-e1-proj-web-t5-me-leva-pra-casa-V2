@@ -63,7 +63,7 @@ do que a tarefa necessita.
  `Dúvidas:` Lista de perguntas e informações que precisamos de respostas do orientador.
 
 
-O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado, no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/54327906/162855970-3a0d2413-99f6-4c44-9ab4-c63a9cbc88c1.png" width="1000px" />
