@@ -13,7 +13,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |--------------------|------------------------------------|----------------------------------------|
 |Repositório de código fonte   | GitHub| https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-me-leva-pra-casa-V2.git |
 |Documentos do projeto        | Google Drive | https://docs.google.com/document/d/1p78mMECqnw6SirMCZ-853IemT7KK1ob8/edit# |
-|Projeto de Interface e  Wireframes        | MarvelApp | link aqui |
+|Projeto de Interface e  Wireframes        | MarvelApp | https://marvelapp.com/projects|
 |Gerenciamento do Projeto     | Trello   | https://trello.com/invite/b/uqYi9bFY/1c116146eea18db66e8f5d1d21954b4a/gestao-de-projetos|
 
  `Gestão de código fonte`
@@ -29,22 +29,22 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada da seguinte maneira:
 
- `Scrum Master: Warlen Alves`
+ `Scrum Master:` Warlen Alves
 
- `Product Owner: Jéssica Silva Santos`
+ `Product Owner:` Jéssica Silva Santos
 
- `Equipe de Desenvolvimento: Breno Lago e Guilherme Henrique Monteiro Cal`
+ `Equipe de Desenvolvimento:` Breno Lago e Guilherme Henrique Monteiro Cal
 
- `Equipe de QA: Ian Merlo`
+ `Equipe de QA:` Ian Merlo
 
- `Equipe de Design: Elizângela Oliveira`
+ `Equipe de Design:` Elizângela Oliveira
 
 
 ### Processo
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
- `Cronograma` semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser 
+ `Cronograma semanal:` Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser 
 desenvolvido.
 
  `A Fazer:` Backlog completo com nossas atividades alinhadas ao sprint atual.
@@ -83,4 +83,4 @@ de cores/categorias:
 <img src="https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png" width="300px" />
 </div>
 
-Teste
+
