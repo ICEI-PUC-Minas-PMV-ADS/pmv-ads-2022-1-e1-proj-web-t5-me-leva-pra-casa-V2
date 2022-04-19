@@ -44,7 +44,7 @@ A equipe está organizada da seguinte maneira:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
- `Cronograma` semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser 
+ `Cronograma semanal:` Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser 
 desenvolvido.
 
  `A Fazer:` Backlog completo com nossas atividades alinhadas ao sprint atual.
@@ -83,4 +83,4 @@ de cores/categorias:
 <img src="https://user-images.githubusercontent.com/54327906/162856094-ec6108c5-5da8-46be-82c6-8ae070add3b3.png" width="300px" />
 </div>
 
-Teste
+
