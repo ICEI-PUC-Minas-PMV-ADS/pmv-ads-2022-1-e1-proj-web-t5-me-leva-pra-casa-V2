@@ -29,15 +29,15 @@ Para gestão do código fonte do software desenvolvido pela equipe, o grupo util
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada da seguinte maneira:
 
- `Scrum Master:`Warlen Alves
+ `Scrum Master:` Warlen Alves
 
- `Product Owner:`Jéssica Silva Santos
+ `Product Owner:` Jéssica Silva Santos
 
- `Equipe de Desenvolvimento:`Breno Lago e Guilherme Henrique Monteiro Cal
+ `Equipe de Desenvolvimento:` Breno Lago e Guilherme Henrique Monteiro Cal
 
- `Equipe de QA:`Ian Merlo
+ `Equipe de QA:` Ian Merlo
 
- `Equipe de Design:`Elizângela Oliveira
+ `Equipe de Design:` Elizângela Oliveira
 
 
 ### Processo
