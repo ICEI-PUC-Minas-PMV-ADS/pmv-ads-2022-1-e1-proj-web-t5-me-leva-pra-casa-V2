@@ -105,7 +105,7 @@ Esta Tela de Descrição dos Animais Selecionados foi criada pensando em, quando
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163094941-6de5d5e3-4bf8-42c8-94e1-f2626a585f96.jpg" width="700px" />
+<img src="" width="700px" />
 </div>
 
 ## Processo Adoção
@@ -116,7 +116,7 @@ Após a escolha do animal e o usuário ter clicado no botão "adotar" da "tela d
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163095204-94aa652b-6442-42e9-aa4b-050667a9b955.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="500px" />
 </div>
 
 
