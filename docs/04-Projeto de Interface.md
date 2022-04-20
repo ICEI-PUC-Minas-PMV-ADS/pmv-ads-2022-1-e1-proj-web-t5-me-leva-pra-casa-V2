@@ -11,7 +11,7 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163089473-aa4d21cc-ee47-4022-aff6-72514ca31614.png" width="1000px" />
+<img src="https://user-images.githubusercontent.com/103080396/164332077-26e03f9d-3747-4404-9cbd-d53bd7277314.jpg" width="1000px" />
 </div>
 
 ## Wireframes
