@@ -83,7 +83,7 @@ A Tela de Doações permite o intermédio das pessoas interessadas em doar algum
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163093619-0b91d754-2403-4026-afb6-80d4acd4d0f4.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164316865-3574f93b-52b6-4e30-aeb7-b298dc4000d6.jpg" width="700px" />
 </div>
 
 ## Resultado dos Animais Catalogados
