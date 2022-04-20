@@ -7,13 +7,16 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG" width="100px" />
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG" width="120px" />
 </div>
 <br>
- Maria Emília    | Participação    | Motivações | Dificuldades | História  
+
+| Maria Emília    | Participação    | Motivações | Dificuldades | História |  
 |---------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
-| Idade: 64 anos Ocupação: Aposentada do Serviço Público Federal | Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
+| Idade: 64 anos                                  |
+| Ocupação: Aposentada do Serviço Público Federal | Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
 `Jéssica Santos`
 
