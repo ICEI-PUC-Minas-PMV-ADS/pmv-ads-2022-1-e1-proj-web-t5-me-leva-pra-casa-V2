@@ -94,7 +94,7 @@ A Tela de Resultado dos Animais Catalogados irá permitir que o usuário veja to
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163094641-60dacf55-d45d-49e0-8176-476640764d50.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164320654-fc9afe4f-8f1b-47c9-b0f9-3adc93ce763e.jpg" width="700px" />
 </div>
 
 ## Descrição dos Animais Selecionados
