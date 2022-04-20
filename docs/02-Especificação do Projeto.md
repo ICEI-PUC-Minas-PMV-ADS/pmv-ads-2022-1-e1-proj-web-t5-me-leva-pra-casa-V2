@@ -8,11 +8,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-|Maria Emília |Participação |Motivações |Dificuldades|História|
-|-------------|-------------|-----------|------------|--------|
-
-|Idade: 64 anos.
-Ocupação: Aposentada do Serviço Público Federal.| Projetos que cuidam de animais abandonados, ONGs.|Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
+| Maria Emília    | Participação    | Motivações | Dificuldades | História  |
+|---------------------------------------------------------------|--------------------------------------------------|-------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
+|Idade: 64 anos Ocupação: Aposentada do Serviço Público Federal | Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
 `Jéssica Santos`
 
