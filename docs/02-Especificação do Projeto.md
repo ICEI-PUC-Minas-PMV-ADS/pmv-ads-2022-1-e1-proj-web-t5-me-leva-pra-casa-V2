@@ -7,7 +7,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
-**Maria Emília
+**Maria Emília**
 <br>
 ![Maria Emilia](https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG) 
 | Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
