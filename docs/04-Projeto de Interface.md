@@ -61,7 +61,7 @@ A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais d
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163090112-de70f24b-05d4-49de-8dc0-38c44ece28eb.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164315337-bac10f2a-dca4-450d-9bbf-f697462059c5.jpg" width="700px" />
 </div>
 
 ## Tela Ongs
