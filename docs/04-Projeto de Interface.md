@@ -72,7 +72,7 @@ A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163092870-4d8cfbfe-ba65-4289-9208-11576679db40.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164315541-9158c746-bca5-4a34-a1c0-7a235b84c6b9.jpg" width="700px" />
 </div>
 
 ## Tela Doações
