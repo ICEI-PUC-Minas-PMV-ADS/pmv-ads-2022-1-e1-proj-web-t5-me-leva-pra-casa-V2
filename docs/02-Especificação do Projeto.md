@@ -9,12 +9,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 **Maria Emília**
 <div align="left">
-<img src="https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG" width="120px" />
+<img src="https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG" width="150px" />
 </div>
 <br>
 
 | Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
-|----------------|----------------------------------------------|--------------------------------------------------|-------------------------------------------------|---------------------------------------------------|----------------------------------------------------|
+|:---------------|:---------------------------------------------|:-------------------------------------------------|:------------------------------------------------|:--------------------------------------------------|:---------------------------------------------------|
 |64 anos |Aposentada do Serviço Público Federal |Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
 `Jéssica Santos`
