@@ -8,7 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-`Maria Emília`
+*Maria Emília*
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103541502/164366168-f0f4e929-dd1f-4a04-bcbe-489f95d33650.png" width="150px" />
+</div>
 
 Idade: 64 anos.
 Ocupação: Aposentada do Serviço Público Federal.
