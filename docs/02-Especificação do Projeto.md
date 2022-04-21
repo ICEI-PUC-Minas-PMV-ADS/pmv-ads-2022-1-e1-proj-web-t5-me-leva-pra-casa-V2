@@ -16,7 +16,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |64 anos |Aposentada do Serviço Público Federal |Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
 
-*Jéssica Santos*
+**Jéssica Santos**
 
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164372114-5bdc474b-36ff-4c89-81cb-66e508ecdce0.png" width="200px" />
@@ -38,7 +38,7 @@ Encontrar meios que divulguem os animais.
 História:
 Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
-`Rafael Rodrigues`
+**Rafael Rodrigues**
 
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164369490-7afb5849-de76-432e-b71c-782b43a72aaa.png" width="200px" />
@@ -61,7 +61,11 @@ Falta de abrigos para os animais encontrados.
 História:
 Infelizmente a zoonose recolhe animais que de alguma forma são de risco para a saúde pública. Aí entra a importância das ONGs, pois elas recolhem o animal de rua e promovem a castração dos animais.
 
-`Suelen Nogueira`
+**Suelen Nogueira**
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164566790-59d24b8f-6389-4fb4-8608-80de8ee0ff67.jpg" width="200px" />
+</div>
 
 Idade: 19 anos.
 Ocupação:Graduanda em Veterinária.
