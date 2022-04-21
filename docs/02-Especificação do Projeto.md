@@ -121,7 +121,11 @@ Conseguir manter a cachorra e seus filhotes alimentados e bem cuidados até enco
 História:
 Luiza resgatou uma cachorra abandonada com seus filhotes recém-nascidos.   
 
-`Isabela Soares`
+**Isabela Soares**
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164567617-d4d5fecf-b0c5-40b2-9d60-21e2881b13eb.jpg" width="200px" />
+</div>
 
 Idade: 38 anos.
 Ocupação: Pedagoga.
