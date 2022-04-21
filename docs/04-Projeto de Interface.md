@@ -5,7 +5,7 @@ Dentre as preocupações para a montagem da interface do sistema, mantivemos o f
 
 ## Fluxo de Usuários
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o XXXX
+O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o link: https://marvelapp.com/prototype/i3f082a
 
 <div style="text-align:center">                             A figura X representa o Fluxo de Telas do Usuário.
 </div>
@@ -53,17 +53,6 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 <img src="https://user-images.githubusercontent.com/103080396/164314363-fb73aa56-4751-4908-a986-2324a5545fb0.jpg" width="700px" />
 </div>
 
-## Tela Descrição dos Animais
-
-A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais disponíveis para adoção junto de uma breve descrição do mesmo, referentes a uma categoria específica, escolhida pelo usuário. 
-
-<div style="text-align:center">                             A figura X representa a Tela de descrição dos animais.
-</div>
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163090112-de70f24b-05d4-49de-8dc0-38c44ece28eb.jpg" width="700px" />
-</div>
-
 ## Tela Ongs
 
 A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre as ONGs/abrigos, ao lado de cada ONG está o ícone que abre a tela Modal de doação para a respectiva instituição. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page.
@@ -86,37 +75,44 @@ A Tela de Doações permite o intermédio das pessoas interessadas em doar algum
 <img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="700px" />
 </div>
 
-## Resultado dos Animais Catalogados
+## Tela Adote
 
-A Tela de Resultado dos Animais Catalogados irá permitir que o usuário veja todos os animais que estarão disponíveis para adoção. Os animais serão demonstrados através de  imagens e em título será adicionado o nome do animal e a data da postagem. Na lateral será disponibilizada uma lupa de pesquisa para poderem filtrar entre gato, cachorro e porte. 
+A Tela adote exibe uma lista com diversas opções de animais disponíveis para adoção. A tela mantem um padrão de 3 colunas, cada uma delas possuem várias fotos de animas com uma pequena descrição sobre o mesmo. A pagina será rolável para motrar mais conteúdos que estão abaixo.
+
+A lista é montada respeitando a categoria de escolha do usuário, seja ela cachorros, gatos, etc...
+Ao clicar sobre o animal desejado, o usuário será levado ao modal feito para agendar a adoção.
+
+<div style="text-align:center">                             A figura X representa a Tela de Adote.
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103080396/164315337-bac10f2a-dca4-450d-9bbf-f697462059c5.jpg" width="700px" />
+</div>
+
+## Tela de Resultado da Busca
+
+A Tela de Resultado da Busca será responsável por exibir os animais que estarão disponíveis para adoção. A tela possui diversas funções de filtragem e pesquisas para que o usuário consiga encontrar o animal perfeito que procura.
+
+A barra superior esquerda será um campo livre usado para pesquisar os animais, como mostra o exemplo abaixo. Após a barra de pesquisa temos um campo em que o usuário poderá selecionar entre categorias de animais que ele tiver interesse. Após o campo de filtro temos então a paginação dos resultados de busca, quanto maior for a lista de animais disponníveis, maior será a quantidade de páginas.
+
+Logo abaixo temos a lista de animais, formatada em 2 colunas, em que na esquerda será exibida a foto dos animais, acompanhado por seus nomes e um pequeno texto se apresentando, na direita.
 
 <div style="text-align:center">                             A figura X representa a Tela Animais Catalogados.
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163094641-60dacf55-d45d-49e0-8176-476640764d50.jpg" width="700px" />
-</div>
-
-## Descrição dos Animais Selecionados
-
-Esta Tela de Descrição dos Animais Selecionados foi criada pensando em, quando o usuário escolher o animal através da "Tela de Resultado dos Animais Catalogados" poderá clicar no nome do animal e ver uma breve descrição contendo a idade, onde foi encontrado, onde o animal se encontra no momento, como funcionará o processo de adoção entre outras informações importantes para o processo de adoção. Nessa mesma tela será disponibilizado um botão "adotar"e outro "voltar para o menu"A tela poderá ser a mesma Tela de Resultado dos Animais Catalogados.
-
-<div style="text-align:center">                             A figura X Representa a Tela Descrição do Animal.
-</div>
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163094941-6de5d5e3-4bf8-42c8-94e1-f2626a585f96.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164320654-fc9afe4f-8f1b-47c9-b0f9-3adc93ce763e.jpg" width="700px" />
 </div>
 
 ## Processo Adoção
 
-Após a escolha do animal e o usuário ter clicado no botão "adotar" da "tela de Descrição de Animais Selecionados" será direcionado para a Tela de Processo de Adoção no qual o adotante terá que se cadastrar informando nome, email, CPF e número de celular, após informar seus dados será exibida na forma de uma janela modal tendo um botão de "cancelar ou salvar", se a tela for cancelada o usuário volta para a página de Descrição de Animais Selecionados, se a tela for salva o usuário receberá uma mensagem de confirmação por e-mail.
+Após a escolha do animal, seja na tela de adote ou nos resultados de busca, o usuário será direcionado para a Tela de Processo de Adoção no qual o adotante terá que se cadastrar informando nome, email, CPF e número de celular, após informar seus dados será exibida na forma de uma janela modal tendo um botão de "cancelar ou salvar", se a tela for cancelada o usuário volta para a página de Descrição de Animais Selecionados, se a tela for salva o usuário receberá uma mensagem de confirmação por e-mail agendando a adoção, informando local e horário.
 
 <div style="text-align:center">                             A figura X Representa a Tela de Inclusão de Comentários.
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163095204-94aa652b-6442-42e9-aa4b-050667a9b955.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="500px" />
 </div>
 
 
