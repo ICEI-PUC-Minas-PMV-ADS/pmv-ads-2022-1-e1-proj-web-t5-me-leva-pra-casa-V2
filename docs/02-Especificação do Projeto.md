@@ -19,7 +19,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 *Jéssica Santos*
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="150px" />
+<img src="https://user-images.githubusercontent.com/103541502/164372114-5bdc474b-36ff-4c89-81cb-66e508ecdce0.png" width="200px" />
 </div>
 
 Idade: 27 anos.
@@ -41,7 +41,7 @@ Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 `Rafael Rodrigues`
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/103541502/164369490-7afb5849-de76-432e-b71c-782b43a72aaa.png" width="150px" />
+<img src="https://user-images.githubusercontent.com/103541502/164369490-7afb5849-de76-432e-b71c-782b43a72aaa.png" width="200px" />
 </div>
 
 Idade: 42 anos.
