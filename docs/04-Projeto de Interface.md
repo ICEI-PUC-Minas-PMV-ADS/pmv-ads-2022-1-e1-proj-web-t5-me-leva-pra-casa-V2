@@ -50,7 +50,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163068203-699eb647-1f1d-4555-9a46-fb2ea9508a9c.jpeg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164314363-fb73aa56-4751-4908-a986-2324a5545fb0.jpg" width="700px" />
 </div>
 
 ## Tela Descrição dos Animais
