@@ -27,7 +27,11 @@ E arrecadar recursos para a ONG.
 História:
 Quando um animal de rua achar um lar é emocionante.
 
-`Jéssica Santos`
+*Jéssica Santos*
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="500px" />
+</div>
 
 Idade: 27 anos.
 Ocupação: Trabalha em um escritório de contabilidade.
