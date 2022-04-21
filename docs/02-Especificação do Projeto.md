@@ -7,6 +7,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+
 **Maria Emília**
 <br>
 ![Maria Emilia](https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG) 
@@ -14,10 +15,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
 |64 anos |Aposentada do Serviço Público Federal |Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
+
 *Jéssica Santos*
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="150px" />
 </div>
 
 Idade: 27 anos.
@@ -37,6 +39,10 @@ História:
 Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
 `Rafael Rodrigues`
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164369490-7afb5849-de76-432e-b71c-782b43a72aaa.png" width="150px" />
+</div>
 
 Idade: 42 anos.
 Ocupação: Graduando em Administração.
