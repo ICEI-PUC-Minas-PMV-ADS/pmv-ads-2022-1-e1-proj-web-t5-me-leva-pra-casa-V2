@@ -8,28 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-*Maria Emília*
+**Maria Emília**
+<br>
+![Maria Emilia](https://user-images.githubusercontent.com/103081269/164123028-373f40ec-530f-49a6-b529-cf8bab28b30c.JPG) 
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|64 anos |Aposentada do Serviço Público Federal |Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103541502/164366168-f0f4e929-dd1f-4a04-bcbe-489f95d33650.png" width="150px" />
-</div>
-
-Idade: 64 anos.
-Ocupação: Aposentada do Serviço Público Federal.
-
-Participação:
-Projetos que cuidam de animais abandonados, ONGs.
-
-Motivações:
-Cuidar dos animais de rua.
-E dar um lar para eles.
-
-Dificuldades:
-Divulgar o animal.
-E arrecadar recursos para a ONG.
-
-História:
-Quando um animal de rua achar um lar é emocionante.
 
 *Jéssica Santos*
 
@@ -53,7 +38,7 @@ Encontrar meios que divulguem os animais.
 História:
 Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
-``Rafael Rodrigues
+`Rafael Rodrigues`
 
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164369490-7afb5849-de76-432e-b71c-782b43a72aaa.png" width="150px" />
@@ -76,7 +61,7 @@ Falta de abrigos para os animais encontrados.
 História:
 Infelizmente a zoonose recolhe animais que de alguma forma são de risco para a saúde pública. Aí entra a importância das ONGs, pois elas recolhem o animal de rua e promovem a castração dos animais.
 
-``Suelen Nogueira
+`Suelen Nogueira`
 
 Idade: 19 anos.
 Ocupação:Graduanda em Veterinária.
@@ -95,7 +80,7 @@ Falta de conscientização da população quanto à importância da adoção de 
 História:
 Após realizar uma visita técnica em um abrigo para animais abandonados, decidiu participar ativamente do projeto.
 
-``Carlos Gomes 
+`Carlos Gomes`
 
 Idade: 25 anos.
 Ocupação: Repositor.
@@ -114,7 +99,7 @@ Encontrar pessoas que adotem animais já de idade e de porte grande.
 História:
 Comprou um filhote de American Bull, porém com o crescimento exagerado, foi incapaz de manter o animal e deseja doá-lo. 
 
-``Luiza Helena
+`Luiza Helena`
 
 Idade: 21 anos.
 Ocupação: Técnica de aparelhos eletrônicos.
@@ -132,7 +117,7 @@ Conseguir manter a cachorra e seus filhotes alimentados e bem cuidados até enco
 História:
 Luiza resgatou uma cachorra abandonada com seus filhotes recém-nascidos.   
 
-``Isabela Soares
+`Isabela Soares`
 
 Idade: 38 anos.
 Ocupação: Pedagoga.
