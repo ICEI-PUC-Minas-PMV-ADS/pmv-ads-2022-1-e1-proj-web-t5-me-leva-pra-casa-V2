@@ -22,7 +22,8 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 - **Banner** - Imagem que representa o conceito do projeto.
 - **Conteúdo** - apresenta o conteúdo da tela em questão.
 
-<div style="text-align:center">                             A figura X Representa a Estrutura Padrão do Site.
+ A figura X Representa a Estrutura Padrão do Site.
+<div style="text-align:center">                            
 </div>
 <br>
 <div align="center">
