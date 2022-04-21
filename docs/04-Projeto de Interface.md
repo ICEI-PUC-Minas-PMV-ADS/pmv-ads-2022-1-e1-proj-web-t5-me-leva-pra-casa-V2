@@ -5,9 +5,9 @@ Dentre as preocupações para a montagem da interface do sistema, mantivemos o f
 
 ## Fluxo de Usuários
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o link: https://marvelapp.com/prototype/i3f082a
+O diagrama apresentado na Figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o link: https://marvelapp.com/prototype/i3f082a
 
-<div style="text-align:center">                             A figura X representa o Fluxo de Telas do Usuário.
+<div style="text-align:center">                             A figura 1 representa o Fluxo de Telas do Usuário.
 </div>
 <br>
 <div align="center">
@@ -16,13 +16,13 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Tais telas apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. 
+Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. Tais telas apresentam uma estrutura comum que é apresentada na Figura 1. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. 
 
 - **Cabeçalho** - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação).
 - **Banner** - Imagem que representa o conceito do projeto.
 - **Conteúdo** - apresenta o conteúdo da tela em questão.
 
- A figura X Representa a Estrutura Padrão do Site.
+ A figura 2 Representa a Estrutura Padrão do Site.
 <div style="text-align:center">                            
 </div>
 <br>
@@ -46,7 +46,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 - **Campanhas de Doação**  que leva o usuário à tela Doações
 - **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
 
-<div style="text-align:center">                             A figura X representa a Tela Inicial.
+<div style="text-align:center">                             A figura 3 representa a Tela Inicial.
 </div>
 <br>
 <div align="center">
@@ -57,7 +57,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 
 A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre as ONGs/abrigos, ao lado de cada ONG está o ícone que abre a tela Modal de doação para a respectiva instituição. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page.
 
-<div style="text-align:center">                             A figura X representa a Tela ONGs.
+<div style="text-align:center">                             A figura 4 representa a Tela ONGs.
 </div>
 <br>
 <div align="center">
@@ -68,7 +68,7 @@ A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre
 
 A Tela de Doações permite o intermédio das pessoas interessadas em doar algum valor financeiro às Ongs,abrigos e afins. a tela de doações é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone “dinheiro com asas" na tela ONgs. Nesta tela, a intenção de doação é registrada e um número pix é exibido. É visualizada e o usuário pode informar um valor e buscar uma Ong específica ou escolher entre os já sugeridos. Em seguida deve confirmar ou cancelar a intenção. Na sequência, a tela é fechada voltando para o ambiente anterior.
 
-<div style="text-align:center">                             A figura X representa a Tela Doações.
+<div style="text-align:center">                             A figura 5 representa a Tela Doações.
 </div>
 <br>
 <div align="center">
@@ -82,7 +82,7 @@ A Tela adote exibe uma lista com diversas opções de animais disponíveis para 
 A lista é montada respeitando a categoria de escolha do usuário, seja ela cachorros, gatos, etc...
 Ao clicar sobre o animal desejado, o usuário será levado ao modal feito para agendar a adoção.
 
-<div style="text-align:center">                             A figura X representa a Tela de Adote.
+<div style="text-align:center">                             A figura 6 representa a Tela de Adote.
 </div>
 <br>
 <div align="center">
@@ -97,7 +97,7 @@ A barra superior esquerda será um campo livre usado para pesquisar os animais, 
 
 Logo abaixo temos a lista de animais, formatada em 2 colunas, em que na esquerda será exibida a foto dos animais, acompanhado por seus nomes e um pequeno texto se apresentando, na direita.
 
-<div style="text-align:center">                             A figura X representa a Tela Animais Catalogados.
+<div style="text-align:center">                             A figura 7 representa a Tela Animais Catalogados.
 </div>
 <br>
 <div align="center">
@@ -108,7 +108,7 @@ Logo abaixo temos a lista de animais, formatada em 2 colunas, em que na esquerda
 
 Após a escolha do animal, seja na tela de adote ou nos resultados de busca, o usuário será direcionado para a Tela de Processo de Adoção no qual o adotante terá que se cadastrar informando nome, email, CPF e número de celular, após informar seus dados será exibida na forma de uma janela modal tendo um botão de "cancelar ou salvar", se a tela for cancelada o usuário volta para a página de Descrição de Animais Selecionados, se a tela for salva o usuário receberá uma mensagem de confirmação por e-mail agendando a adoção, informando local e horário.
 
-<div style="text-align:center">                             A figura X Representa a Tela de Inclusão de Comentários.
+<div style="text-align:center">                             A figura 8 Representa a Tela de Inclusão de Comentários.
 </div>
 <br>
 <div align="center">
