@@ -11,7 +11,7 @@ O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pel
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163089473-aa4d21cc-ee47-4022-aff6-72514ca31614.png" width="1000px" />
+<img src="https://user-images.githubusercontent.com/103080396/164332077-26e03f9d-3747-4404-9cbd-d53bd7277314.jpg" width="1000px" />
 </div>
 
 ## Wireframes
@@ -47,7 +47,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163068203-699eb647-1f1d-4555-9a46-fb2ea9508a9c.jpeg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164314363-fb73aa56-4751-4908-a986-2324a5545fb0.jpg" width="700px" />
 </div>
 
 ## Tela Descrição dos Animais
@@ -58,7 +58,7 @@ A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais d
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163090112-de70f24b-05d4-49de-8dc0-38c44ece28eb.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164315337-bac10f2a-dca4-450d-9bbf-f697462059c5.jpg" width="700px" />
 </div>
 
 ## Tela Ongs
@@ -69,7 +69,7 @@ A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163092870-4d8cfbfe-ba65-4289-9208-11576679db40.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164315541-9158c746-bca5-4a34-a1c0-7a235b84c6b9.jpg" width="700px" />
 </div>
 
 ## Tela Doações
@@ -80,7 +80,7 @@ A Tela de Doações permite o intermédio das pessoas interessadas em doar algum
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163093619-0b91d754-2403-4026-afb6-80d4acd4d0f4.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164316865-3574f93b-52b6-4e30-aeb7-b298dc4000d6.jpg" width="700px" />
 </div>
 
 ## Resultado dos Animais Catalogados
@@ -91,7 +91,7 @@ A Tela de Resultado dos Animais Catalogados irá permitir que o usuário veja to
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163094641-60dacf55-d45d-49e0-8176-476640764d50.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164320654-fc9afe4f-8f1b-47c9-b0f9-3adc93ce763e.jpg" width="700px" />
 </div>
 
 ## Descrição dos Animais Selecionados
@@ -102,7 +102,7 @@ Esta Tela de Descrição dos Animais Selecionados foi criada pensando em, quando
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163094941-6de5d5e3-4bf8-42c8-94e1-f2626a585f96.jpg" width="700px" />
+<img src="" width="700px" />
 </div>
 
 ## Processo Adoção
@@ -113,7 +113,7 @@ Após a escolha do animal e o usuário ter clicado no botão "adotar" da "tela d
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163095204-94aa652b-6442-42e9-aa4b-050667a9b955.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="500px" />
 </div>
 
 
