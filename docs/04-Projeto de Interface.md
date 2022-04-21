@@ -66,7 +66,7 @@ A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais d
 
 ## Tela Ongs
 
-A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre as ongs/abrigos. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page.
+A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre as ONGs/abrigos, ao lado de cada ONG está o ícone que abre a tela Modal de doação para a respectiva instituição. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page.
 
 <div style="text-align:center">                             A figura X representa a Tela ONGs.
 </div>
