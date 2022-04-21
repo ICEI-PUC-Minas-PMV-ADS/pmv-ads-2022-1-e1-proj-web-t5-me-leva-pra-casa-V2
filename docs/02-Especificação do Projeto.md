@@ -84,7 +84,11 @@ Falta de conscientização da população quanto à importância da adoção de 
 História:
 Após realizar uma visita técnica em um abrigo para animais abandonados, decidiu participar ativamente do projeto.
 
-`Carlos Gomes`
+**Carlos Gomes**
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164568355-2804ead4-dfcc-4973-b957-50bccf233902.jpg" width="200px" />
+</div>
 
 Idade: 25 anos.
 Ocupação: Repositor.
@@ -103,7 +107,11 @@ Encontrar pessoas que adotem animais já de idade e de porte grande.
 História:
 Comprou um filhote de American Bull, porém com o crescimento exagerado, foi incapaz de manter o animal e deseja doá-lo. 
 
-`Luiza Helena`
+**Luiza Helena**
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164568199-f5484b23-fb45-4355-85a8-e4049a08236c.jpg" width="200px" />
+</div>
 
 Idade: 21 anos.
 Ocupação: Técnica de aparelhos eletrônicos.
