@@ -27,7 +27,7 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/162961549-8e815cc5-80fd-4780-bc34-86df162af6c3.PNG" width="500px" />
+<img src="https://user-images.githubusercontent.com/103081269/162961549-8e815cc5-80fd-4780-bc34-86df162af6c3.PNG" width="700px" />
 </div>
 
 ## Tela Home-Page
@@ -57,7 +57,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 
 A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais disponíveis para adoção junto de uma breve descrição do mesmo, referentes a uma categoria específica, escolhida pelo usuário. 
 
-<div style="text-align:center">                             A figura X Representa a Tela da Notícias de Categoria.
+<div style="text-align:center">                             A figura X Representa a Tela de descrição dos animais.
 </div>
 <br>
 <div align="center">
@@ -68,11 +68,11 @@ A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais d
 
 A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre as ongs/abrigos. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page.
 
-<div style="text-align:center">                             A figura X Representa a Tela de Leitura de Notícia.
+<div style="text-align:center">                             A figura X representa a Tela ONGs.
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163092870-4d8cfbfe-ba65-4289-9208-11576679db40.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164315541-9158c746-bca5-4a34-a1c0-7a235b84c6b9.jpg" width="700px" />
 </div>
 
 ## Tela Doações
