@@ -14,7 +14,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
 |64 anos |Aposentada do Serviço Público Federal |Projetos que cuidam de animais abandonados, ONGs |Cuidar dos animais de rua e dar um lar para eles.| Divulgar o animal e arrecadar recursos para a ONG.| Quando um animal de rua achar um lar é emocionante.|
 
-`Jéssica Santos`
+*Jéssica Santos*
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="500px" />
+</div>
 
 Idade: 27 anos.
 Ocupação: Trabalha em um escritório de contabilidade.
