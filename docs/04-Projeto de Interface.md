@@ -26,7 +26,7 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/162963459-b209e441-0c06-46af-95a6-93ab1187087b.PNG" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164314363-fb73aa56-4751-4908-a986-2324a5545fb0.jpg" width="500px" />
 </div>
 
 ## Tela Home-Page
