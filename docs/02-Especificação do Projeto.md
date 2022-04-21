@@ -55,6 +55,10 @@ Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
 ``Rafael Rodrigues
 
+<div align="left">
+<img src="https://user-images.githubusercontent.com/103541502/164369490-7afb5849-de76-432e-b71c-782b43a72aaa.png" width="150px" />
+</div>
+
 Idade: 42 anos.
 Ocupação: Graduando em Administração.
 
