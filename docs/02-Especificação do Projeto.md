@@ -30,7 +30,7 @@ Quando um animal de rua achar um lar é emocionante.
 *Jéssica Santos*
 
 <div align="left">
-<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103541502/164359533-c682b43e-d152-49a2-9a96-f72cfaad91b5.jpeg" width="150px" />
 </div>
 
 Idade: 27 anos.
