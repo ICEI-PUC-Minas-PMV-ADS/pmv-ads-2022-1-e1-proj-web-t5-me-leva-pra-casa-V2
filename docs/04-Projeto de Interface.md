@@ -7,7 +7,7 @@ Dentre as preocupações para a montagem da interface do sistema, mantivemos o f
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o XXXX
 
-<div style="text-align:center">                             A figura X Representa o Fluxo de Telas do Usuário.
+<div style="text-align:center">                             A figura X representa o Fluxo de Telas do Usuário.
 </div>
 <br>
 <div align="center">
@@ -46,7 +46,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 - **Campanhas de Doação**  que leva o usuário à tela Doações
 - **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
 
-<div style="text-align:center">                             A figura X Representa a Tela Inicial.
+<div style="text-align:center">                             A figura X representa a Tela Inicial.
 </div>
 <br>
 <div align="center">
@@ -57,7 +57,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 
 A Tela de Descrição dos Animais apresenta, no Bloco de Conteúdo, os animais disponíveis para adoção junto de uma breve descrição do mesmo, referentes a uma categoria específica, escolhida pelo usuário. 
 
-<div style="text-align:center">                             A figura X Representa a Tela de descrição dos animais.
+<div style="text-align:center">                             A figura X representa a Tela de descrição dos animais.
 </div>
 <br>
 <div align="center">
@@ -79,18 +79,18 @@ A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre
 
 A Tela de Doações permite o intermédio das pessoas interessadas em doar algum valor financeiro às Ongs,abrigos e afins. a tela de doações é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone “dinheiro com asas" na tela ONgs. Nesta tela, a intenção de doação é registrada e um número pix é exibido.É visualizada e o usuário pode informar um valor e buscar uma Ong específica ou escolher entre os já sugeridos.Em seguida deve confirmar ou cancelar a intenção. Na sequência, a tela é fechada voltando para o ambiente anterior.
 
-<div style="text-align:center">                             A figura X Representa a Tela Salvar Notícias Preferidas.
+<div style="text-align:center">                             A figura X representa a Tela Doações.
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081069/163093619-0b91d754-2403-4026-afb6-80d4acd4d0f4.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="700px" />
 </div>
 
 ## Resultado dos Animais Catalogados
 
 A Tela de Resultado dos Animais Catalogados irá permitir que o usuário veja todos os animais que estarão disponíveis para adoção. Os animais serão demonstrados através de  imagens e em título será adicionado o nome do animal e a data da postagem. Na lateral será disponibilizada uma lupa de pesquisa para poderem filtrar entre gato, cachorro e porte. 
 
-<div style="text-align:center">                             A figura X Representa a Tela de Notícias Preferidas.
+<div style="text-align:center">                             A figura X representa a Tela Animais Catalogados.
 </div>
 <br>
 <div align="center">
@@ -101,7 +101,7 @@ A Tela de Resultado dos Animais Catalogados irá permitir que o usuário veja to
 
 Esta Tela de Descrição dos Animais Selecionados foi criada pensando em, quando o usuário escolher o animal através da "Tela de Resultado dos Animais Catalogados" poderá clicar no nome do animal e ver uma breve descrição contendo a idade, onde foi encontrado, onde o animal se encontra no momento, como funcionará o processo de adoção entre outras informações importantes para o processo de adoção. Nessa mesma tela será disponibilizado um botão "adotar"e outro "voltar para o menu"A tela poderá ser a mesma Tela de Resultado dos Animais Catalogados.
 
-<div style="text-align:center">                             A figura X Representa a Tela de Descrição do Animail.
+<div style="text-align:center">                             A figura X Representa a Tela Descrição do Animal.
 </div>
 <br>
 <div align="center">
