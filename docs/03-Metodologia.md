@@ -33,7 +33,7 @@ A equipe está organizada da seguinte maneira:
 
  `Product Owner:` Jéssica Silva Santos
 
- `Equipe de Desenvolvimento:` Breno Lago e Guilherme Henrique Monteiro Cal
+ `Equipe de Desenvolvimento:` Breno Lago, Elizângela Mara R. Oliveira, Guilherme Henrique, Ian Merlo Correa, Jéssica S. Santos, Warlen Alves
 
  `Equipe de QA:` Ian Merlo
 
