@@ -22,6 +22,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 <img src="https://user-images.githubusercontent.com/103541502/164372114-5bdc474b-36ff-4c89-81cb-66e508ecdce0.png" width="200px" />
 </div>
 
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|27 anos |Trabalha em um escritório de contabilidade. |Adotou uma cachorrinha. | Incentivar as pessoas a adotarem. Ame mais os animais de rua.| Encontrar meios que divulguem os animais.|Não pretendia adotar, mas a história de um animal de rua acabou comovendo.|
+
+
 Idade: 27 anos.
 Ocupação: Trabalha em um escritório de contabilidade.
 
