@@ -17,144 +17,71 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 
 **Jéssica Santos**
-
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164845224-b19e0480-000f-47e0-a88e-d334f5983046.jpg" width="200px" />
 </div>
 
+
 | Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
 |:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
-|27 anos |Trabalha em um escritório de contabilidade. |Adotou uma cachorrinha. | Incentivar as pessoas a adotarem. Ame mais os animais de rua.| Encontrar meios que divulguem os animais.|Não pretendia adotar, mas a história de um animal de rua acabou comovendo.|
+|27 anos. |Trabalha em um escritório de contabilidade. |Adotou uma cachorrinha. | Incentivar as pessoas a adotarem. Ame mais os animais de rua.| Encontrar meios que divulguem os animais.|Não pretendia adotar, mas a história de um animal de rua acabou comovendo.|
 
-
-Idade: 27 anos.
-Ocupação: Trabalha em um escritório de contabilidade.
-
-Participação:
-Adotou uma cachorrinha.
-
-Motivações:
-Incentivar as pessoas a adotarem.
-Ame mais os animais de rua.
-
-Dificuldades:
-Encontrar meios que divulguem os animais. 
-
-História:
-Não pretendia adotar, mas a história de um animal de rua acabou comovendo.
 
 **Rafael Rodrigues**
-
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164845252-7591d7c1-2b27-45fe-a620-41d7cf5d4900.jpg" width="200px" />
 </div>
 
-Idade: 42 anos.
-Ocupação: Graduando em Administração.
 
-Participação:
-Voluntário na zoonose de Betim.
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|42 anos |Graduando em Administração. |Voluntário na zoonose de Betim. | Tratar os animais infectados. Encontrar um lar para esse animal.| Quando a eutanásia é sugerida. Falta de abrigos para os animais encontrados.|Infelizmente a zoonose recolhe animais que de alguma forma são de risco para a saúde pública. Aí entra a importância das ONGs, pois elas recolhem o animal de rua e promovem a castração dos animais.|
 
-Motivações:
-Tratar os animais infectados.
-Encontrar um lar para esse animal.
-
-Dificuldades:
-Quando a eutanásia é sugerida.
-Falta de abrigos para os animais encontrados.
-
-História:
-Infelizmente a zoonose recolhe animais que de alguma forma são de risco para a saúde pública. Aí entra a importância das ONGs, pois elas recolhem o animal de rua e promovem a castração dos animais.
 
 **Suelen Nogueira**
-
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164566790-59d24b8f-6389-4fb4-8608-80de8ee0ff67.jpg" width="200px" />
 </div>
 
-Idade: 19 anos.
-Ocupação:Graduanda em Veterinária.
 
-Participação:
-Voluntária na Sociedade Protetora dos Animais de Minas Gerais.  
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|19 anos. |Graduanda em Veterinária. |Voluntária na Sociedade Protetora dos Animais de Minas Gerais. | Complementar a formação acadêmica. Fazer voluntariado.| Escassez de recursos nas ONGs para o manejo dos animais em situação de abandono. Falta de conscientização da população quanto à importância da adoção de pets.|Após realizar uma visita técnica em um abrigo para animais abandonados, decidiu participar ativamente do projeto.|
 
-Motivações:
-Complementar a formação acadêmica.
-Fazer voluntariado.
-
-Dificuldades:
-Escassez de recursos nas ONGs para o manejo dos animais em situação de abandono.
-Falta de conscientização da população quanto à importância da adoção de pets.
-
-História:
-Após realizar uma visita técnica em um abrigo para animais abandonados, decidiu participar ativamente do projeto.
 
 **Carlos Gomes**
-
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164568355-2804ead4-dfcc-4973-b957-50bccf233902.jpg" width="200px" />
 </div>
 
-Idade: 25 anos.
-Ocupação: Repositor.
 
-Participação:
-Está doando um cachorro.
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|25 anos. |Repositor. |Está doando um cachorro. | Trazer mais pessoas a adotarem ao invés de comprarem. Conscientizar a não julgarem o animal pela raça e idade.| Desinformação sobre raças, o que gera preconceito. Encontrar pessoas que adotem animais já de idade e de porte grande.|Comprou um filhote de American Bull, porém com o crescimento exagerado, foi incapaz de manter o animal e deseja doá-lo.|
 
-Motivações:
-Trazer mais pessoas a adotarem ao invés de comprarem. 
-Conscientizar a não julgarem o animal pela raça e idade.
-
-Dificuldades:
-Desinformação sobre raças, o que gera preconceito.
-Encontrar pessoas que adotem animais já de idade e de porte grande.
-
-História:
-Comprou um filhote de American Bull, porém com o crescimento exagerado, foi incapaz de manter o animal e deseja doá-lo. 
-
+ 
 **Luiza Helena**
-
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164568199-f5484b23-fb45-4355-85a8-e4049a08236c.jpg" width="200px" />
 </div>
 
-Idade: 21 anos.
-Ocupação: Técnica de aparelhos eletrônicos.
 
-Participação:
-Divulgar o animal abandonado que foi resgatado.
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|21 anos. |Técnica de aparelhos eletrônicos. |Divulgar o animal abandonado que foi resgatado. | Ver a felicidade de animais resgatados, que antes não conheciam o verdadeiro significado de amor.| Divulgação própria para conseguir encontrar uma nova família para o animal resgatado. Conseguir manter a cachorra e seus filhotes alimentados e bem cuidados até encontrar um novo lar para o pet.|Luiza resgatou uma cachorra abandonada com seus filhotes recém-nascidos.|
 
-Motivações:
-Ver a felicidade de animais resgatados, que antes não conheciam o verdadeiro significado de amor.
-
-Dificuldades:
-Divulgação própria para conseguir encontrar uma nova família para o animal resgatado.
-Conseguir manter a cachorra e seus filhotes alimentados e bem cuidados até encontrar um novo lar para o pet.
-
-História:
-Luiza resgatou uma cachorra abandonada com seus filhotes recém-nascidos.   
-
+   
 **Isabela Soares**
-
 <div align="left">
 <img src="https://user-images.githubusercontent.com/103541502/164567617-d4d5fecf-b0c5-40b2-9d60-21e2881b13eb.jpg" width="200px" />
 </div>
 
-Idade: 38 anos.
-Ocupação: Pedagoga.
 
-Participação:
-A procura de sua cachorrinha Lilica.
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|38 anos. |Pedagoga. |A procura de sua cachorrinha Lilica. | Encontrar sua cachorrinha que está perdida.| Não consegue achar sites confiáveis  que possam divulgar o animal. Em encontrar sua cachorra perdida. |Lilica se perdeu no ano novo, fugiu devido aos fogos de artifícios.|
 
-Motivações:
-Encontrar sua cachorrinha que está perdida.
 
-Dificuldades:
-Não consegue achar sites confiáveis  que possam divulgar o animal.
-Em encontrar sua cachorra perdida.
-
-História:
-Lilica se perdeu no ano novo, fugiu devido aos fogos de artifícios.
 
 
 ## Histórias de Usuários
