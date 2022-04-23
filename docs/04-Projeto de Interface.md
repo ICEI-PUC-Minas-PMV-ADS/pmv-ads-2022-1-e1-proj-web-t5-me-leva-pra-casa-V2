@@ -136,11 +136,11 @@ A figura 10 representa a Tela Modal de confirmação.
 ## Tela Login
 
 Tela inclusa no Menu de Aplicação da Home Page, que permite ao usuário cadastrado fazer o login no site.
+
 A figura 11 representa a Tela Login.
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/164802699-5f345068-8838-4a04-9167-9436ee8d754f.jpg" width="7
-00px" />
+<img src="https://user-images.githubusercontent.com/103080396/164802699-5f345068-8838-4a04-9167-9436ee8d754f.jpg"  width="700px" />
 </div>
 
 
