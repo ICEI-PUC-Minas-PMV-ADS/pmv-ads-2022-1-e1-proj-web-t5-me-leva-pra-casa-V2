@@ -10,6 +10,7 @@ Abaixo iremos demonstrar através de uma figura os componentes que fazem parte d
 ![Diagrama de Componentes](img/Figura-1-Componentes.png)
 <center>Figura 1 - Componentes</center>
 
+
 Os tópicos abaixo descrevem os seguintes módulos que iremos utilizar para a implantação da solução:
 - **Navegador** - A interface do sistema será básica. 
   - **Páginas Web** - O desenvolvimento de interfaces WEB irá utilizar as linguagens de um conjunto de arquivos como HTML, CSS, JavaScript e também iremos utilizar imagens que implementam as funcionalidades do sistema.
