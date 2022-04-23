@@ -9,7 +9,8 @@ Abaixo iremos demonstrar através de uma figura os componentes que fazem parte d
 
 ![Diagrama de Componentes](img/Figura-1-Componentes.png)
 <center>Figura 1 - Componentes</center>
-
+<br>
+<br>
 
 Os tópicos abaixo descrevem os seguintes módulos que iremos utilizar para a implantação da solução:
 - **Navegador** - A interface do sistema será básica. 
