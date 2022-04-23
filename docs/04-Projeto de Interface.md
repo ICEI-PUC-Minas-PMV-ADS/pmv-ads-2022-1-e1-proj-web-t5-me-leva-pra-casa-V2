@@ -119,7 +119,7 @@ Após a escolha do animal, seja na tela de adote ou nos resultados de busca, o u
 
 Tela inclusa no Menu de Aplicação da Home Page, que permite ao usuário se cadastrar no site para postagem de animais, adoção ou atualizar dados das ONGs.
 
-                                                        A figura 9 representa a Tela Cadastre-se.
+A figura 9 representa a Tela Cadastre-se.
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103080396/164802783-6b007924-501d-416a-b109-22afa629d76b.jpg" width="700px" />
@@ -127,7 +127,7 @@ Tela inclusa no Menu de Aplicação da Home Page, que permite ao usuário se cad
 
 Após a confirmação do usuário, a tela modal de confirmação vem na sequência.
 
-                                                        A figura 10 representa a Tela Modal de confirmarção.
+A figura 10 representa a Tela Modal de confirmação.
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/103080396/164802820-283798b4-d0f0-478a-8ca6-8584c98596b2.jpg" width="500px" />
@@ -136,9 +136,11 @@ Após a confirmação do usuário, a tela modal de confirmação vem na sequênc
 ## Tela Login
 
 Tela inclusa no Menu de Aplicação da Home Page, que permite ao usuário cadastrado fazer o login no site.
+A figura 11 representa a Tela Login.
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/164802699-5f345068-8838-4a04-9167-9436ee8d754f.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/164802699-5f345068-8838-4a04-9167-9436ee8d754f.jpg" width="7
+00px" />
 </div>
 
 
