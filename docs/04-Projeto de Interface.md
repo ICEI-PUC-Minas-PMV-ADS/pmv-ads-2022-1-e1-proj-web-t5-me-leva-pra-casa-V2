@@ -66,7 +66,7 @@ A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre
 
 ## Tela Doações
 
-A Tela de Doações permite o intermédio das pessoas interessadas em doar algum valor financeiro às Ongs,abrigos e afins. a tela de doações é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone “dinheiro com asas" na tela ONgs. Nesta tela, a intenção de doação é registrada e um número pix é exibido. É visualizada e o usuário pode informar um valor e buscar uma Ong específica ou escolher entre os já sugeridos. Em seguida deve confirmar ou cancelar a intenção. Na sequência, a tela é fechada voltando para o ambiente anterior.
+A Tela de Doações permite o intermédio das pessoas interessadas em doar algum valor financeiro às Ongs,abrigos e afins. A tela de doações é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone “dinheiro com asas" na tela ONgs. Nesta tela, a intenção de doação é registrada e um número pix é exibido. É visualizada e o usuário pode informar um valor e buscar uma Ong específica ou escolher entre os já sugeridos. Em seguida deve confirmar ou cancelar a intenção. Na sequência, a tela é fechada voltando para o ambiente anterior.
 
 <div style="text-align:center">                             A figura 5 representa a Tela Doações.
 </div>
@@ -108,11 +108,39 @@ Logo abaixo temos a lista de animais, formatada em 2 colunas, em que na esquerda
 
 Após a escolha do animal, seja na tela de adote ou nos resultados de busca, o usuário será direcionado para a Tela de Processo de Adoção no qual o adotante terá que se cadastrar informando nome, email, CPF e número de celular, após informar seus dados será exibida na forma de uma janela modal tendo um botão de "cancelar ou salvar", se a tela for cancelada o usuário volta para a página de Descrição de Animais Selecionados, se a tela for salva o usuário receberá uma mensagem de confirmação por e-mail agendando a adoção, informando local e horário.
 
-<div style="text-align:center">                             A figura 8 Representa a Tela de Inclusão de Comentários.
+<div style="text-align:center">                             A figura 8 representa a Tela de Inclusão de Comentários.
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="500px" />
+<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="700px" />
 </div>
+
+## Tela Cadastre-se
+
+Tela inclusa no Menu de Aplicação da Home Page, que permite ao usuário se cadastrar no site para postagem de animais, adoção ou atualizar dados das ONGs.
+
+                                                        A figura 9 representa a Tela Cadastre-se.
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103080396/164802783-6b007924-501d-416a-b109-22afa629d76b.jpg" width="700px" />
+</div>
+
+Após a confirmação do usuário, a tela modal de confirmação vem na sequência.
+
+                                                        A figura 10 representa a Tela Modal de confirmarção.
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103080396/164802820-283798b4-d0f0-478a-8ca6-8584c98596b2.jpg" width="500px" />
+</div>
+
+## Tela Login
+
+Tela inclusa no Menu de Aplicação da Home Page, que permite ao usuário cadastrado fazer o login no site.
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103080396/164802699-5f345068-8838-4a04-9167-9436ee8d754f.jpg" width="700px" />
+</div>
+
+
 
 
