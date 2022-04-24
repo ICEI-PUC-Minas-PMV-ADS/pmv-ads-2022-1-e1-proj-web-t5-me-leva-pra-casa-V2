@@ -84,8 +84,12 @@ Ao clicar sobre o animal desejado, o usuário será levado ao modal feito para a
 
 Quando o usuário clicar em adotar aparecerá uma tela de cadastro e nessa tela terá que ser preenchido o nome, CPF, telefone e o e-mail logo abaixo ficaram informações dos dados para adoção como o endereço da Ong e o horário de atendimento conforme imagem abaixo:
  
-A figura 7 representa a Tela de Cadastro Dentro de Adote
-
+ <div style="text-align:center">                     A figura 7 representa a Tela de Cadastro Dentro de Adote        
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="700px" />
+</div>
 
 ## Tela Doações
 
@@ -95,7 +99,7 @@ A Tela de Doações permite o intermédio das pessoas interessadas em doar algum
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/101758971/164950363-12edaeb2-41dd-4f4b-b9e4-fdf140382cea.jpeg" width="700px" />
 </div>
 
 ## Tela de Resultado da Busca
