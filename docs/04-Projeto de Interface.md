@@ -65,8 +65,14 @@ A Tela de Ongs apresenta, no Bloco de Conteúdo, uma descrição detalhada sobre
 </div>
 
 Na tela Ong's o usuário poderá fazer uma doação a qualquer instituição que deseja, basta selecionar alguma Ong conforme imagem abaixo:
- 
-A figura 5 representa a Tela de Doação
+
+<div style="text-align:center">                             A figura 5 representa a Tela Doações.
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/101758971/164950363-12edaeb2-41dd-4f4b-b9e4-fdf140382cea.jpeg" width="500px" />
+</div>
+
 
 ## Tela Adote
 
