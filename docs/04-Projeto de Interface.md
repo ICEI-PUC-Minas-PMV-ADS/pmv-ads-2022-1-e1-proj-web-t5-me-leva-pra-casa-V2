@@ -99,7 +99,7 @@ A Tela de Doações permite o intermédio das pessoas interessadas em doar algum
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/101758971/164950363-12edaeb2-41dd-4f4b-b9e4-fdf140382cea.jpeg" width="700px" />
+<img src="https://user-images.githubusercontent.com/101758971/164950363-12edaeb2-41dd-4f4b-b9e4-fdf140382cea.jpeg" width="500px" />
 </div>
 
 ## Tela de Resultado da Busca
