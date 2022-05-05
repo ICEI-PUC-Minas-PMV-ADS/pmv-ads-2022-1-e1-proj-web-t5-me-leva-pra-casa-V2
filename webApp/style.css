@@ -1,0 +1,86 @@
+a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://user-images.githubusercontent.com/103081069/166168469-ea757c07-0b3e-4185-bacc-43e55bc7d52a.jpeg);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+p{
+
+    font: Arial;   
+    background-color: white;
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+#search{
+    background-color:transparent;
+    padding-left:20px;
+    font-style:italic;
+    font-size:20px;
+    border:none;
+    height:30px;
+    width:300px;
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:9px;
+  }
+  
+  img{
+      width: 200px;
+  }
+.container {
+    display: flex;
+}
+
+/*Mudando a Cofiguracao do btn-link do Bootstrap*/
+.btn-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgba(253, 253, 253, 0.997);
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1,02em;
+    text-decoration: none;
+    font: bold;
+    margin-left : 1em;
+}
+.form-control.me-2 {
+    width: auto;
+}
+.btn.btn-light{
+    white-space: normal !important;
+    word-wrap: break-word;
+}
