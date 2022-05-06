@@ -69,6 +69,7 @@ h2{
     color:rgba(253, 253, 253, 0.997);
 }
 
+/*Configurando as opcoes do menu*/
 .navbar-nav.me-auto.mb-2.mb-lg-0 li a {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -77,10 +78,19 @@ h2{
     font: bold;
     margin-left : 1em;
 }
-.form-control.me-2 {
+/*Configurando barra de pesquisa*/
+.btn.btn-link{
     width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-.btn.btn-light{
-    white-space: normal !important;
-    word-wrap: break-word;
+/*Pesquisa*/
+.custom-file-input {
+    background-color: transparent;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    background-color :#ffffff;
+    border-radius: 6px;
 }
