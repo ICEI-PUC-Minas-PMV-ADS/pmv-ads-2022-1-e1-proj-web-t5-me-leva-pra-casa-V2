@@ -3,7 +3,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 
 
-Tela Principal
+**Tela Principal**
 
 A tela principal do sistema apresenta diversas informações relevantes e divulgações. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
@@ -21,7 +21,7 @@ RF-01, RF-02, RF-04, RF-05, RF-08, RF-09, RF-10, RF-11
 - **img/**
 - **template/**
 
-Tela Adote
+**Tela Adote**
 
 Tela que será exibido diversas opções de animais para adoção. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
@@ -39,7 +39,7 @@ RF-01, RF-09, RF-10, RF-11 , RF-12, RF-13, RF-16, RF-24
 - **img/**
 - **template/**
 
-Tela Doe
+**Tela Doe**
 
 Tela onde será possivel visualizar e, caso seja do interesse do usuário, doar algum valor para ONGs de sua escolha. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
@@ -56,7 +56,7 @@ RF-03, RF-09, RF-10, RF-11  , RF-22, RF-23, RF-24
 - **img/**
 - **template/**
 
-Tela ONGs
+**Tela ONGs**
 
 Tela onde será exibido diversas opções de ONGs. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
