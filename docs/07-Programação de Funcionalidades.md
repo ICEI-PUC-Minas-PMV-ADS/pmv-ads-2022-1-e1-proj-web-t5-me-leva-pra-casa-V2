@@ -1,15 +1,88 @@
 # Programação de Funcionalidades
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Tela Principal
+A tela principal do sistema apresenta diversas informações relevantes e divulgações. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Requisitos atendidos
+RF-01  
+RF-02
+RF-04
+RF-05
+RF-08
+RF-09
+RF-10
+RF-11  
+
+Artefatos da funcionalidade
+home.html
+script.js
+style.css
+img/
+template/
+
+Tela Adote
+Tela que será exibido diversas opções de animais para adoção. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
+
+
+
+Requisitos atendidos
+RF-01  
+RF-09
+RF-10
+RF-11 
+RF-12
+RF-13
+RF-16
+RF-24 
+
+Artefatos da funcionalidade
+adote.html
+script.js
+style.css
+img/
+template/
+
+Tela Doe
+Tela onde será possivel visualizar e, caso seja do interesse do usuário, doar algum valor para ONGs de sua escolha. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
+
+
+
+Requisitos atendidos
+RF-03
+RF-09
+RF-10
+RF-11  
+RF-22
+RF-23
+RF-24
+
+Artefatos da funcionalidade
+doe.html
+script.js
+style.css
+img/
+template/
+
+Tela ONGs
+Tela onde será exibido diversas opções de ONGs. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
+
+
+
+Requisitos atendidos
+RF-03
+RF-09
+RF-10
+RF-11  
+RF-22
+RF-23
+RF-24
+
+Artefatos da funcionalidade
+ONGs.html
+script.js
+style.css
+img/
+template/
