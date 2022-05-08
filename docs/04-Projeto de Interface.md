@@ -42,9 +42,7 @@ A tela de Home-page com base na estrutura padrão traz a Logo, o Menu de Aplica�
 - **Login**  
 - **Cadastre-se**  
 
-O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do projeto. Seguido do subtítulo **Como ajudar?** Com os elementos que vinculam às telas posteriores. 
-- **Campanhas de Doação**  que leva o usuário à tela Doações
-- **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
+O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do projeto.
 
 <div style="text-align:center">                             A figura 3 representa a Tela Inicial.
 </div>
