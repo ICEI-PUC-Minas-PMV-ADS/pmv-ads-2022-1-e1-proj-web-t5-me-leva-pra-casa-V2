@@ -94,3 +94,9 @@ h2{
     background-color :#ffffff;
     border-radius: 6px;
 }
+/*Tamanho das Imagens ONGs*/
+.card.border-0 {
+    width: 500px;
+    padding-left: 1em;
+   padding-right: 1em;
+}
