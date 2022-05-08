@@ -63,7 +63,9 @@ Tela onde será exibido diversas opções de ONGs. Todos os dados são armazenad
 
 
 - **Requisitos atendidos**
-RF-03, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24.
+
+RF-03, RF-09, RF-10, RF-11  , RF-22, RF-23, RF-24
+
 
 - **Artefatos da funcionalidade**
 
@@ -71,37 +73,6 @@ RF-03, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24.
 - **script.js**
 - **style.css**
 - **img/**
-- **template/**
-
-**Tela Cadastro*
-
-Tela onde será formulário para cadastro, de acordo com o perfil do usuário (Pessoa Física ou Pessoa Juridíca) podendo permanecer com os campos da tela abertos ou carregar novos campos. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
 
 
-- **Requisitos atendidos**
-RF-06, RF-13, RF-14, RF-17 e RF-25.
-
-- **Artefatos da funcionalidade**
-
-- **CADASTRO.html**
-- **script.js**
-- **style.css**
-- **img/**
-- **template/**
-
-A figura X representa a Tela Cadastro.
-<div style="text-align:center">                            
-</div>
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/167304862-d0786ffe-f3e5-46c2-95eb-257985126480.PNG" width="700px" />
-</div>
-
-A figura X representa trecho do código HTML.
-<div style="text-align:center">                            
-</div>
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/167297956-ee7b04a0-2736-43c1-b6e4-7ebd9a2365e1.PNG" width="400px" />
-</div>
