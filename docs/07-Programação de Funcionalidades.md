@@ -63,7 +63,9 @@ Tela onde será exibido diversas opções de ONGs. Todos os dados são armazenad
 
 
 - **Requisitos atendidos**
+
 RF-03, RF-09, RF-10, RF-11  , RF-22, RF-23, RF-24
+
 
 - **Artefatos da funcionalidade**
 
@@ -71,4 +73,6 @@ RF-03, RF-09, RF-10, RF-11  , RF-22, RF-23, RF-24
 - **script.js**
 - **style.css**
 - **img/**
-- **template/**
+
+
+
