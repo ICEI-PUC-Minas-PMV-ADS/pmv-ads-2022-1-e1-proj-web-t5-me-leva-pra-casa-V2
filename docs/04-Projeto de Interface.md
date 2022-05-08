@@ -50,7 +50,7 @@ O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do 
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/164314363-fb73aa56-4751-4908-a986-2324a5545fb0.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/167305391-7ae59281-207a-4b9d-a746-cf4ef48c1025.jpg" width="700px" />
 </div>
 
 ## Tela Ongs
