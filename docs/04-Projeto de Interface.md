@@ -42,15 +42,13 @@ A tela de Home-page com base na estrutura padrão traz a Logo, o Menu de Aplica�
 - **Login**  
 - **Cadastre-se**  
 
-O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do projeto. Seguido do subtítulo **Como ajudar?** Com os elementos que vinculam às telas posteriores. 
-- **Campanhas de Doação**  que leva o usuário à tela Doações
-- **Campanhas de Vacinação**  que leva o usuário à tela de Campanhas de vacinação ativas e suas respectivas datas.
+O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do projeto.
 
 <div style="text-align:center">                             A figura 3 representa a Tela Inicial.
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/164314363-fb73aa56-4751-4908-a986-2324a5545fb0.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/167305391-7ae59281-207a-4b9d-a746-cf4ef48c1025.jpg" width="700px" />
 </div>
 
 ## Tela Ongs
@@ -105,7 +103,7 @@ A Tela de Doações permite o intermédio das pessoas interessadas em doar algum
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/101758971/164951099-876df958-73f9-4078-9d6c-91f1c9141b1c.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103080396/167306936-2e4075d9-f5b2-4e9f-b04e-d0011cadd25c.jpg" width="700px" />
 </div>
 
 ## Tela de Resultado da Busca
