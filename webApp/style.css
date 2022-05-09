@@ -103,7 +103,8 @@ h2{
 /* Adote*/
 .card {
     text-align: center;
-    color: rgb(0, 0, 0);  
+    color: rgb(197, 37, 37);  
+    display:flex
 }
 
    
