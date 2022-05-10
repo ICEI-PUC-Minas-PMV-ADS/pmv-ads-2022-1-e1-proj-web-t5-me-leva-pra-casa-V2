@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Configurando Bootstrap -->
+    <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- Fim da Configuracao Bootstrap -->
+    <title>Formulário Cadastro</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <!-- Navegacao -->
+    <div class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="https://user-images.githubusercontent.com/103081069/166168527-7147adc0-b052-499d-8aef-9243b984ce15.png"
+                    width="200" height="180" class="d-inline-block align-top" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="doe.html">DOE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adote.html">ADOTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ONGs.html">ONGs</a>
+                    </li>
+                </ul>
+                <div class="custom-file">
+                    <input class="custom-file-input" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    <button class="btn btn-light btn-sm" type="submit">Buscar</button>
+                </div>
+                <button type="button" class="btn btn-link">Login</button>
+                <button type="button" class="btn btn-link">Cadastre-se</button>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <!-- Fim da Navegacao -->
+    <!--Início Form Cadastro-->
+    <div class="container-md">
+        <div class="card">
+            <div class="body">                
+                    <div class="row">
+                        <div class="col">
+                            <h2>adote essa ideia! cadastre-se</h2>
+                        </div>           
+                    </div>
+                    <form action="#">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="pessoa" id="pessoaFisica">
+                                        <label class="form-check-label" for="pessoaFisica">
+                                          Pessoa Física
+                                        </label>
+                                    </div>                                  
+                                </div>
+                                <div class="col">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="pessoa" id="pessoaJuridica" checked>
+                                        <label class="form-check-label" for="pessoaJuridica">
+                                            Pessoa Jurídica
+                                        </label>
+                                    </div> 
+
+                                </div>
+                               
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="nome">Nome</label>
+                                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite nome">
+                                </div>
+                                <div class="col">
+                                    <label for="Sobrenome">Sobrenome</label>
+                                    <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="Digite sobrenome">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" type="email" name="email" id="email" placeholder="Digite email">
+                                </div>
+                            </div>                       
+                            <div class="row">
+                                <div class="col">
+                                    <label for="nome">CPF</label>
+                                    <input class="form-control" type="number" name="cpf" id="cpf" placeholder="Digite CPF">
+                                </div>
+                                <div class="col">
+                                    <label for="celular">Telefone</label>
+                                    <input class="form-control" type="number" id="telefone" name="telefone"
+                                      placeholder="(DD)00000-0000"  autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="CEP">CEP</label>
+                                    <input class="form-control" type="number" id="cep" name="cep" 
+                                      placeholder="00-000-000"  autocomplete="off">
+                                </div>
+                                <div class="col">
+                                    <label for="bairro">Bairro</label>
+                                    <input class="form-control" type="text" id="bairro" name="bairro"
+                                     placeholder="Digite bairro"  autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="rua">Rua/Avenida</label>
+                                    <input class="form-control" type="text" id="rua" name="rua" 
+                                      placeholder="Digite rua ou avenida"  autocomplete="off">
+                                </div>
+                                <div class="col">
+                                    <label for="numero">Número</label>
+                                    <input class="form-control" type="number" id="numero" name="numero"
+                                     placeholder="Digite numero"  autocomplete="off">
+                                </div>
+                                <div class="col">
+                                    <label for="complemento">Complemento</label>
+                                    <input class="form-control" type="number" id="complemento" name="complemento" 
+                                      placeholder="Digite complemento"  autocomplete="off">
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="Senha">Senha</label>
+                                    <input class="form-control" type="password" id="password" name="password"
+                                      placeholder="Senha" required autocomplete="off">
+                                </div>
+                                <div class="col">
+                                    <label for="Senha">Confirmar senha</label>
+                                    <input class="form-control" type="password" id="confPassword" name="confPassword"
+                                      placeholder="Confirme senha" required autocomplete="off">
+                                </div>
+                            </div>                      
+
+                        </div>
+                        <div class="mb-3 form-check align-items-center">
+                            <input type="checkbox" class="form-check-input" id="agreement">
+                            <label class="form-check-label" for="agreement" >Eu li e aceito os termos de uso.</label>
+                        </div>
+                        <div class="footer-form">
+                            <div class="row">
+                                <div class="col">                                                            
+                                    <button class="btn btn-primary" type="submit">CADASTRAR</button>   
+                                </div>  
+                                <div class="col">                                                            
+                                    <input class="btn btn-primary" type="reset" value="CANCELAR">   
+                                </div>                                                                             
+                            </div> 
+
+                        </div>      
+                    </form>  
+
+            </div>
+        </div>  
+            
+
+    
+
+         </div>
+
+
+    </div>       
+
+    
+</body>
