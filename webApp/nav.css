@@ -1,0 +1,119 @@
+li a{
+    font-family: 'Bebas Neue', cursive;;
+    color: rgb(0, 0, 114);
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:hover{
+    color: rgb(71,163,255);
+}
+
+body{
+    background-image: url(Background.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.login{
+    text-decoration: underline;
+    font-size: 15px;
+    color: rgb(34, 144, 253);
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    width: max-content;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar li{
+    text-align: center;
+    margin-left: 32px;
+    list-style: none;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 5px;
+    background-color: rgb(0, 0, 114);
+    margin: 8px;
+}
+
+.search{
+    padding-left:20px;
+    font-style:italic;
+    font-size:20px;
+    color: rgb(0,0,114);
+    border:none;
+    height:30px;
+    width:300px;
+    background-color:#ffffff;
+    border:solid 1px rgb(0, 0, 114);
+    border-radius:9px;
+}
+
+@media (max-width: 1199px) {
+        .menu {
+            display: flex ;
+            width: 30vw;
+            height: 100vh;
+            flex-direction: column;
+            justify-content:initial;
+
+        } 
+        
+        .nav-bar{
+            flex-direction: column;
+            width: 25vw;
+            margin-left: -70px;
+            row-gap: 20px;
+
+        }
+
+        .nav-bar li{
+            text-align: center;
+        }
+        
+        .search{
+            padding-left:10px;
+            font-style:italic;
+            font-size:15px;
+            color: rgb(0,0,114);
+            border:none;
+            height:30px;
+            width: 200px;
+            background-color:#ffffff;
+            border:solid 1px rgb(0, 0, 114);
+            border-radius:9px;
+        }
+        
+        .mobile-menu{
+            display: block;
+        }
+
+        .nav-bar.active{
+            transform: translateX(0);
+        }
+}
+
