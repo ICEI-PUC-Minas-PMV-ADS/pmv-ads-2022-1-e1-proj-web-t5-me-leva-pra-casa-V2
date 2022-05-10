@@ -55,13 +55,6 @@ h2{
     border-radius:9px;
   }
   
-  img{
-      width: 200px;
-  }
-.container {
-    display: flex;
-}
-
 /*Mudando a Cofiguracao do btn-link do Bootstrap*/
 .btn-link {
     font-family: Arial, Helvetica, sans-serif;
@@ -99,6 +92,9 @@ h2{
     width: 500px;
     padding-left: 1em;
    padding-right: 1em;
+}
+.container{
+   text-align:center;
 }
 /* Adote*/
 .card {
