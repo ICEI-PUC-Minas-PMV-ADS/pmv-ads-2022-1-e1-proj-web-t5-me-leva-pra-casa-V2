@@ -12,7 +12,7 @@ li a:hover{
 }
 
 body{
-    background-image: url(Background.png);
+    background-image: url(/webApp/img/Background.jpeg);
     background-size: cover;
     margin: 0px;
     padding: 0px;
@@ -46,18 +46,6 @@ body{
     text-align: center;
     margin-left: 32px;
     list-style: none;
-}
-
-.mobile-menu{
-    cursor: pointer;
-    display: none;
-}
-
-.mobile-menu div{
-    width: 32px;
-    height: 5px;
-    background-color: rgb(0, 0, 114);
-    margin: 8px;
 }
 
 .search{
