@@ -1,3 +1,4 @@
+
 .menuItem{
     font-family: 'Bebas Neue', cursive;;
     font-size: 40px;
@@ -25,3 +26,115 @@ body{
 li > a {
     color: rgb(0, 0, 114);
 }
+/*Configurando formulário Cadastro*/
+.contain-cadastro {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {    
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.9970.3); /*Sombreado 3d formulário*/
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    margin-top: 5px;
+}
+.card h2 {
+    color: #000;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .9rem;
+    background-color: #f9f9f9;
+}
+
+.card h2::after {
+    content: '';
+    display: block;
+    width: 20rem;
+    height: 0.3rem;
+    background-color: #bc4c00;
+    margin: auto;
+    position: left;
+    border-radius: 10px;
+}
+.form-check  {
+    padding: 10px;
+    margin-top: .2rem; 
+    margin-bottom: .6rem;
+    position: relative;
+    display: inline-block; 
+    margin-left: auto; 
+    margin-left: auto; 
+}
+.pessoaFisica {
+    display:inline-block; 
+     
+}
+.pessoaJuridica {
+    display:inline-block; 
+    margin-right: 20;    
+}
+.form-control {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.form-group  {
+    text-align: left;  
+    margin-left: 0.4rem;
+    font-size: 90%;
+    padding: 0,1rem;
+    
+}
+#inputGroup {
+    margin-top: 10px;
+    font-weight:bold;
+}
+#inputGroup input {
+    text-align: left;  
+    margin-left: 0.4rem;
+    font-size: 95%;
+    padding: 0,1rem;
+   
+}
+
+
+.form label {    
+    text-align: left;
+}
+.agree {
+    display: inline-block;
+    margin-left: 35%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px ;
+    font-weight: 100;
+    font-size: 88%;
+
+
+}
+#footerForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .6rem;
+}
+#btnCadastrar #btnCancelar {
+    border:1px solid #b1337a ; /*não funcionou*/
+    background-color: b1337a;
+    text-transform: uppercase;
+}
+
+/*Final estilo formulário Cadastro*/
+
+
