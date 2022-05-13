@@ -1,126 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="nav.css">
-    <!-- Configurando Bootstrap -->
-    <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <!-- Fim da Configuracao Bootstrap -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <title>Me Leva Pra Casa</title>
+<HTML>
+    <head>
+        <title>Me Leva Pra Casa - Home</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="home.css">
     </head>
+
     <body>
-        <!-- Navegacao -->
-        <nav class="menu">
-            <a href="Home.html"><img width="200" height="200" class="d-inline-block align-top" src="https://user-images.githubusercontent.com/103081069/166168527-7147adc0-b052-499d-8aef-9243b984ce15.png"> </a>
-            <ul class="nav-bar">
-                <li><a class="item1" href="Home.html">Home</a></li>
-                <li><a class="item2" href="doe.html">Doe</a></li>
-                <li><a class="item3" href="adote.html">Adote</a></li>
-                <li><a class="item4" href="ONGs.html">ONGs</a></li>
-                <li><input type="text" class="search" placeholder="Buscar..."/></li>
-                <li><button class="login" >Login</button> | <button class="login" >Cadastre-se</button> <br> <button class="login" >Minha Conta</button></li>
-            </ul>
-        </nav>
+    <!-- Menu Navegação --> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+          <a class="navbar-brand"  href="home.html"> <img src="Logo.png" width="150px" height="150px"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="home.html"> <strong>Home</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="doe.html"> <strong>Doe</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="adote.html"><strong>Adote</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="ONGs.html"><strong>ONGs</strong></a>
+            </li>
 
-        <section class="banner">
-           <div>
-                <img>
-            </div>
-        </section>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="display: flex; justify-content: center;">
+              <input class="form-control mr-sm-2 col-sm-7" type="search" placeholder="Pesquisar" style= "text-align: center;"aria-label="Pesquisar">
+              <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit">Pesquisar</button>
+              <a class="nav-link" href="#">Login</a> |
+              <a class="nav-link" href="#">Cadastre-se</a> |
+              <a class="nav-link" href="#">Minha Conta</a>
 
-        <section class="sobre">
-            <fieldset class="fieldset">
-                <h2 class="titulo">Sobre o projeto</h2>
-                <p class="texto">Ao observamos o grande número de animais nas ruas e a forma abstrata como eles são divulgados em busca de novos lares vimos a oportunidade de apresentar este projeto
-                que trará de forma simples, meios para adotar ou doar animais de rua, ou também filhotes em caso de donos que não tem codições de continuar com o animal.
-                Além disso, as ONGs que trabalham com animais doentes e abandonados poderão utilizar da plataforma para ter um novo recurso para arrecadar doações, seja ela financeira
-                ou através da doação de alimentos e mantimentos
-            </fieldset>
-        </section>
+          </form>
 
-
-    <div class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img src="https://user-images.githubusercontent.com/103081069/166168527-7147adc0-b052-499d-8aef-9243b984ce15.png"
-                    width="200" height="180" class="d-inline-block align-top" >
-            </a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="home.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="doe.html">DOE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="adote.html">ADOTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ONGs.html">ONGs</a>
-                    </li>
-                </ul>
-                <div class="custom-file">
-                    <input class="custom-file-input" type="search" placeholder="Pesquisar..." aria-label="Search">
-                    <button class="btn btn-light btn-sm" type="submit">Buscar</button>
-                </div>
-                <button type="button" class="btn btn-link">Login</button>
-                <button type="button" class="btn btn-link">Cadastre-se</button>
-            </div>
         </div>
-    </div>
+      </nav>
+     <!-- Carrosel Imagens --> 
+      <div id="carouselExampleIndicators" class="carousel slide mt-3" style="max-width: 80%; margin: auto;" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block " src="https://source.unsplash.com/random/2400x200?x=3" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block " src="https://source.unsplash.com/random/2400x200?x=2" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block " src="https://source.unsplash.com/random/2400x200?x=1" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      <!-- Sobre a empresa -->
+      <div class="card bg-white mt-3" style="max-width: 80%; margin: auto; ">
+        <div class="card-header" style="font-size: 30px;">Sobre o projeto</div>
+        <div class="card-body">
+          <p class="card-text">Ao observamos o grande número de animais nas ruas e a forma abstrata como eles são divulgados em busca de novos lares vimos a oportunidade de apresentar este projeto
+            que trará de forma simples, meios para adotar ou doar animais de rua, ou também filhotes em caso de donos que não tem codições de continuar com o animal.
+            Além disso, as ONGs que trabalham com animais doentes e abandonados poderão utilizar da plataforma para ter um novo recurso para arrecadar doações, seja ela financeira
+            ou através da doação de alimentos e mantimentos</p>
+        </div>
+        <!-- Card de informação -->
+        <div class="card mb-3 d-flex" style="width: 30rem;">
+          <img class="card-img-top" src="https://source.unsplash.com/random/500x200?x=5" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Campanha de Vacinação</h5>
+            <p class="card-text">Fique por dentro das datas de vacinação para não perder os prazos.</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
 
-    <nav class="navbar navbar-light bg-light fixed-top">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</nav>
-    <!-- Fim da Navegacao -->
-</body>
+        <div class="card" style="width: 30rem;">
+          <img class="card-img-top" src="https://source.unsplash.com/random/500x200?x=7" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Campanha de Adoção</h5>
+            <p class="card-text">Diversas feiras de adoção de animais estão acontecendo bem próximos de você, veja onde.</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</HTML>
