@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <!-- Configurando Bootstrap -->
     <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -16,41 +17,39 @@
 <html lang="en">
 <body>
     <!-- Navegacao -->
-    <div class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img src="https://user-images.githubusercontent.com/103081069/166168527-7147adc0-b052-499d-8aef-9243b984ce15.png"
-                    width="200" height="180" class="d-inline-block align-top" alt="">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="home.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="doe.html">DOE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="adote.html">ADOTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ONGs.html">ONGs</a>
-                    </li>
-                </ul>
-                <div class="custom-file">
-                    <input class="custom-file-input" type="search" placeholder="Pesquisar..." aria-label="Search">
-                    <button class="btn btn-light btn-sm" type="submit">Buscar</button>
-                </div>
-                <button type="button" class="btn btn-link">Login</button>
-                <button type="button" class="btn btn-link">Cadastre-se</button>
-            </div>
+    <!-- Menu Navegação --> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+          <a class="navbar-brand"  href="home.html"> <img src="Logo.png" width="150px" height="150px"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="home.html"> <strong>Home</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="doe.html"> <strong>Doe</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="adote.html"><strong>Adote</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menuItem" href="ONGs.html"><strong>ONGs</strong></a>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="display: flex; justify-content: center;">
+              <input class="form-control mr-sm-2 col-sm-7" type="search" placeholder="Pesquisar" style= "text-align: center;"aria-label="Pesquisar">
+              <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit">Pesquisar</button>
+              <a class="nav-link" href="#">Login</a> |
+              <a class="nav-link" href="#">Cadastre-se</a> |
+              <a class="nav-link" href="#">Minha Conta</a>
+
+          </form>
+
         </div>
-    </div>
-    </nav>
+      </nav>
     <!-- Fim da Navegacao -->
     <!--Início Form Cadastro-->
     <div class="container-md">
