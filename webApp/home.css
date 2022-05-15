@@ -28,7 +28,7 @@ li > a {
 }
 /*Configurando formulário Cadastro*/
 .contain-cadastro {
-    width: 60%;
+    width: 85%;
     display: flex;
     justify-content: space-around;
     align-items: center;
