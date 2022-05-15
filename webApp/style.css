@@ -1,60 +1,3 @@
-a:link {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-a:visited {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-body{
-    background-image: url(https://user-images.githubusercontent.com/103081069/166168469-ea757c07-0b3e-4185-bacc-43e55bc7d52a.jpeg);
-}
-
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 10%;
-    left: 25%;
-}
-p{
-
-    font: Arial;   
-    background-color: white;
-    font-size: 20px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    font-size: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}  
-#search{
-    background-color:transparent;
-    padding-left:20px;
-    font-style:italic;
-    font-size:20px;
-    border:none;
-    height:30px;
-    width:300px;
-    background-color:#ffffff;
-    border:solid 1px;
-    border-radius:9px;
-  }
-  
 /*Mudando a Cofiguracao do btn-link do Bootstrap*/
 .btn-link {
     font-family: Arial, Helvetica, sans-serif;
@@ -63,38 +6,42 @@ h2{
 }
 
 /*Configurando as opcoes do menu*/
-.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+/* .navbar-nav.me-auto.mb-2.mb-lg-0 li a {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 1,02em;
     text-decoration: none;
     font: bold;
     margin-left : 1em;
-}
+} */
 /*Configurando barra de pesquisa*/
-.btn.btn-link{
+/* .btn.btn-link{
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-}
+} */
 /*Pesquisa*/
-.custom-file-input {
+/* .custom-file-input {
     background-color: transparent;
     padding-left: 20px;
     font-style: italic;
     font-size: 18px;
     border: none;
     background-color :#ffffff;
-    border-radius: 6px;
+    border-radius: 6px; */
 }
 /*Tamanho das Imagens ONGs*/
-.card.border-0 {
+/* .card.border-0 {
     width: 500px;
     padding-left: 1em;
    padding-right: 1em;
-}
-.container{
-   text-align:center;
+} */
+.container.p-3.bg-white.text-dark {
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.9970.3); /*Sombreado 3d formulário*/
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    margin-top: 5px;
 }
 /* Adote*/
 .card {
