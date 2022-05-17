@@ -137,4 +137,10 @@ li > a {
 
 /*Final estilo formulário Cadastro*/
 
+/*Modal adote*/
 
+.modal{
+    display: none;
+}
+
+/*Final modal adote*/
