@@ -78,8 +78,8 @@ const createRow = (client, index) =>{
     <td>${client.celular}</td>
     <td>${client.cidade}</td>
     <td>
-        <button type="button" class="button btn-warning" id="edit-${index}">Editar</button>
-        <button type="button" class="button btn-danger" id="delete-${index}">Excluir</button>
+        <button type="button" class="button green" id="edit-${index}">Editar</button>
+        <button type="button" class="button red" id="delete-${index}">Excluir</button>
     </td>
     `
     document.querySelector('#tableClient>tbody').appendChild(newRow)
@@ -121,7 +121,7 @@ const editDelete = (event) =>{
         }
         else{
             const client = readClient()[index]
-            const response = confirm (`Deseja realmente excluir o cliente ${client.nome} ?`)
+            const response = confirm (`Deseja realmente excluir o usuário ${client.nome} ?`)
             if (response)
             {
                 deleteClient(index)
@@ -136,6 +136,9 @@ document.getElementById('cadastrarCliente')
     .addEventListener('click', openModal)
 
 document.getElementById('modalClose')
+    .addEventListener('click', closeModal)
+
+document.getElementById('cancelar')
     .addEventListener('click', closeModal)
 
 document.getElementById('salvar')

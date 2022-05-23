@@ -1,4 +1,4 @@
-.modal{
+.modal-js{
     position: fixed;
     top:0;
     left:0;
@@ -9,12 +9,12 @@
     z-index: -1;
 }
 
-.modal.active{
+.modal-js.active{
     opacity: 1;
     z-index: 1;
 }
 
-.modal-content{
+.modal-content-js{
     display: flex;
     flex-direction: column;
     gap:20px;
@@ -25,7 +25,7 @@
     box-shadow: 1px 1px 10px black;
 }
 
-.modal-header{
+.modal-header-js{
     display: flex;
     position: relative;
     justify-content: center;
@@ -36,7 +36,7 @@
 
 
 
-.modal-close{
+.modal-close-js{
     position: absolute;
     right: 0;
     display: block;
@@ -47,12 +47,12 @@
     cursor: pointer;
 }
 
-.modal-close:hover{
+.modal-close-js:hover{
     background-color: #FF4949;
     color: white;
 }
 
-.modal-form{
+.modal-form-js{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -60,7 +60,7 @@
     padding: 0 20px;
 }
 
-.modal-field{
+.modal-field-js{
     width: calc(50% - 10px);
     height: 40px;
     outline-style: none;
