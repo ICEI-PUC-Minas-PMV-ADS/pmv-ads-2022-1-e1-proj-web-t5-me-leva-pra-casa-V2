@@ -2,13 +2,30 @@
 <HTML>
 
 <head>
-  <title>Me Leva Pra Casa - Formulário Cadastro</title>
+  <title>Me Leva Pra Casa - Cadastro</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="home.css">
+    <!-- Configurando Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- Fim da Configuracao Bootstrap -->
+    <!-- Adicionando styles -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fim Adicionando styles -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,12 +50,12 @@
             href="ONGs.html"><strong>ONGs</strong></a>
         </div>
       </div>
-      <form class="form-inline my-2 my-lg-0" style="padding-top: 20px; justify-content: center;">
-        <input class="form-control mr-sm-2 col-sm-7" style="border: solid 1px black;" type="search"
+      <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
+        <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
           placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
-        <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit"><img src="search.png"
-            width="20px;"></button>
-        <a class="nav-link" href="#">Login</a> |
+        <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
+          type="submit"><img src="search.png" width="20px;"></button>
+        <a class="nav-link" href="login.html">Login</a> |
         <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
         <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
       </form>
@@ -52,7 +69,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h2>adote essa ideia! cadastre-se</h2>
-                        <form action="#">
+                        <form action="#" id="formCadastro">
                             <div class="form-group">
                                 <div class="row">
                                     <div class="offset-3 col">
@@ -191,32 +208,33 @@
                                                     autocomplete="off">
                                             </div>
                                         </div>
-
                                     </div>
-
-
                                 </div>
                                 <div class="mb-3 form-check align-items-center agree">
                                     <input type="checkbox" class="form-check-input" id="agreement">
                                     <label class="form-check-label" for="agreement">Eu li e aceito os termos de uso.
                                     </label>
                                 </div>
-                                <div class="form-row" style=" justify-content: center; ">
-                                    <label style="margin-top:3rem;" class="btn btn-warning" for="btnCadastrar">Cadastrar</label>
-                                    <label style="margin-top:3rem; margin-left: 1rem;" class="btn btn-danger" for="btnCancelar">Cancelar</label>
+                                <div class="form-row footerForm text-center" >
+                                    <div class="col-12 col-md-6">
+                                        <button class="btn btn-primary" type="button" id="btnCadastrar">Cadastrar</button>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <button class="btn btn-warning" type="button" id="btnCancelar">Cancelar</button>
+                                    </div>
+                                                             
                                 </div>
-                                <div class="alert alert-danger d-none" name="alert">
+                                <div class="alert alert-danger d-none" id= "alertCadastro" name="alert">
                                     Preencha o campo xxxxxx.
                                 </div>
+                            </div>    
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -225,6 +243,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+<script src="form_Cadastro.js"></script>
 
 </body>
 
