@@ -6,16 +6,8 @@
 
 `1º/2022`
 
-Objetivos
+O projeto Me leva pra casa tem objetivo a criação de uma plataforma que apresente os animais perdidos e abandonados e os que estão disponíveis para adoção. Serão divulgados virtualmente através de site de fácil uso e que contenha um número variado de pets.
 
-O objetivo geral deste projeto é a criação de uma plataforma que apresente os animais perdidos e abandonados e os que estão disponíveis para adoção. Serão divulgados virtualmente através de site de fácil uso e que contenha um número variado de pets.
-
-Como objetivos específicos, podemos ressaltar:
-
-* A divulgação dos animais, descrevendo suas características.
-* Através de ONGs cadastradas iremos anunciar campanhas que ajudem financeiramente as instituições que cuidam dos animais.
-* Integrar com ONGs e usuários.
-* Através desse trabalho esperamos a diminuição de animais perdidos e abandonados nas ruas.
 
 ## Integrantes
 
