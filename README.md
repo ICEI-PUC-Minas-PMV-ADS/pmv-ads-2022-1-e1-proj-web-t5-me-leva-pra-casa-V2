@@ -6,7 +6,7 @@
 
 `1º/2022`
 
-O projeto ME LEVA PRA CASA tem objetivo a criação de uma plataforma que apresente os animais perdidos e abandonados e os que estão disponíveis para adoção. Serão divulgados virtualmente através de site de fácil uso e que contenha um número variado de pets.
+O projeto ME LEVA PRA CASA tem objetivo a criação de uma plataforma que apresente os animais perdidos,abandonados e os que estão disponíveis para adoção. Serão divulgados virtualmente através de site de fácil uso e que contenha um número variado de pets.
 
 
 ## Integrantes
