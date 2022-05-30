@@ -73,8 +73,15 @@ justify-content: center;
 
 .input-box input[type="submit"]{
     cursor: pointer;
-    background: #85b6ff;
+    background: #2c80fd;
     font-weight: 385;
+    color: white;
+    transition: all .2s ease-out;
+}
+
+.input-box input[type="submit"]:hover{
+    background-color: #1468e7;
+    color: white;
 }
 
 .card .form-box .input-box input::placeholder {
@@ -90,4 +97,11 @@ justify-content: center;
     margin: auto;
     position: left;
     border-radius: 10px;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 207px;
+    right: 85px;
+    cursor: pointer;
 }
