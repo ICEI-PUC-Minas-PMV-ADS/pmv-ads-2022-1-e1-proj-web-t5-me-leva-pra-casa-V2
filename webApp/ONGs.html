@@ -1,169 +1,181 @@
 <!DOCTYPE html>
-<HTML>
+<html lang="en">
 
 <head>
-  <title>Me Leva Pra Casa - Doe</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="home.css">
+    <title>Me Leva Pra Casa - ONGs</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configurando Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- Fim da Configuracao Bootstrap -->
+    <!-- Adicionando styles -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fim Adicionando styles -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </head>
+<!DOCTYPE html>
+<html lang="en">
 
 <body>
-  <!-- Menu Navegação -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
-    <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <div class="container-fluid">
-        <div class="row" style="justify-content: center; align-items: center;">
-          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
-              width="150px" height="150px"></a>
-          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
-            <strong>Home</strong></a>
-          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
-            <strong>Doe</strong></a>
-          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-            href="adote.html"><strong>Adote</strong></a>
-          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-            href="ONGs.html"><strong>ONGs</strong></a>
+    <!-- Menu Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="container-fluid">
+                <div class="row" style="justify-content: center; align-items: center;">
+                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
+                            src="Logo.png" width="150px" height="150px"></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+                        <strong>Home</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
+                        <strong>Doe</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="adote.html"><strong>Adote</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="ONGs.html"><strong>ONGs</strong></a>
+                </div>
+            </div>
+            <form class="form-inline my-2 my-lg-0"
+                style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST"
+                enctype="multipart/form-data">
+                <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
+                    placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+                <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
+                        src="search.png" width="20px;"></button>
+                <a class="nav-link" href="login.html">Login</a> |
+                <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
+                <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+            </form>
         </div>
-      </div>
-      <form class="form-inline my-2 my-lg-0" style="padding-top: 20px; justify-content: center;">
-        <input class="form-control mr-sm-2 col-sm-7" style="border: solid 1px black;" type="search" placeholder="Pesquisar..." style="text-align: left;"
-          aria-label="Pesquisar">
-        <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" style="border: solid 1px black;"
-          type="submit">Pesquisar</button>
-        <a class="nav-link" href="#">Login</a> |
-        <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
-        <a class="nav-link" href="#">Minha Conta</a>
-      </form>
-    </div>
-  </nav>
-   <!-- Inicio do conteudo-->
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <div class="container p-3 bg-white text-dark" data-spy="scroll" data-offset="20">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card-border-0">
-                <div class="card-horizontal d-flex">
-                    <div class="img-square-wrapper">
-                        <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Nome da ONG</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                            purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
-                            ipsum vitae mattis.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+    </nav>
+    <!-- Fim da Navegacao -->
+    <!-- Inicio do conteudo-->
+    <div class="card bg-white mt-5" style="max-width: 80%; margin: auto; ">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-border-0">
+                    <div class="card-horizontal d-flex">
+                        <div class="img-square-wrapper">
+                            <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Nome da ONG</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
+                                ipsum vitae mattis.</p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    type="button">Doação
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card-border-0">
-                <div class="card-horizontal d-flex">
-                    <div class="img-square-wrapper">
-                        <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Nome da ONG</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                            purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
-                            ipsum vitae mattis.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+            <div class="col">
+                <div class="card-border-0">
+                    <div class="card-horizontal d-flex">
+                        <div class="img-square-wrapper">
+                            <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Nome da ONG</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
+                                ipsum vitae mattis.</p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    type="button">Doação
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card-border-0">
-                <div class="card-horizontal d-flex">
-                    <div class="img-square-wrapper">
-                        <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Nome da ONG</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                            purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
-                            ipsum vitae mattis.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+            <div class="col">
+                <div class="card-border-0">
+                    <div class="card-horizontal d-flex">
+                        <div class="img-square-wrapper">
+                            <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Nome da ONG</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
+                                ipsum vitae mattis.</p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    type="button">Doação
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card-border-0">
-                <div class="card-horizontal d-flex">
-                    <div class="img-square-wrapper">
-                        <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Nome da ONG</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                            purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
-                            ipsum vitae mattis.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+            <div class="col">
+                <div class="card-border-0">
+                    <div class="card-horizontal d-flex">
+                        <div class="img-square-wrapper">
+                            <img class="" src="./img/fundo-cinza.png" alt="Suresh Dasari Card">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Nome da ONG</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                purus tellus, ultrices eget pharetra quis, malesuada id tellus. Aenean tincidunt varius
+                                ipsum vitae mattis.</p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    type="button">Doação
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Fim do Conteudo -->
+    <!-- Fim do Conteudo -->
 </body>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Doe para "Nome da Instituição" CHAVE PIX:...........
-            </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <input type="email" class="form-control" id="floatingInput" placeholder="Seu Nome Completo:">
-            <label for="floatingInput"></label>
-            <input type="email" class="form-control" type="number" id="floatingInput" placeholder="CPF:">
-            <label for="floatingInput"></label>
-            <input type="email" class="form-control" type="number" id="floatingInput" placeholder="Valor Doado:">
-            <label for="floatingInput"></label>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Confirmar</button>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Doe para "Nome da Instituição" CHAVE PIX:...........
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="email" class="form-control" id="floatingInput-bord" placeholder="Seu Nome Completo:">
+                <label for="floatingInput"></label>
+                <input type="email" class="form-control" type="number" id="floatingInput" placeholder="CPF:">
+                <label for="floatingInput"></label>
+                <input type="email" class="form-control" type="number" id="floatingInput" placeholder="Valor Doado:">
+                <label for="floatingInput"></label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Confirmar</button>
+            </div>
         </div>
     </div>
 </div>
-</div>
 
-</body>
-
-</HTML>
+</html>
