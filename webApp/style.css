@@ -50,5 +50,47 @@
     display:flex
 }
 
+.button {
+    display: flex;
+    padding-left: 100px;
+    height: 30px;
+    padding: 0px;
+    background: #4d7ded;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
   
+  .button:hover {
+    background: #3a49e9;
+  }
+  
+  .button:active {
+    background: #3849ba;
+  }
+  
+  .button__text,
+  .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button__icon {
+    font-size: 1.3em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  
+  .modal-title {
+    padding-left: 1em;
+   padding-right: 1em;
+}
+
 
