@@ -1,18 +1,18 @@
-function acao(){
-    let modal =document.querySelector('#modal-adote')
-    modal.style.display ="block"
+function acao() {
+    let modal = document.querySelector('#modal-adote')
+    modal.style.display = "block"
 
     console.log(modal)
 }
 
-function fechar(){
-let modal =document.querySelector('.modal')
-modal.style.display ="none"
+function fechar() {
+    let modal = document.querySelector('.modal')
+    modal.style.display = "none"
 }
 
 /*Final Modal adote*/
 var dados = [
-    
+
 ]
 localStorage.setItem("__dados__", JSON.stringify(dados))
 renderDataInTheTable(JSON.parse(localStorage.getItem("__dados__")))
@@ -27,7 +27,7 @@ function cdsanimais() {
         dados.forEach(function (item) {
 
             // template string
-         $("#tbldados tbody").append(`<tr>
+            $("#tbldados tbody").append(`<tr>
         <tr>${item.ID}</td>
         <tr>${item.Nome}</td>
         <tr>${item.Idade}</td>
@@ -81,7 +81,7 @@ $(function () {
         registro.Descricao = Descricao
 
 
-       
+
         dados.push(registro)
         localStorage.setItem("__dados__", JSON.stringify(dados))
         renderDataInTheTable(dados)
@@ -147,11 +147,10 @@ function fechar() {
 }
 
 
-    console.log(modal) 
-}
+console.log(modal)
 
-function fechar(){
-    let modal=document.querySelector('.modal')
-    modal.style.display ="none"
+function fechar() {
+    let modal = document.querySelector('.modal')
+    modal.style.display = "none"
 }
 
