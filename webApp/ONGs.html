@@ -18,14 +18,19 @@
     <link rel="stylesheet" href="style.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+    <script type="text/javascript" scr="js/ONGs.js" async></script>
 </head>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,166 +39,304 @@
     <!-- Menu Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
         <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <div class="container-fluid">
-            <div class="row" style="justify-content: center; align-items: center;">
-              <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
-                  width="150px" height="150px"></a>
-              <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
-                <strong>Home</strong></a>
-              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
-                <strong>Doe</strong></a>
-              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                href="adote.html"><strong>Adote</strong></a>
-              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                href="ONGs.html"><strong>ONGs</strong></a>
+            <div class="container-fluid">
+                <div class="row" style="justify-content: center; align-items: center;">
+                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
+                            src="Logo.png" width="150px" height="150px"></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+                        <strong>Home</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
+                        <strong>Doe</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="adote.html"><strong>Adote</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="ONGs.html"><strong>ONGs</strong></a>
+                </div>
             </div>
-          </div>
-          <form class="form-inline my-2 my-lg-0" style="padding-top: 20px; justify-content: center;">
-            <input class="form-control mr-sm-2 col-sm-7" style="border: solid 1px black;" type="search"
-              placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
-            <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit"><img src="search.png"
-                width="20px;"></button>
-            <a class="nav-link" href="#">Login</a> |
-            <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
-            <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
-          </form>
+            <form class="form-inline my-2 my-lg-0" style="padding-top: 20px; justify-content: center;">
+                <input class="form-control mr-sm-2 col-sm-7" style="border: solid 1px black;" type="search"
+                    placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+                <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit"><img src="search.png"
+                        width="20px;"></button>
+                <a class="nav-link" href="#">Login</a> |
+                <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
+                <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+            </form>
         </div>
-      </nav>
+    </nav>
     <!-- Fim da Navegacao -->
     <!-- Inicio do conteudo-->
-  <div class="container-fluid mt-3 card" style="width: 80%; padding: 10px;">
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card-border-0 mb-3 ">
-                <div class="row no-gutters">
-                  <div class="col-md-4" >
-                    <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                            type="button">Doação
-                        </button>
+    <div class="container-fluid mt-3 card" style="width: 80%; padding: 10px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card-border-0 mb-3 ">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">NOME DA ONG</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content.</p>
+                                    <div class="d-grid gap-2 col-6 mx-auto">
+                                        <button id="peitinho" class="btn btn-primary" type="button">Doação </button>
+                                        <!-- <button id="peitinho" class="btn btn-primary" btn-primary data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        type="button">Doação </button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-          </div>
-          <div class="col">
-            <div class="card-border-0 mb-3">
-                <div class="row no-gutters">
-                   <div class="col-md-4" >
-                      <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1"
-                            type="button">Doação
-                        </button>
+                <div class="col">
+                    <div class="card-border-0 mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">NOME DA ONG</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content.</p>
+                                    <div class="d-grid gap-2 col-6 mx-auto">
+                                        <button class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal1" type="button">Doação
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
-          </div>
+            </div>
         </div>
         <div class="row">
             <div class="col">
-              <div class="card-border-0 mb-3 ">
-                  <div class="row no-gutters">
-                    <div class="col-md-4" >
-                      <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+                <div class="card-border-0 mb-3 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </div>
             <div class="col">
-              <div class="card-border-0 mb-3">
-                  <div class="row no-gutters">
-                     <div class="col-md-4" >
-                        <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+                <div class="card-border-0 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </div>
-          </div>
-          <div class="row">
+        </div>
+        <div class="row">
             <div class="col">
-              <div class="card-border-0 mb-3 ">
-                  <div class="row no-gutters">
-                    <div class="col-md-4" >
-                      <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+                <div class="card-border-0 mb-3 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </div>
             <div class="col">
-              <div class="card-border-0 mb-3">
-                  <div class="row no-gutters">
-                     <div class="col-md-4" >
-                        <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                type="button">Doação
-                            </button>
+                <div class="card-border-0 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </div>
-          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card-border-0 mb-3 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-border-0 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card-border-0 mb-3 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-border-0 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card-border-0 mb-3 ">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-border-0 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/FundoCinzaQuadrado.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NOME DA ONG</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal" type="button">Doação
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- <div class="card bg-white mt-5" style="max-width: 80%; margin: auto;">
@@ -363,67 +506,62 @@
     <!-- Fim do Conteudo -->
 </body>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <img src="./img/doacao.png" width="28px" height="28px" />
-                <h5 class="modal-title"  id="exampleModalLabel">DOAR PARA "NOME DA ONG".
+                <h5 class="modal-title" id="exampleModalLabel">DOAR PARA "NOME DA ONG".
                 </h5>
-                <button type="button" class="close"
-                        data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">
-                            ×
-                        </span>
-                    </button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        ×
+                    </span>
+                </button>
             </div>
-             <div class="modal-body">
-                <h5 class="text"  id="exampleModalLabel">CHAVE PIX (CNPJ): 00.000.000/0000-00
+            <div class="modal-body">
+                <h5 class="text" id="exampleModalLabel">CHAVE PIX (CNPJ): 00.000.000/0000-00
                 </h5>
 
                 <label>Valor doado:</label>
                 <div class="input-group mb-3">
                     <span class="input-group-text">R$</span>
-                    <input type="number" class="form-control border" aria-label="Dollar amount (with dot and two decimal places)">
+                    <input type="number" class="form-control border"
+                        aria-label="Dollar amount (with dot and two decimal places)">
                 </div>
-             <div class="text" >
-                <label>Anexar comprovante:</label>
-                
-                <button type="button" class="button">
-                    <input type="file" >
-                    <span class="button__icon">
-                      <ion-icon name="cloud-upload-outline">
-                      </ion-icon>
-                    </span>
-                  </button> 
-                  <script 
-                      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
-                  </script> 
-                  </div> 
-            </div> 
+                <div class="text">
+                    <label>Anexar comprovante:</label>
+                    <button type="button" class="button">
+                        <input type="file">
+                        <span class="button__icon">
+                            <ion-icon name="cloud-upload-outline">
+                            </ion-icon>
+                        </span>
+                    </button>
+                </div>
+            </div>
             <div class="modal-footer">
-                
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                 <button type="button" class="btn btn-primary">Confirmar</button>
             </div>
+
         </div>
     </div>
 </div>
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="./img/erro.png" width="28px" height="28px"/>
+                <img src="./img/erro.png" width="28px" height="28px" />
                 <h5 class="modal-title" id="exampleModalLabel">ERRO!
                 </h5>
-                <button type="button" class="close"
-                        data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">
-                            ×
-                        </span>
-                    </button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        ×
+                    </span>
+                </button>
             </div>
-            <p class="text-center">  Por favor, faça login primeiro para acessar "Doação".</p>
+            <p class="text-center"> Por favor, faça login primeiro para acessar "Doação".</p>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                 <button type="button" class="btn btn-primary">Confirmar</button>
@@ -431,4 +569,19 @@
         </div>
     </div>
 </div>
+<!-- <script type="text/javascript"> -->
+    <!-- // var isLogged = false
+    // $(document).ready(function () {
+    //     $("#peitinho").click(function () {
+    //         if (isLogged) {
+    //             $("#exampleModal").modal('show');
+    //             console.log("USUARIO LOGADO");
+    //         } else {
+    //             $("#exampleModal1").modal('show');
+    //             console.log("USUARIO NÃ0 LOGADO");
+    //         }
+
+    //     });
+    // }); -->
+<!-- </script> -->
 </html>
