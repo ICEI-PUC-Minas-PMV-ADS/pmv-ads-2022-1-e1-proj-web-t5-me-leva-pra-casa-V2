@@ -1,16 +1,3 @@
-function acao() {
-    let modal = document.querySelector('#modal-adote')
-    modal.style.display = "block"
-
-    console.log(modal)
-}
-
-function fechar() {
-    let modal = document.querySelector('.modal')
-    modal.style.display = "none"
-}
-
-/*Final Modal adote*/
 var dados = [
 
 ]
@@ -115,42 +102,4 @@ $(function () {
 
 
 
-
-
-
-
-
-/* Modal adote*/
-
-function acao() {
-    let modal = document.querySelector('#modal-adote')
-    modal.style.display = "block"
-    console.log(modal)
-}
-
-function fechar() {
-    let modal = document.querySelector('.modal')
-    modal.style.display = "none"
-}
-
-/* Modal anaimais*/
-
-function acao() {
-    let modal = document.querySelector('#animais')
-    modal.style.display = "block"
-    console.log(modal)
-}
-
-function fechar() {
-    let modal = document.querySelector('.modal')
-    modal.style.display = "none"
-}
-
-
-console.log(modal)
-
-function fechar() {
-    let modal = document.querySelector('.modal')
-    modal.style.display = "none"
-}
 
