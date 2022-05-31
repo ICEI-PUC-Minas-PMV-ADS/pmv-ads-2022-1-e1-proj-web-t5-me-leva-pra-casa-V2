@@ -4,7 +4,7 @@ const openModal = () => document.getElementById('modal')
     .classList.add('active')
 
 const closeModal = () => {
-    clearFields() 
+     clearFields() 
     document.getElementById('modal').classList.remove('active')
 }
 
@@ -85,6 +85,7 @@ const createRow = (client, index) =>{
     <td>${client.telefone}</td>
     <td>${client.cep}</td>
     <td>${client.rua}</td>
+    <td>${client.numero}</td>
     <td>${client.bairro}</td>
     <td>${client.cidade}</td>
     <td>${client.estado}</td>
@@ -110,13 +111,14 @@ const updateTable = () =>{
 const fillFields= (client) =>{
     document.getElementById("nome").value = client.nome
     document.getElementById("email").value = client.email
-    document.getElementById("cpf").value = client.nome
-    document.getElementById("telefone").value = client.nome
-    document.getElementById("cep").value = client.nome
-    document.getElementById("rua").value = client.nome
-    document.getElementById("bairro").value = client.nome
-    document.getElementById("cidade").value = client.nome    
-    document.getElementById("estado").value = client.email
+    document.getElementById("cpf").value = client.cpf
+    document.getElementById("telefone").value = client.telefone
+    document.getElementById("cep").value = client.cep
+    document.getElementById("rua").value = client.rua
+    document.getElementById("numero").value = client.numero
+    document.getElementById("bairro").value = client.bairro
+    document.getElementById("cidade").value = client.cidade    
+    document.getElementById("estado").value = client.estado
     document.getElementById("nome").dataset.index = client.index
 }
 
@@ -146,7 +148,7 @@ const editDelete = (event) =>{
         }
     }
 }
-updateTable()
+updateTable() 
 //Eventos
 document.getElementById('cadastrarCliente')
     .addEventListener('click', openModal)
@@ -161,4 +163,4 @@ document.getElementById('salvar')
     .addEventListener('click', saveClient)
 
 document.querySelector('#tableClient>tbody')
-    .addEventListener('click', editDelete)
+    .addEventListener('click', editDelete) 
