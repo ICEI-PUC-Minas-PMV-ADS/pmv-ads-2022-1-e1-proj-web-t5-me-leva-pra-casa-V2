@@ -26,9 +26,15 @@ body{
 li > a {
     color: rgb(0, 0, 114);
 }
+
+.footer{
+    text-align: center;
+    font-size: 0.6rem;
+    text-decoration: none;
+}
 /*Configurando formulário Cadastro*/
 .contain-cadastro {
-    width: 60%;
+    width: 85%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -48,7 +54,6 @@ li > a {
     padding: .9rem;
     background-color: #f9f9f9;
 }
-
 .card h2::after {
     content: '';
     display: block;
@@ -107,8 +112,6 @@ li > a {
     padding: 0,1rem;
    
 }
-
-
 .form label {    
     text-align: left;
 }
@@ -120,21 +123,33 @@ li > a {
     margin-top: 10px ;
     font-weight: 100;
     font-size: 88%;
-
-
 }
-#footerForm {
+.agree label {
+    margin-left: 25px;
+}
+.footerForm {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: .6rem;
 }
 #btnCadastrar #btnCancelar {
+    display: flex;
     border:1px solid #b1337a ; /*não funcionou*/
-    background-color: b1337a;
+    background-color: #b1337a;
     text-transform: uppercase;
+    padding: 10px, 10px;
+}
+form, #alertCadastro {
+    margin-bottom: 0;
+    margin-top: 6px
 }
 
 /*Final estilo formulário Cadastro*/
 
+/*Modal adote*/
 
+/*Modal Adote*/
+.modal{
+    display: none;
+}

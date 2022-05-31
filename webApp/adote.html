@@ -33,12 +33,14 @@
                         href="ONGs.html"><strong>ONGs</strong></a>
                 </div>
             </div>
-            <form class="form-inline my-2 my-lg-0" style="padding-top: 20px; justify-content: center;">
-                <input class="form-control mr-sm-2 col-sm-7" style="border: solid 1px black;" type="search"
+            <form class="form-inline my-2 my-lg-0"
+                style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST"
+                enctype="multipart/form-data">
+                <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
                     placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
-                <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit"><img src="search.png"
-                        width="20px;"></button>
-                <a class="nav-link" href="#">Login</a> |
+                <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
+                        src="search.png" width="20px;"></button>
+                <a class="nav-link" href="login.html">Login</a> |
                 <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
                 <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
             </form>
@@ -54,7 +56,9 @@
                     <div class="card-body">
                         <h5 class="card-title">Malu</h5>
                         <p class="card-text">Femea/filhote</p>
-                        <button class="btn btn-success" type"button">Saiba mais</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                          </button>
                     </div>
                 </div>
             </div>
@@ -65,7 +69,9 @@
                     <div class="card-body">
                         <h5 class="card-title">Malu</h5>
                         <p class="card-text">Femea/filhote</p>
-                        <button class="btn btn-success" type"button">Saiba mais</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                          </button>
                     </div>
                 </div>
             </div>
@@ -75,7 +81,9 @@
                     <div class="card-body">
                         <h5 class="card-title">Malu</h5>
                         <p class="card-text">Femea/filhote</p>
-                        <button class="btn btn-success" type"button">Saiba mais</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                          </button>
                     </div>
                 </div>
             </div>
@@ -87,7 +95,9 @@
                     <div class="card-body">
                         <h5 class="card-title">Malu</h5>
                         <p class="card-text">Femea/filhote</p>
-                        <button class="btn btn-success" type"button">Saiba mais</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                          </button>
                     </div>
                 </div>
             </div>
@@ -98,7 +108,9 @@
                     <div class="card-body">
                         <h5 class="card-title">Malu</h5>
                         <p class="card-text">Femea/filhote</p>
-                        <button class="btn btn-success" type"button">Saiba mais</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                          </button>
                     </div>
                 </div>
             </div>
@@ -108,58 +120,43 @@
                     <div class="card-body">
                         <h5 class="card-title">Malu</h5>
                         <p class="card-text">Femea/filhote</p>
-                        <button class="btn btn-success" type"button">Saiba mais</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                            Saiba mais
+                          </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Fim do Conteudo -->
-    <!-- Modal -->
 
-    <div class="janelaModal" class="modal fade">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <img class="img-fluid " src="./img/fundo-cinza.png" alt="fotodog">
-                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
 
-                    <div class="modal-body">
-                        <h2 class="modal-title">Malu</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur!</p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="" target="_blank">Adotar esse pet</a>
-                        <button type="buttom" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
+   <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <img class="img-fluid " src="./img/fundo-cinza.png" alt="fotodog">
+                
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+                <h2 class="modal-title">Malu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur!</p>
+                <div class="modal-footer mt-5">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Adotar pet</button>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
 </body>
 
-<!-- Modal -->
-<!-- 
-    <div class="janelaModal" class="modal fade">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <img class="img-fluid " src="./img/fundo-cinza.png" alt="fotodog">
-                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <h2 class="modal-title">Malu</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur!</p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="" target="_blank">Adotar esse pet</a>
-                        <button type="buttom" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

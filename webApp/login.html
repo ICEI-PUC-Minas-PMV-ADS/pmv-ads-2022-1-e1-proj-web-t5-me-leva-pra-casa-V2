@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesone CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="login_style.css">
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Style HOME -->
+    <link rel="stylesheet" href="home.css">
+    <title>Me Leva Pra Casa - Login</title>
+</head>
+
+<body>
+    <!-- Menu Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="container-fluid">
+                <div class="row" style="justify-content: center; align-items: center;">
+                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
+                            src="Logo.png" width="150px" height="150px"></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+                        <strong>Home</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
+                        <strong>Doe</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="adote.html"><strong>Adote</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="ONGs.html"><strong>ONGs</strong></a>
+                </div>
+            </div>
+            <form class="form-inline my-2 my-lg-0"
+                style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST"
+                enctype="multipart/form-data">
+                <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
+                    placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+                <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
+                        src="search.png" width="20px;"></button>
+                <a class="nav-link" href="login.html">Login</a> |
+                <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
+                <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+            </form>
+        </div>
+    </nav>
+    <!-- Fim da Navegacao -->
+
+    <!-- Login form -->
+    <div class="container-login">
+        <div class="card">
+            <div class="form-box">
+                <h2>LOGIN</h2>
+                <form>
+                    <div class="input-box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" placeholder="Digite aqui o seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" id="senha" placeholder="Digite aqui a sua senha" required>
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                        <script src="./login_script.js"> </script>
+
+                    </div>
+
+                    <div class="remember">
+                        <label>
+                            <input type="checkbox"> Lembre-me
+                        </label>
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="submit" value="Vamos lá">
+                    </div>
+
+                    <div class="input-box">
+                        <p>Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se.</a></p>
+                    </div>
+                </form>
+                <h3>OUTRAS FORMAS DE LOGIN</h3>
+                <ul class="ul">
+                    <li><img src="img_face-google/google.png"></li>
+                    <li><img src="img_face-google/facebook.png"></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>

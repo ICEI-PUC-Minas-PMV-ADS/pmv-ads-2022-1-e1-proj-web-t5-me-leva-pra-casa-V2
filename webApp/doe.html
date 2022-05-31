@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <HTML>
 <style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400');
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400');
-.tag-container {
-  display: flex;
-  flex-flow: row wrap;
-}
+  .tag-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-.tag{
-  pointer-events: none;
-  background-color: #47a3ff;
-  color: white;
-  padding: 6px;
-  margin: 5px;
-  border-radius: 10px;
-}
+  .tag {
+    pointer-events: none;
+    background-color: #47a3ff;
+    color: white;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 10px;
+  }
 
-.tag::before {
-  pointer-events: all;
-  display: inline-block;
-  content: 'x';  
-  height: 20px;
-  width: 20px;
-  margin-right: 6px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #47a3ff;
-  cursor: pointer;
-}
+  .tag::before {
+    pointer-events: all;
+    display: inline-block;
+    content: 'x';
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #47a3ff;
+    cursor: pointer;
+  }
 
 
-.label-bordered {
-   border: 1px solid #cecece;
-   padding: 10px;
-   border-radius: 5px;
-   width: 100%
-}
+  .label-bordered {
+    border: 1px solid #cecece;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%
+  }
 
-  input[type="file"] { 
-   display: none; 
-}
-
+  input[type="file"] {
+    display: none;
+  }
 </style>
 
 <head>
@@ -76,12 +75,13 @@
             href="ONGs.html"><strong>ONGs</strong></a>
         </div>
       </div>
-      <form class="form-inline my-2 my-lg-0" style="padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
-        <input class="form-control mr-sm-2 col-sm-7" style="border: solid 1px black;" type="search"
+      <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;"
+        method="POST" enctype="multipart/form-data">
+        <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
           placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
-        <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" style="border: solid 1px black;"
-          type="submit"><img src="search.png" width="20px;"></button>
-        <a class="nav-link" href="#">Login</a> |
+        <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
+            src="search.png" width="20px;"></button>
+        <a class="nav-link" href="login.html">Login</a> |
         <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
         <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
       </form>
@@ -95,37 +95,44 @@
         <div class="col-6" style="text-align-last: center;">
           <div class="col-12">
             <div class="form-group">
-                <img name="DisplayImagem" width="500px" height="500px">
-                <div style="padding: 10px;"><label for="imagemAnimal" class="control-label label-bordered">Clique aqui para escolher um arquivo</label>
+              <img name="DisplayImagem" width="500px" height="500px">
+              <div style="padding: 10px;"><label for="imagemAnimal" class="control-label label-bordered">Clique aqui
+                  para escolher um arquivo</label>
                 <div class="nomeArquivo" name="nomeArquivo" id="nomeArquivo"></div>
-                <input type="file" id="imagemAnimal" name="imagemAnimal" class="imagemAnimal form-control" onchange="previewImagem()" />
+                <input type="file" id="imagemAnimal" name="imagemAnimal" class="imagemAnimal form-control"
+                  onchange="previewImagem()" />
               </div>
               <div class="row">
-              <div class="col-6">
-                <button type="buttom" class="btn btn-success" style="width: 100%">Enviar Formulário</button>
+                <div class="col-6">
+                  <button type="buttom" class="btn btn-success" style="width: 100%">Enviar Formulário</button>
+                </div>
+                <div class="col-6">
+                  <button type="buttom" class="btn btn-primary" style="width: 100%" href="home.html"
+                    onclick="window.location.href='home.html'">Cancelar</button>
+                </div>
               </div>
-              <div class="col-6">
-                <button type="buttom" class="btn btn-primary" style="width: 100%" href="home.html" onclick="window.location.href='home.html'">Cancelar</button>
-              </div>
-            </div>
             </div>
           </div>
         </div>
-          <div class="col-6">
-            <div class="col-12">
-              <div class="form-group">
-                <label for="AnimalNomeLabel">Nome</label>
-                <input type="text" class="form-control" id="animalNomeInput" placeholder="Nome do animalzinho" maxlength="80" style="border: solid 1px;">
+        <div class="col-6">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="AnimalNomeLabel">Nome</label>
+              <input type="text" class="form-control" id="animalNomeInput" placeholder="Nome do animalzinho"
+                maxlength="80" style="border: solid 1px;">
             </div>
             <div class="form-group">
               <label for="DescricaoLabel">Descrição</label>
-              <textarea style="border: solid 1px; resize: none;" class="form-control" id="DecricaoTextArea" rows="15" placeholder="Descreva a personalidade do animalzinho..." maxlength="1000"></textarea>
+              <textarea style="border: solid 1px; resize: none;" class="form-control" id="DecricaoTextArea" rows="15"
+                placeholder="Descreva a personalidade do animalzinho..." maxlength="1000"></textarea>
             </div>
             <div>
               <p class="info">Digite sua hashtag e aperte enter</p>
-              <input type="text" class="form-control" id="hashtags" placeholder="Use hashtags para facilitar a busca pelo seu animalzinho" maxlength="50" style="border: solid 1px;" onkeypress ="addthis()">
+              <input type="text" class="form-control" id="hashtags"
+                placeholder="Use hashtags para facilitar a busca pelo seu animalzinho" maxlength="50"
+                style="border: solid 1px;" onkeypress="addthis()">
               <div class="tag-container">
-                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -134,53 +141,52 @@
   </div>
 </body>
 <script>
-var a = document.getElementById('hashtags');
-a.addEventListener('keyup',addthis);
+  var a = document.getElementById('hashtags');
+  a.addEventListener('keyup', addthis);
 
-function addthis() {
-    b = a.value.replace('#',''); 
-    a.value = '#'+b
+  function addthis() {
+    b = a.value.replace('#', '');
+    a.value = '#' + b
 
-    if (a.value.indexOf(' '))
-    {
-    a.value = a.value.replace(' ','#');
+    if (a.value.indexOf(' ')) {
+      a.value = a.value.replace(' ', '#');
     }
 
-}
+  }
 </script>
 <script>
   $(function () {
-    $('#imagemAnimal').change(function() {
-         $('.nomeArquivo').html('<b>Arquivo Selecionado:</b>' + $(this).val());
+    $('#imagemAnimal').change(function () {
+      $('.nomeArquivo').html('<b>Arquivo Selecionado:</b>' + $(this).val());
     });
-});
+  });
 </script>
 <script>
-  function previewImagem(){
-        var imagem = document.querySelector('input[name=imagemAnimal]').files[0];
-        var preview = document.querySelector('img[name=DisplayImagem]');
-        
-        var reader = new FileReader();
-        
-        reader.onloadend = function () {
-          preview.src = reader.result;
-        }
-        
-        if(imagem){
-          reader.readAsDataURL(imagem);
-        }else{
-          preview.src = "";
-        }
-      }
+  function previewImagem() {
+    var imagem = document.querySelector('input[name=imagemAnimal]').files[0];
+    var preview = document.querySelector('img[name=DisplayImagem]');
+
+    var reader = new FileReader();
+
+    reader.onloadend = function () {
+      preview.src = reader.result;
+    }
+
+    if (imagem) {
+      reader.readAsDataURL(imagem);
+    } else {
+      preview.src = "";
+    }
+  }
 </script>
 <script>
   let input, hashtagArray, container, t;
 
-input = document.querySelector('#hashtags');
-container = document.querySelector('.tag-container');
-hashtagArray = [];
+  input = document.querySelector('#hashtags');
+  container = document.querySelector('.tag-container');
+  hashtagArray = [];
 
-input.addEventListener('keyup', () => {
+  input.addEventListener('keyup', () => {
     if (event.which == 13 && input.value.length > 0) {
       var text = document.createTextNode(input.value);
       var p = document.createElement('p');
@@ -188,16 +194,16 @@ input.addEventListener('keyup', () => {
       p.appendChild(text);
       p.classList.add('tag');
       input.value = '';
-      
+
       let deleteTags = document.querySelectorAll('.tag');
-      
-      for(let i = 0; i < deleteTags.length; i++) {
+
+      for (let i = 0; i < deleteTags.length; i++) {
         deleteTags[i].addEventListener('click', () => {
           container.removeChild(deleteTags[i]);
         });
       }
     }
-});
+  });
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
