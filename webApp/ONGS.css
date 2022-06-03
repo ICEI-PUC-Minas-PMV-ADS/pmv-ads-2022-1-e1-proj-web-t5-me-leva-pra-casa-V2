@@ -55,7 +55,7 @@
     padding-left: 100px;
     height: 30px;
     padding: 0px;
-    background: #4d7ded;
+    background: #f1f1f3;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -67,11 +67,11 @@
   }
   
   .button:hover {
-    background: #3a49e9;
+    background: #ededf2;
   }
   
   .button:active {
-    background: #3849ba;
+    background: #e8e9ee;
   }
   
   .button__text,

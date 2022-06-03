@@ -17,7 +17,7 @@
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
     <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ONGS.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -32,11 +32,9 @@
         <title>CRUD</title> -->
         <script src= "script.js" type="text/javascript"  async></script>
         
-<!-- 
+
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-
-
-    <script type="text/javascript" scr="js/ONGs.js" async></script> -->
+    <script type="text/javascript" scr="js/ONGs.js" async></script>
 
 </head>
 <!DOCTYPE html>
@@ -533,18 +531,18 @@
                 </h5>
 
                 <label>Valor doado:</label>
-                <div class="input-group mb-3">
+                <div class="input-group mb-3" >
                     <span class="input-group-text">R$</span>
-                    <input type="number" class="form-control border"
+                    <input type="number" class="form-control border" 
                         aria-label="Dollar amount (with dot and two decimal places)">
                 </div>
                 <div class="text">
-                    <label>Anexar comprovante:</label>
-                    <button type="button" class="button">
-                        <input type="file">
-                        <span class="button__icon">
+                    <label> Anexar comprovante:</label>
+                    <button type="button" class="button" style="width: 100%; padding: 0px;" >
+                        <input type="file" id="customFile"> 
+                        <!-- <span class="button__icon">
                             <ion-icon name="cloud-upload-outline">
-                            </ion-icon>
+                            </ion-icon> -->
                         </span>
                     </button>
                 </div>
@@ -562,7 +560,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <img src="./img/erro.png" width="28px" height="28px" />
-                <h5 class="modal-title" id="exampleModalLabel">ERRO!
+                <h5 class="modal-title" id="exampleModalLabel">ALERTA!</h5>
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">
@@ -573,9 +571,9 @@
             <p class="text-center"> Por favor, faça login primeiro para acessar "Doação".</p>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary">Confirmar</button>
+                <button type="button" class="btn btn-primary"><a href="login.html" style="color: white" >Login</a></button>
             </div>
-        </div>
+        </div>.
     </div>
 </div>
 
