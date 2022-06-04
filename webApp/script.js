@@ -20,6 +20,7 @@ function cdsanimais() {
         <tr>${item.Idade}</td>
         <tr>${item.Porte}</td>
         <tr>${item.Sexo}</td>
+        <tr>${item.Descrição}</td>  
         <td><button type="button" class="btn btn-primary"></button></td>
         <td><button type="button" class="btn btn-danger"></button></td>
         </tr>`)
@@ -56,7 +57,7 @@ $(function () {
         let Idade = $("#txtIdade").val()
         let Porte = $("#txtPorte").val()
         let Sexo = $("#txtSexo").val()
-        let Descricao = $("#txtdescricao").val()
+        let Descricao = $("#txtDescrição").val()
 
 
         let registro = {}
@@ -65,7 +66,7 @@ $(function () {
         registro.Idade = Idade
         registro.Porte = Porte
         registro.Sexo = Sexo
-        registro.Descricao = Descricao
+        registro.Descrição = Descricao
 
 
 
@@ -82,7 +83,7 @@ $(function () {
         $("#txtIdade").val("")
         $("#txtPorte").val("")
         $("#txtSexo").val("")
-        $("#txtDescricao").val("")
+        $("#txtDescrição").val("")
 
         cdsanimais()
 
