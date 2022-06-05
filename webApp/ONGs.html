@@ -30,11 +30,11 @@
         crossorigin="anonymous"></script>
     <!-- <script src= "script.js" defer></script>
         <title>CRUD</title> -->
-    <script src="script.js" type="text/javascript" async></script>
+    <!-- <script src="script.js" type="text/javascript" async></script> -->
 
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script type="text/javascript" scr="js/ONGs.js" async></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script type="text/javascript" scr="js/ONGs.js" async></script> -->
 
 </head>
 <!DOCTYPE html>
@@ -347,6 +347,21 @@
     </div>
     <!-- Fim do Conteudo -->
 </body>
+<div class="row" style="margin-top: 20px">
+    <div class="col-md-12">
+
+        <table id="tbldados" class="table table-hover">
+            <!-- <a class="nav-link" href="minha_conta_historico.html"> Histórico de Doações</a> -->
+                <tr>
+                    <th scope="col">Valor doado</th>
+                    <th scope="col">Anexar comprovante</th>
+                </tr>
+            </thead> 
+           
+                                      
+        </table>
+    </div>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" role="dialog">
     <div class="modal-dialog">
@@ -365,14 +380,14 @@
                 <h5 class="text" id="exampleModalLabel">CHAVE PIX (CNPJ): 00.000.000/0000-00
                 </h5>
 
-                <label>Valor doado:</label>
+                <label for="">Valor doado:</label>
                 <div class="input-group mb-3">
                     <span class="input-group-text">R$</span>
                     <input type="number" class="form-control border"
                         aria-label="Dollar amount (with dot and two decimal places)">
                 </div>
                 <div class="text">
-                    <label> Anexar comprovante:</label>
+                    <label for=""> Anexar comprovante:</label>
                     <button type="button" class="button" style="width: 100%; padding: 0px;">
                         <input type="file" id="customFile">
                         <!-- <span class="button__icon">
@@ -384,7 +399,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary">Confirmar</button>
+                <button id="btnConfirmar" type="button" class="btn btn-primary" for="">Confirmar</button>
             </div>
 
         </div>
@@ -403,15 +418,16 @@
                     </span>
                 </button>
             </div>
-            <p class="text-center"> Por favor, faça login primeiro para acessar "Doação".</p>
+            <p class="text-center" for=""> Por favor, faça login primeiro para acessar "Doação".</p>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" for="">Cancelar</button>
                 <button type="button" class="btn btn-primary"><a href="login.html"
                         style="color: white">Login</a></button>
             </div>
         </div>.
     </div>
 </div>
+<script src="./ONGs_script.js"></script>
 
 <!-- <script type="text/javascript"> -->
 <!-- // var isLogged = false
@@ -428,7 +444,6 @@
     //     });
     // }); -->
 <!-- </script> -->
-
 </html>
 <!-- <button id="verificar-usuario-logado" class="btn btn-primary" btn-primary data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Doação </button> -->
