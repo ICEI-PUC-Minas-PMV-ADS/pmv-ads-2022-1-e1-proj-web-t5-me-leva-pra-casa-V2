@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+  <title>Me Leva Pra Casa - Cadastro</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configurando Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- Fim da Configuracao Bootstrap -->
+    <!-- Adicionando styles -->
+    <link rel="stylesheet" href="cadastro_style.css">
+    <!-- Fim Adicionando styles -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</head>
+
+<body onload="init()">
+    <!-- Menu Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+    <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="container-fluid">
+        <div class="row" style="justify-content: center; align-items: center;">
+          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
+              width="150px" height="150px"></a>
+          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+            <strong>Home</strong></a>
+          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
+            <strong>Doe</strong></a>
+          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+            href="adote.html"><strong>Adote</strong></a>
+          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+            href="ONGs.html"><strong>ONGs</strong></a>
+        </div>
+      </div>
+      <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
+        <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
+          placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+        <button class="btn btn-outline-primary my-2 my-sm-0 col-sm-4" type="submit"><img src="search.png"
+            width="20px;"></button>
+        <a class="nav-link" href="/webApp/login.html">Login</a> |
+        <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
+        <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+      </form>
+    </div>
+  </nav>
+    <!-- Fim da Navegacao -->
+    <h2>Cadastro de Usuários</h2>
+
+    <div class="container-fluid container-cadastro">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-usuario">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-8">
+                    <label for="inputNome">Nome (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Digite Nome completo">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputEmail">E-mail (*)</label>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="Digite o E-mail">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputCpf">CPF (*)</label>
+                    <input type="text" class="form-control" id="inputCpf" required placeholder="Digite o CPF">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputTelefone">Telefone (*)</label>
+                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Digite o Telefone">
+                </div>                
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputRua">Endereço</label>
+                    <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida" >
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputNumero">Número</label>
+                    <input type="text" class="form-control" id="inputNumero"  placeholder="Digite o Número">
+                </div>
+                <div class="col-sm-4">
+                    <label for="inputBairro">Bairro</label>
+                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro">
+                </div>
+            </div>
+            <div class="form-group row">    
+                <div class="col-sm-6">
+                    <label for="inputCidade">Cidade</label>
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade">
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputEstado">Estado</label>
+                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Cadastrar">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <a href="lista_usuarios.html"><input type="button" class="btn btn-warning" id="btnClear" value="Pesquisar Usuários"></a>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-usuarios" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">CPF</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col">Número</th>
+                            <th scope="col">Bairro</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-usuarios">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function exibeUsuarios() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-usuarios").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let usuario = db.data[i];    
+                $("#table-usuarios").append(`<tr><td scope="row">${usuario.id}</td>
+                                                <td>${usuario.nome}</td>
+                                                <td>${usuario.email}</td>
+                                                <td>${usuario.cpf}</td>
+                                                <td>${usuario.telefone}</td>
+                                                <td>${usuario.rua}</td>
+                                                <td>${usuario.numero}</td>
+                                                <td>${usuario.bairro}</td>
+                                                <td>${usuario.cidade}</td>
+                                                <td>${usuario.estado}</td>                                                
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-usuario')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                let campoEmail = $("#inputEmail").val();
+                let campoCpf = $("#inputCpf").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoRua = $("#inputRua").val();
+                let campoNumero = $("#inputNumero").val();
+                let campoBairro = $("#inputBairro").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoEstado = $("#inputEstado").val();                
+                let usuario = { nome: campoNome, 
+                    email: campoEmail,
+                    cpf: campoCpf,
+                    telefone: campoTelefone, 
+                    rua: campoRua, 
+                    numero: campoNumero,
+                    bairro: campoBairro,
+                    cidade: campoCidade,
+                    estado: campoEstado };
+
+                insertUsuario(usuario);
+
+                // Reexibe os usuarios
+                exibeUsuarios();
+
+                // Limpa o formulario
+                $("#form-usuario")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um usuário para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#inputNome").val();
+                let campoEmail = $("#inputEmail").val();
+                let campoCpf = $("#inputCpf").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoRua = $("#inputRua").val();
+                let campoNumero = $("#inputNumero").val();
+                let campoBairro = $("#inputBairro").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoEstado = $("#inputEstado").val();                
+                let usuario = { nome: campoNome, 
+                    email: campoEmail,
+                    cpf: campoCpf,
+                    telefone: campoTelefone, 
+                    rua: campoRua, 
+                    numero: campoNumero,
+                    bairro: campoBairro,
+                    cidade: campoCidade,
+                    estado: campoEstado };
+
+                updateUsuario(parseInt(campoId), usuario);
+
+                // Reexibe os usuários
+                exibeUsuarios();
+
+                // Limpa o formulario
+                $("#form-usuario")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um usuario a ser excluído.");
+                    return;
+                }
+                deleteUsuario(parseInt(campoId));
+
+                // Reexibe os usuários
+                exibeUsuarios();
+
+                // Limpa o formulario
+                $("#form-usuario")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Usuários
+            $("#btnClear").click(function () {
+                $("#form-usuario")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-usuarios").on("click", "tr", function (e) {
+                let linhaUsuario = this;
+                colunas = linhaUsuario.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                $("#inputEmail").val(colunas[2].innerText);
+                $("#inputCpf").val(colunas[3].innerText);
+                $("#inputTelefone").val(colunas[4].innerText);
+                $("#inputRua").val(colunas[5].innerText);
+                $("#inputNumero").val(colunas[6].innerText);
+                $("#inputComp").val(colunas[7].innerText);
+                $("#inputCidade").val(colunas[8].innerText);
+                $("#inputEstado").val(colunas[9].innerText);
+            });
+
+            exibeUsuarios();
+        }
+    </script>
+</body>
+
+</html>
