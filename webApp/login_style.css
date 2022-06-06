@@ -7,7 +7,7 @@
 .container-login{
     display: flex;
     justify-content: space-around;
-    padding: 55px;
+    padding: 51px;
 }
 
 .form-box{
@@ -15,38 +15,12 @@
 }
 .card{
     align-items: center;
-    width: 40%;
+    width: 29%;
     height: 100%;
 }
 
 .card .form-box{
     width: 75%;
-}
-
-.card .form-box .ul{
-display: flex;
-justify-content: center;
-}
-
-.card .form-box .ul li{
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 0 7px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.card .form-box .ul li:hover{
-    background: #ecf2f7;
-}
-
-.form-box .ul li img{
-    width: 40px;
 }
 
 .card .form-box h2{
@@ -97,11 +71,4 @@ justify-content: center;
     margin: auto;
     position: left;
     border-radius: 10px;
-}
-
-.fa-eye{
-    position: absolute;
-    top: 207px;
-    right: 85px;
-    cursor: pointer;
 }
