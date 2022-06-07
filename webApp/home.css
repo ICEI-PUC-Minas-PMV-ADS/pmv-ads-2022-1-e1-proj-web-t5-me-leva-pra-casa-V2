@@ -45,6 +45,7 @@ li > a {
     background-color: #f9f9f9;
     padding: 0.5rem;
     margin-top: 5px;
+    height: 100%;
 }
 .card h2 {
     color: #000;

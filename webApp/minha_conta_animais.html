@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="./fontawesome/css/">
     <!-- <link rel="stylesheet" href="nav.css"> -->
 </head>
 
@@ -94,6 +95,8 @@
                                 <th scope="col">Porte</th>
                                 <th scope="col">Sexo</th>
                                 <th scope="col">descricao</th>
+                                <th scope="col" style="width: 50px;"></th>
+                                <th scope="col" style="width: 50px;"></th>
                             </tr>
                         </thead>
                        
@@ -150,10 +153,21 @@
                                     <input id="txtDescricao" type="text" class="form-control" placeholder="digite a descrição"/>
                                 </div>
                             </div>
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+
+                                    <label for="">Imagem</label>
+
+                                    <input id="txtImagem" type="text" class="form-control" placeholder="link imagem do animal"/>
+
+                                </div>
+
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                            <button id="btnSalvar" type="button" class="btn btn-primary">Salvar</button>
+                            <button onclick="cadastraAnimais()" type="button" class="btn btn-primary">Salvar</button>
                         </div>
                     </div>
                 </div>

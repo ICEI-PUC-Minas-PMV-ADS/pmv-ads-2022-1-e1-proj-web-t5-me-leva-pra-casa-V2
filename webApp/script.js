@@ -1,105 +1,56 @@
-var dados = [
-
-]
-localStorage.setItem("__dados__", JSON.stringify(dados))
-renderDataInTheTable(JSON.parse(localStorage.getItem("__dados__")))
-
-function cdsanimais() {
-    if (Array.isArray(dados)) {
-
-        localStorage.setItem("__dados__", JSON.stringify(dados))
-
-        $("#tbldados tbody").html("")
-
-        dados.forEach(function (item) {
-
-            // template string
-            $("#tbldados tbody").append(`<tr>
-        <tr>${item.ID}</td>
-        <tr>${item.Nome}</td>
-        <tr>${item.Idade}</td>
-        <tr>${item.Porte}</td>
-        <tr>${item.Sexo}</td>
-        <td><button type="button" class="btn btn-primary"></button></td>
-        <td><button type="button" class="btn btn-danger"></button></td>
-        </tr>`)
-        })
-
-    }
+// setando dados iniciais
+let dados = buscaDadosLocalStorage() || [];
+renderizaDadosNaTabela(dados)
+function buscaDadosLocalStorage() {
+    return JSON.parse(localStorage.getItem("__dados__"));
 }
-
-function renderDataInTheTable(todos) {
-    const mytable = document.getElementById("tbldados");
-    todos.forEach(todo => {
-        let newRow = document.createElement("tr");
-        Object.values(todo).forEach((value) => {
-            let cell = document.createElement("td");
-            cell.innerText = value;
-            newRow.appendChild(cell);
-        })
-        mytable.appendChild(newRow);
+function atualizaLocalStorage(dados) {
+    localStorage.setItem("__dados__", JSON.stringify(dados))
+}
+function cadastraAnimais() {
+    const Nome = document.querySelector('#txtNome')?.value;
+    const Idade = document.querySelector('#txtIdade')?.value;
+    const Porte = document.querySelector('#txtPorte')?.value;
+    const Sexo = document.querySelector('#txtSexo')?.value;
+    const Descricao = document.querySelector('#txtDescricao')?.value;
+    const Imagem = document.querySelector('#txtImagem')?.value;
+    const registro = {
+        Id: Math.floor(Math.random() * 10), // inserindo ID aletório
+        Nome,
+        Idade,
+        Porte,
+        Sexo,
+        Descricao,
+        Imagem
+    }
+    dados.push(registro)
+    atualizaLocalStorage(dados);
+    renderizaDadosNaTabela([registro])
+    alert("Registro salvo com sucesso")
+    $("#modalRegistro").modal("hide")
+    limpaModal()
+}
+function limpaModal() {
+    $("#txtNome").val("")
+    $("#txtIdade").val("")
+    $("#txtPorte").val("")
+    $("#txtSexo").val("")
+    $("#txtDescricao").val("")
+}
+function renderizaDadosNaTabela(itens) {
+    if(!itens) {
+        return;
+    }
+    const tabela = document.getElementById("tbldados");
+    itens.forEach(item => {
+        let novaLinha = document.createElement("tr");
+        for (const [key, value] of Object.entries(item)) {            
+            if(key !== 'Imagem') {
+                let celula = document.createElement("td");
+                celula.innerText = value;
+                novaLinha.appendChild(celula);
+            }
+        }
+        tabela.appendChild(novaLinha);
     });
 }
-
-
-$(function () {
-    //Executa ao carregar a tela 
-    dados = JSON.parse(localStorage.getItem("__dados__"))
-    if (dados) {
-        cdsanimais()
-    }
-
-    $("#btnSalvar").click(function () {
-        //Evento click do botão salvar
-
-        let Nome = $("#txtNome").val()
-        let Idade = $("#txtIdade").val()
-        let Porte = $("#txtPorte").val()
-        let Sexo = $("#txtSexo").val()
-        let Descricao = $("#txtdescricao").val()
-
-
-        let registro = {}
-        registro.id = Math.floor(Math.random() * 10)
-        registro.Nome = Nome
-        registro.Idade = Idade
-        registro.Porte = Porte
-        registro.Sexo = Sexo
-        registro.Descricao = Descricao
-
-
-
-        dados.push(registro)
-        localStorage.setItem("__dados__", JSON.stringify(dados))
-        renderDataInTheTable(dados)
-
-        alert("Registro salvo com sucesso")
-        $("#modalRegistro").modal("hide")
-
-        //Limpeza dos campos 
-
-        $("#txtNome").val("")
-        $("#txtIdade").val("")
-        $("#txtPorte").val("")
-        $("#txtSexo").val("")
-        $("#txtDescricao").val("")
-
-        cdsanimais()
-
-
-    })
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
