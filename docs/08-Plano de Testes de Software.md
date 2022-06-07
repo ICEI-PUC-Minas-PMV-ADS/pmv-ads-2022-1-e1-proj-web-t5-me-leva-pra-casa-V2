@@ -10,6 +10,44 @@
 
 
 ## Testes ONGS:
+ Teste de Reponsividade
+  - Testar a responsividade dos elementos da tela em diferentes tamanhos e formatos.
+   
+  Resultado:
+  - Tela repsonsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge)
+
+
+  Testes de Botões:
+  - Verficiar se os botões estão realizando as funções de forma correta.
+
+  Resultado:
+  - O botão DOAÇÃO funciona corretamente abrindo a janela modal para realizar o procedimento.
+  - Dentro do modal o botão CANCELAR não funciona 100% uma vez que ao preencher os campos e clicar no botão, quando realizado o processo de clicar em DOAÇÃO novamente as informações preenchidas anteriormente são mantidas. Mas o botão cumpre em parte sua função uma vez que ao clicar sobre ele a janela modal é fechada.
+  - Dentro do modal o botão CONFIRMAR funciona parcialmente, ele mostra uma mensagem de sucesso, contudo os dados preenchidos no formulário não são registrados no Local Storage.
+  - Ainda dentro do modal o botão ANEXAR COMPROVANTE funciona adequadamente permitindo que o usuário escolha uma imagem ou arquivo PDF com o comprovante de pagamento.
+
+
+  Teste de Preenchimento dos Campos
+  - Verificar se os valores inseridos no campo do valor da doação são validados
+
+  Resultado:
+  - Dentro deste campo é possivel preencher apenas número, contudo não é feita a distinção entre número positivos e negativos, e não há obrigatoriedade de preencher a casa dos centavos.
+
+
+  Teste de Funcionalidade
+  - Verificar se os requisitos básicos para que seja feita a doação são verificados antes de efetivar a ação.
+
+  Resultado:
+  - Não há obrigatoriedade de fazer Login para eftivar a doação, consequentemente não há como identificar a transação feita pelo usuário.
+
+
+  Teste de Integração
+  - Verificar se as informações apresentadas na página estão de alguma forma vinculada com as informações das demais páginas.
+
+  Resultado:
+  - A tela das ONGs cadastradas para doação não puxa a informação dos usuários CNPJ cadastrados na plataforma para compor a página, ela ainda encontra-se estática sem receber dados de uma outra fonte.
+  - O comprovante e valores informados para doação não são registrados na aba HISTÓRICO DE DOAÇÕES que se encontra dentro da janela MINHA CONTA.
+
 
 
 ## Testes LOGIN:
