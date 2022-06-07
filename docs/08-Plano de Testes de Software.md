@@ -15,28 +15,26 @@
 ## Testes LOGIN:
 
 Objetivo: testar a responsividade no smartphone e navegabilidade.
-- Dimensões smartphone ( iPhone Se, XR, 12 Pro, Galaxy S8+,  Galaxy S20 Ultra): não responsivo,
+- Dimensões smartphone (iPhone Se, XR, 12 Pro, Galaxy S8+,  Galaxy S20 Ultra): não responsivo,
 - Dimensões da navegabilidade (1434 x 1776):  responsivo.
 
 Execução da responsividade: Navegabilidade responsivo, dimensões de smartphones não responsivos.
 
-Objetivo: testar os campos
-- Local do e-mail: aceita letras e números,
-- Local da senha: permitindo letras e números,
-- Local lembre-me: botão clicável,
-- Local esqueceu a senha: não funcional,
-- Local cadastre-se: botão corresponde,
-- Local outras formas de login: não funcional.
+Objetivo: testar os campos.
+- Local do e-mail: aceita letras e números
+- Local da senha: permitindo letras e números.
+- Local cadastre-se: botão corresponde
 
-Execução dos campos: esqueceu a senha e as formas de login não funcionam. 
+Execução dos campos: permite inserir dados. 
 
 
-Objetivo: testar a funcionalidade
-- Local da senha: olho mágico funcional
-- Local lembre-me: tem aviso de salva ou não a senha as vezes pega.
+
+Objetivo: testar a funcionalidade.
+- Local vamos lá: com alerta correspondente.
 - Local cadastre-se: leva para o local de cadastre-se.
 
-Execução das funcionalidades: apresentando erros ao clicar em esqueci minha senha e de entrar com outros formatos como o Google e Facebook. 
+Execução das funcionalidades: funcionam, falta local para recuperar a senha e deixar conectado. 
+ 
 
 
 ## Testes CADASTRE-SE:
