@@ -1,15 +1,15 @@
 # Plano de Testes de Software
 
-Testes INICIO:
+# Testes INICIO:
 
 
-Testes DOE:
+# Testes DOE:
 
 
-Testes ADOTE:
+# Testes ADOTE:
 
 
-Testes ONGS:
+# Testes ONGS:
 
 
 # Testes LOGIN:
@@ -39,11 +39,11 @@ Objetivo: testar a funcionalidade
 Execução das funcionalidades: apresentando erros ao clicar em esqueci minha senha e de entrar com outros formatos como o Google e Facebook. 
 
 
-Testes CADASTRE-SE:
+# Testes CADASTRE-SE:
 
 
 
-Testes MINHA CONTA:
+# Testes MINHA CONTA:
 
 
 
