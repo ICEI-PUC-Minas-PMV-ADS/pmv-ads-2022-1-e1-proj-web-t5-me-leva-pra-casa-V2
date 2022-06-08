@@ -1,6 +1,30 @@
 # Plano de Testes de Software
 
 ## Testes INICIO:
+ Teste de Responsividade
+  - Testar a responsividade da tela em outros tamanhos: Mobile, tablet e laptop.
+   
+  Resultado:
+  - Tela responsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge)
+
+
+  Testes de Botões:
+ Verificar se os botões estão realizando as funções de forma correta.
+
+
+  Resultado:
+  - O botão SAIBA MAIS do card CAMPANHA DE VACINAÇÃO não está executando nenhuma função
+  - O botão SAIBA MAIS do card CAMPANHA DE ADOÇÃO não está executando nenhuma função
+  
+COPYRIGHT
+Teste Funcionalidade cadastro
+
+
+ Resultado:
+- Botão CADASTRAR USUARIO funcionando corretamente.
+- Caixa NOME está permitindo adicionar números e caracteres especiais
+- Caixa CELULAR está permitindo adicionar letras e caracteres especiais
+- Caixa CIDADE DO USUÁRIO está permitindo adicionar números e caracteres especiais
 
 
 ## Testes DOE:
