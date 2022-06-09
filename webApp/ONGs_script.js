@@ -61,12 +61,12 @@
     
             localStorage.setItem("__dados__", JSON.stringify(dados))
     
-            $("#tbldados tbody").html("")
+            $("#informativos tbody").html("")
     
             dados.forEach(function (item) {
     
                 // template string
-                $("#tbldados tbody").append(`<tr>
+                $("#informativos tbody").append(`<tr>
             <tr>${item.ID}</td>
             <tr>${item.Valordoado}</td>
             <tr>${item.Anexarcomprovante}</td>
