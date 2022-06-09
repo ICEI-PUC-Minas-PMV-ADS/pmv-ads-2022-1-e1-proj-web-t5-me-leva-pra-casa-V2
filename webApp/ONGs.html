@@ -11,7 +11,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="template-jéssica/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="script.js" defer></script>
     <title>CRUD</title>
     <!-- Fim da Configuracao Bootstrap -->
@@ -28,15 +28,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <!-- <script src= "script.js" defer></script>
-        <title>CRUD</title> -->
-    <!-- <script src="script.js" type="text/javascript" async></script> -->
-
-
-    <!-- <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script type="text/javascript" scr="js/ONGs.js" async></script> -->
-
 </head>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,85 +37,40 @@
     <!-- Menu Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
         <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <div class="container-fluid">
-                <div class="row" style="justify-content: center; align-items: center;">
-                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
-                            src="Logo.png" width="150px" height="150px"></a>
-                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
-                        <strong>Home</strong></a>
-                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
-                        <strong>Doe</strong></a>
-                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                        href="adote.html"><strong>Adote</strong></a>
-                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                        href="ONGs.html"><strong>ONGs</strong></a>
-                </div>
+          <div class="container-fluid">
+            <div class="row" style="justify-content: center; align-items: center;">
+              <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
+                  width="150px" height="150px"></a>
+              <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+                <strong>Home</strong></a>
+              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
+                <strong>Doe</strong></a>
+              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                href="adote.html"><strong>Adote</strong></a>
+              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                href="ONGs.html"><strong>ONGs</strong></a>
             </div>
-            <form class="form-inline my-2 my-lg-0"
-                style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST"
-                enctype="multipart/form-data">
-                <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
-                    placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
-                <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
-                        src="search.png" width="20px;"></button>
-                <a class="nav-link" href="login.html">Login</a> |
-                <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
-                <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
-            </form>
+          </div>
+          <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
+            <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
+              placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+            <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
+              type="submit"><img src="search.png" width="20px;"></button>
+            <a class="nav-link" href="login.html">Login</a> |
+            <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
+            <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+          </form>
         </div>
-    </nav>
+      </nav>
     <!-- Fim da Navegacao -->
+
     <!-- Inicio do conteudo-->
     <div class="container-fluid mt-3 card" style="width: 80%; padding: 10px;">
         <div class="container">
-            <!-- <div class="row">
-                <div class="col">
-                    <div class="card-border-0 mb-3 ">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">NOME DA ONG</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                    <div class="d-grid gap-2 col-6 mx-auto">
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal" type="button">Doação
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-border-0 mb-3">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/fundo-cinza.png" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">NOME DA ONG</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                    <div class="d-grid gap-2 col-6 mx-auto">
-                                        <button class="btn btn-primary" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal1" type="button">Doação
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
         <div class="row">
             <div class="col">
@@ -483,7 +431,6 @@
     <div class="col-md-12">
 
         <table id="tbldados" class="table table-hover">
-            <!-- <a class="nav-link" href="minha_conta_historico.html"> Histórico de Doações</a> -->
                 <tr>
                     <th scope="col">Valor doado</th>
                     <th scope="col">Anexar comprovante</th>
@@ -494,7 +441,7 @@
         </table>
     </div>
 </div>
-<!-- Modal -->
+<!-- Modal Botoes -->
 <div class="modal fade" id="exampleModal" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -522,9 +469,6 @@
                     <label for=""> Anexar comprovante:</label>
                     <button type="button" class="button" style="width: 100%; padding: 0px;">
                         <input type="file" id="customFile">
-                        <!-- <span class="button__icon">
-                            <ion-icon name="cloud-upload-outline">
-                            </ion-icon> -->
                         </span>
                     </button>
                 </div>
@@ -559,23 +503,6 @@
         </div>.
     </div>
 </div>
+<!-- Script JS-->
 <script src="./ONGs_script.js"></script>
-
-<!-- <script type="text/javascript"> -->
-<!-- // var isLogged = false
-    // $(document).ready(function () {
-    //     $("#peitinho").click(function () {
-    //         if (isLogged) {
-    //             $("#exampleModal").modal('show');
-    //             console.log("USUARIO LOGADO");
-    //         } else {
-    //             $("#exampleModal1").modal('show');
-    //             console.log("USUARIO NÃ0 LOGADO");
-    //         }
-
-    //     });
-    // }); -->
-<!-- </script> -->
 </html>
-<!-- <button id="verificar-usuario-logado" class="btn btn-primary" btn-primary data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        type="button">Doação </button> -->
