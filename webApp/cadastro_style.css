@@ -42,28 +42,32 @@ li > a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
-    padding: 0.5rem;
+    background-color: #f9f9f9;
+    padding: 0.3rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3px;
     margin-bottom: 5px;
-    width: 90%;
-    border-radius: 4px;
+    width: 98%;
+    border-radius: 10px;
+}
+.container-cadastro input {
+    border: none;
+    
 }
 label {
     font-weight: bolder;
 
 }
 ::placeholder {
-    color: lightskyblue !important;
+    color: #000 !important;
     opacity: 3;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:  lightskyblue !important;
+    color:  #000 !important;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:  lightskyblue !important;
+    color:  #000 !important;
     opacity:  3;
  }
  h2 {

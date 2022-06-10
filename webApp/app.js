@@ -11,7 +11,8 @@ var db_usuarios_inicial = {
             "numero": "5",
             "bairro": "Centro",
             "cidade": "Londrina",
-            "estado": "Paraná"
+            "estado": "Paraná",
+            "senha": "1234567"
                    
         },
         {
@@ -24,7 +25,8 @@ var db_usuarios_inicial = {
             "numero": "308",
             "bairro": "Centro",
             "cidade": "Belo Horizonte",
-            "estado": "Minas Gerais"
+            "estado": "Minas Gerais",
+            "senha": "7654321"
         },
         {
             "id": 3,
@@ -36,7 +38,8 @@ var db_usuarios_inicial = {
             "numero": "30",
             "bairro": "Centro",
             "cidade": "Curvelo",
-            "estado": "Minas Gerais"
+            "estado": "Minas Gerais",
+            "senha": "7654322"
         }
        
     ]
@@ -68,8 +71,10 @@ function insertUsuario(usuario) {
         "numero": usuario.numero,
         "bairro": usuario.bairro,
         "cidade" : usuario.cidade,
-        "estado": usuario.estado
+        "estado": usuario.estado,
+        "senha": usuario.senha
     };
+
 
     // Insere o novo objeto no array
     db.data.push(novoUsuario);
@@ -92,9 +97,10 @@ function updateUsuario(id, usuario) {
     db.data[index].numero = usuario.numero,
     db.data[index].bairro = usuario.bairro,
     db.data[index].cidade = usuario.cidade,
-    db.data[index].estado = usuario.estado
+    db.data[index].estado = usuario.estado,
+    db.data[index].senha = usuario.senha
 
-    displayMessage("usuario alterado com sucesso");
+    displayMessage("Usuário alterado com sucesso");
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_usuario', JSON.stringify(db));
