@@ -4,65 +4,19 @@
     box-sizing: border-box;
 }
 
-.container-login{
-    display: flex;
-    justify-content: space-around;
-    padding: 51px;
+#LoginScreen{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
 }
 
-.form-box{
-    text-align: center;
-}
-.card{
-    align-items: center;
-    width: 29%;
-    height: 100%;
-}
-
-.card .form-box{
-    width: 75%;
-}
-
-.card .form-box h2{
-    font-weight: 600;
-    font-size: 2em;
-    margin-bottom: 15px;
+.card .card-body h3{
     text-align: center;
 }
 
-.card .form-box .input-box{
-    margin-bottom: 10px;
-}
-
-.form-box .input-box input{
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    font-weight: 400;
-    border: none;
-    font-size: 15px;
-    background-color: #ecf2f7;
-    border-radius: 3px;
-}
-
-.input-box input[type="submit"]{
-    cursor: pointer;
-    background: #2c80fd;
-    font-weight: 385;
-    color: white;
-    transition: all .2s ease-out;
-}
-
-.input-box input[type="submit"]:hover{
-    background-color: #1468e7;
-    color: white;
-}
-
-.card .form-box .input-box input::placeholder {
-    text-align: center;
-}
-
-.container-login .card .form-box h2::after{
+.card .card-body h3::after{
     content: '';
     display: block;
     width: 90px;
@@ -71,4 +25,8 @@
     margin: auto;
     position: left;
     border-radius: 10px;
+}
+
+.card .card-body .form-group input::placeholder{
+    text-align: center;
 }
