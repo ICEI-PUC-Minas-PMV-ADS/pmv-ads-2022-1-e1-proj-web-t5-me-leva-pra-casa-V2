@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <HTML>
-
 <head>
     <title>Me Leva Pra Casa - Histórico de Doações</title>
     <meta charset="utf-8">
@@ -9,10 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="./fontawesome/css/">
     <!-- <link rel="stylesheet" href="nav.css"> -->
 </head>
-
 <body>
     <!-- Menu Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
@@ -43,7 +40,7 @@
                 <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
                         src="search.png" width="20px;"></button>
                 <a class="nav-link" href="login.html">Login</a> |
-                <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
+                <a class="nav-link" href="cadastro.html">Cadastre-se</a> |
                 <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
             </form>
         </div>
@@ -61,7 +58,6 @@
                 href="minha_conta_animais.html"><strong>Animais</strong></a>
         </li>
     </ul>
-
     <!-- Área de Conteúdo -->
     <ul class="nav nav-tabs mt-5 bg-white" style="max-width: 80%; margin: auto;">
         <div class="container-fluid">
@@ -79,13 +75,10 @@
                         data-target="#modalRegistro">
                         Adicionar animal
                     </button>
-
-
                 </div>
             </div>
             <div class="row" style="margin-top: 20px">
                 <div class="col-md-12">
-
                     <table id="tbldados" class="table table-hover">
                         <thead>
                             <tr>
@@ -95,19 +88,17 @@
                                 <th scope="col">Porte</th>
                                 <th scope="col">Sexo</th>
                                 <th scope="col">descricao</th>
-                                <th scope="col" style="width: 50px;"></th>
-                                <th scope="col" style="width: 50px;"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
                             </tr>
                         </thead>
-                       
-                                                  
+                       <tbody id="corpoTabela">
+                       </tbody>                       
                     </table>
                 </div>
             </div>
         </div>
-
         <!-- Modal -->
-
         <div class="modal fade" id="modalRegistro" tabindex="-1" role="dialog" aria-labelledby="modalRegistro"
             aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
@@ -154,15 +145,10 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-
                                 <div class="form-group">
-
                                     <label for="">Imagem</label>
-
                                     <input id="txtImagem" type="text" class="form-control" placeholder="link imagem do animal"/>
-
                                 </div>
-
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -174,64 +160,38 @@
             </div>
     </ul>
 /
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- <br>
     <div class="col col-md-2" style="justify-content:center; margin: auto;">
         <button onclick="acao()" class="btn btn-primary" type"button">Adicionar Animais</button>
     </div> -->
     <!--Modal-->
-
-
     <!-- <div class="modal" id="animais">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <img class="img-fluid " src="./img/fundo-cinza.png" alt="fotodog"> -->
-
     <!--Campo 1-->
-
     <!-- <div class="mb-3">
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome do animal">
                         <div class="col-12">
                             <label class="visually-hidden" for="inlineFormSelectPref">Idade</label>
                             <select class="form-select" id="inlineFormSelectPref">
-
                                 <option value="1">Filhote</option>
                                 <option value="2">Adulto</option>
                                 <option value="3">Senior</option>
                             </select>
-
                         </div>
                         <div class="mb-3">
                             <div class="col-12">
                                 <label class="visually-hidden" for="inlineFormSelectPref">Porte</label>
                                 <select class="form-select" id="inlineFormSelectPref">
-
                                     <option value="1">Pequeno</option>
                                     <option value="2">Medio</option>
                                     <option value="3">Grande</option>
                                 </select>
-
                             </div>
-
                         </div>
                     </div>
-
                     <button onclick="fechar()" type="button" class="btn-close" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -246,14 +206,8 @@
             </div>
         </div>
     </div> -->
-
-
-
-
-
-
 </body>
-
+<script src="https://kit.fontawesome.com/0e525cd007.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -264,5 +218,4 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 <script src="./script.js"></script>
-
 </HTML>
