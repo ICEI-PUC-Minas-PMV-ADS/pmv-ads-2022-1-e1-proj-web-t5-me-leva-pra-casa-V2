@@ -43,7 +43,7 @@ Teste de Responsividade
   - Verificar se os botões estão realizando as funções de forma correta.
 
   Resultado:
-  - O botão ADICIONAR ANIMAIS funciona corretamente abrindo a janela modal para realizar o procedimento, abrindo a tela modal.
+  - O botão ADICIONAR ANIMAIS funciona corretamente abrindo a janela modal para realizar o procedimento.
   - Na tela ADOTE, o botão CLICK ME dos cards de animais, não exibe nenhum resultado no momento.
   - Dentro do modal o botão SALVAR funciona corretamente.
   - Dentro do modal o botão FECHAR funciona corretamente.
