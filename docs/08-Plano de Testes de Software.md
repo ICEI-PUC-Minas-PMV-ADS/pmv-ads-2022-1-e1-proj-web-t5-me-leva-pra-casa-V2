@@ -32,6 +32,42 @@ Teste Funcionalidade cadastro
 
 
 ## Testes ADOTE:
+Teste de Reponsividade
+  - Testar a responsividade dos elementos da tela em diferentes tamanhos e formatos.
+   
+  Resultado:
+  - Tela repsonsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge).
+
+
+  Testes de Botões:
+  - Verficiar se os botões estão realizando as funções de forma correta.
+
+  Resultado:
+  - O botão ADICIONAR ANIMAIS funciona corretamente abrindo a janela modal para realizar o procedimento, abrindo a tela modal.
+  - Na tela ADOTE, o botão CLICK ME dos cards de animais, não exibe nenhum resultado no momento.
+  - Dentro do modal o botão SALVAR funciona corretamente.
+  - Dentro do modal o botão FECHAR funciona corretamente.
+  
+
+  Teste de Preenchimento dos Campos
+  - Verificar se os valores inseridos no campo do valor da doação são validados.
+
+  Resultado:
+  - Não há restrição nos campos, quanto a letras, números, caracteres especiais ou campo vazio dentro da tela modal, sendo salvos normalmente.
+
+
+  Teste de Funcionalidade
+  - Verificar se os requisitos estabelecidos na programação de funcionalidades da tela foram atendidos. 
+
+  Resultado:
+  - Os requisitos foram atendidos, porém a descrição não é exibida no card do pet. Se não houver inserido animais inicialmente, no Local Storage a tela não exibe nenhum pet para novos usuários que ainda não tenham se cadastrado. Deve-se clicar no ícone ADOTE e depois no ícone MINHA CONTA, então em ANIMAIS, abrindo-se o modal para Cadastro de Animais para a inserção dos pets.
+
+
+  Teste de Integração
+  - Verificar se as informações apresentadas na página estão de alguma forma vinculada com as informações das demais páginas.
+
+  Resultado:
+  - A tela ADOTE está vinculada à tela INICIAL e também à opção MINHA CONTA e ANIMAIS, onde são cadastrados os animais para adoção.
 
 
 ## Testes ONGS:
