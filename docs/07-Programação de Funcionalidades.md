@@ -26,22 +26,70 @@ RF-01, RF-02, RF-04, RF-05, RF-08, RF-09, RF-10, RF-11
 	- img/
 	- template/
 
-**Tela Adote**
+**Tela Adote** `Dev Warlen`
 
-Tela que será exibido diversas opções de animais para adoção. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
+Tela que será exibido diversas opções de animais para adoção. Todos os dados são armazenadas no LocalStorage.
 
-
+<div style="text-align:center">                            
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/101758971/173205284-8033a943-7cbe-4d48-92aa-4d89a0f2ce79.jpg" width="700px" />
+</div>
 
 **Requisitos atendidos**
 
-RF-01, RF-09, RF-10, RF-11, RF-12, RF-13, RF-16, RF-24 
+RF-01, RF-06, RF-07, RF-12, 
 
 **Artefatos da funcionalidade**
 
 	- adote.html
+	- adote.js
+      - style.css
+	- template/
+
+**Tela modal cadastro animais** `Dev Warlen`
+
+Tela que será Feito o cadastro de animais para adoção. Todos os dados são armazenadas no LocalStorage.
+
+<div style="text-align:center">                            
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/101758971/173205690-518212db-c345-4755-8dea-46cac9c41eca.jpg" width="700px" />
+</div>
+
+**Requisitos atendidos**
+
+RF-13 
+
+**Artefatos da funcionalidade**
+
+	- minha_conta_animais.html
 	- script.js
-	- style.css
-	- img/
+      - style.css
+	- template/
+
+**Tela cadastro animais** `Dev Warlen`
+
+Tela que será feita a visualização e edição dos animais disponíveis para adoção. Todos os dados são armazenadas no LocalStorage.
+
+<div style="text-align:center">                            
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/101758971/173205852-49f3138e-b288-4b24-b5ba-27b1b329c74a.jpg" width="700px" />
+</div>
+
+**Requisitos atendidos**
+
+RF-01, RF-06, RF-07, RF-12, RF-17
+
+**Artefatos da funcionalidade**
+
+	- minha_conta_animais.html
+	- script.js
+      - style.css
 	- template/
 
 **Tela Doe**
