@@ -204,7 +204,8 @@ function btnConfirmDonnationClick() {
 
     var donateValue = elemDonation.value
     var attachmentFileName = ""
-    if (!elemAttachment.files[0].name.length === 0) {
+    if (elemAttachment.files.length > 0) {
+        console.log("entrou o comprovante: ")
         attachmentFileName = elemAttachment.files[0].name
     }
     
@@ -264,6 +265,8 @@ function btnConfirmDonnationClick() {
 // FIM - VALIDANDO MODAL DE DOACAO
 
 function exibeDoacoes() {
+
+    // limpartudo();
     let db = JSON.parse(localStorage.getItem('db_doacao'));
     console.log("entrou em exibeDoacoes: " + db.data.length)
     $("#table-doacoes").html("");
@@ -278,4 +281,9 @@ function exibeDoacoes() {
                                     </tr>`);
         console.log("BUSCOU: "+ doacao.nomeONG)
     }
+}
+
+
+function limpartudo() {
+    localStorage.setItem('db_doacao', JSON.stringify(db_doacoes_inicial));
 }
