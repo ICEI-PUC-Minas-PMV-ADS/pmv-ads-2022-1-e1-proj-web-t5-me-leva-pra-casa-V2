@@ -30,7 +30,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<body>
+<body id="ongs" onload="loadPage()">
     <!-- Menu Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
         <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -289,7 +289,7 @@
                         <div class="text">
                             <label for=""> Anexar comprovante:</label>
                             <button type="button" class="button" style="width: 100%; padding: 0px;">
-                                <input type="file" id="customFile">
+                                <input type="file" id="anexarComprovante">
                                 </span>
                             </button>
                         </div>
@@ -298,7 +298,7 @@
             </div>
             <div class="modal-footer">
                 <button id="bntCancel" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button id="btnConfirmar" type="button" class="btn btn-primary">Confirmar</button>
+                <button id="btnConfirmar" type="button" onclick="btnConfirmDonnationClick()" class="btn btn-primary">Confirmar</button>
             </div>
         </div>
     </div>

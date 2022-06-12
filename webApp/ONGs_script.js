@@ -80,10 +80,17 @@ function inicializaDadosONGs() {
     }
 }
 
-window.addEventListener('load', function () {
+var bodyId = document.body.id;
+function loadPage() {
     progressBarAnimation();
-    inicializaDadosONGs();
-})
+    
+    console.log("PASSOU PELO  loadPage: " + bodyId)
+    if (bodyId == "ongs") {
+        inicializaDadosONGs();
+    } else {
+        exibeDoacoes()
+    }
+}
 
 var i = 0;
 function progressBarAnimation() {
@@ -117,10 +124,12 @@ function fadeOutEffectInProgressBar() {
         } else {
             elem.style.display = "none"
             clearInterval(fadeEffect);
-            for (let i = 0; i < 4; i++) {
-                var ongsid = 'ongsRow' + i;
-                var elemRow = document.getElementById(ongsid);
-                elemRow.style.display = "flex"
+            if (bodyId == "ongs") {
+                for (let i = 0; i < 4; i++) {
+                    var ongsid = 'ongsRow' + i;
+                    var elemRow = document.getElementById(ongsid);
+                    elemRow.style.display = "flex"
+                }
             }
         }
     }, 200);
@@ -129,11 +138,19 @@ function fadeOutEffectInProgressBar() {
 
 // INICIO -LOGADO OU NAO LOGADO
 var buttonDonnationIdClicked = ""
+
 function btnDonnationClick(id) {
     var isLogged = 'loggedIn'
     if (isLogged == 'loggedIn') {
         var elem = document.getElementById('modal-title-donnationModal');
-        elem.innerText = "TESTE" // BUSCAR O NOME DA ONGS
+        let lastCharacterId = parseInt(id.slice(-1)); //btn-card-1
+        let findId = lastCharacterId + 1
+        for (i = 0; i < dbOngs.data.length; i++) {
+            let ong = dbOngs.data[i];
+            if (ong.id == findId) {
+                elem.innerText = ong.nomeONG
+            }
+        }
         $("#donnationModal").modal('show');
     } else {
         $("#warningLoginModal").modal('show');
@@ -143,6 +160,14 @@ function btnDonnationClick(id) {
 // FIM -LOGADO OU NAO LOGADO
 
 // INICIO - VALIDANDO MODAL DE DOACAO
+
+var db_doacoes_inicial = {
+    "data": [
+        
+    ]
+}
+
+var db_doacao = db_doacoes_inicial
 
 function formatValue() {
     var elem = document.getElementById('valueDonation');
@@ -172,67 +197,85 @@ function btnConfirmDonnationClick(elem) {
     elem.prop("disabled", true);
 }
 
-$(function () {
-    $("#btnConfirmar").click(function () {
+function btnConfirmDonnationClick() {
+    var buttonId = document.getElementById('btnConfirmar');
+    var elemDonation = document.getElementById('valueDonation');
+    var elemAttachment = document.getElementById('anexarComprovante');
 
-        var elementvalordaDoacao = document.getElementById('valueDonation');
+    var donateValue = elemDonation.value
+    var attachmentFileName = ""
+    if (!elemAttachment.files[0].name.length === 0) {
+        attachmentFileName = elemAttachment.files[0].name
+    }
+    
+    var ongName = ""
 
-        var elementanexarComprovante = document.getElementById('anexarComprovante');
+    if (donateValue == '0.00') {
+        console.log("valor zerado - ERRO")
+        var inputDonation = document.getElementById('valueDonation');
+        inputDonation.after("<div class='invalid-feedback'> Para continuar a doação precisa ser maior que R$ 0,00 </div>")
+        console.log("entrou ERRO: ")
+    } else {
 
-        var donateValue = elementvalordaDoacao.value
+        $(buttonId).prop("disabled", true);
+        $(buttonId).html(
+            `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...`
+        );
 
-        if (donateValue == '0.00') {
-            console.log("valor zerado - ERRO")
-            var inputDonation = document.getElementById('valueDonation');
-            inputDonation.after("<div class='invalid-feedback'> Para continuar a doação precisa ser maior que R$ 0,00 </div>")
-            console.log("entrou ERRO: ")
-        } else {
-
-            $(this).prop("disabled", true);
-            $(this).html(
-                `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...`
-            );
-
-            // AQUI VAMOS SALVAR NO LOCAL STORAGE
-
-            // VALOR DA DOACAO E COM PROVANTE
-
+        let lastCharacterId = parseInt(buttonDonnationIdClicked.slice(-1)); //btn-card-1
+        let findId = lastCharacterId + 1
+        for (i = 0; i < dbOngs.data.length; i++) {
+            let ong = dbOngs.data[i];
+            if (ong.id == findId) {
+                ongName = ong.nomeONG
+            }
         }
 
+        var actualDate = new Date();
+        var dd = String(actualDate.getDate()).padStart(2, '0');
+        var mm = String(actualDate.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = actualDate.getFullYear();
 
-        // $("#btnFetch").click(function() {
-        //     // disable button
+        actualDate = mm + '/' + dd + '/' + yyyy;
 
-        //     // add spinner to button
+        let randomId = Math.random()
 
-        // });
+        let novaDoacao = {              
+            "id": randomId,
+            "nomeONG": ongName,
+            "valorDoado": donateValue,
+            "date": actualDate,
+            "nomeDoComprovante": attachmentFileName
+        };
+        console.log("vai salver")
 
-        // var elem = document.getElementById('valueDonation');
-
-        // var elemValorDoado = document.getElementById("valorDoado");
-
-
-        // let Valordoado = $("#valorDoado").val()
-        // let Anexarcomprovante = $("#txtIdade").val()
-
-
-
-        // let registro = {}
-        // registro.id = Math.floor(Math.random() * 10)
-        // registro.Valordoado = Valordoado
-        // registro.Anexarcomprovante = Anexarcomprovante
-
-
-        // alert("Registro salvo com sucesso")
-        // $("#exampleModal").modal("hide")
-
-        // //Limpeza dos campos 
-
-        // $("#txtValor").val("")
-        // $("#txtAnexar").val("")
-
-        // cds()
-    })
-})
+        // db_doacao.data.push(novaDoacao);
+        var db = JSON.parse(localStorage.getItem('db_doacao'));
+        db.data.push(novaDoacao);
+        localStorage.setItem('db_doacao', JSON.stringify(db));
+        console.log("terminou de salvar: " + db.data.length)
+        setTimeout(function(){
+            location.href = "minha_conta_historico.html";
+        }, 2000);
+    }
+    
+}
 
 // FIM - VALIDANDO MODAL DE DOACAO
+
+function exibeDoacoes() {
+    let db = JSON.parse(localStorage.getItem('db_doacao'));
+    console.log("entrou em exibeDoacoes: " + db.data.length)
+    $("#table-doacoes").html("");
+    // Popula a tabela com os registros do banco de dados
+    for (i = 0; i < db.data.length; i++) {
+        let doacao = db.data[i];
+        $("#table-doacoes").append(`<tr><td scope="row">${doacao.id}</td>
+                                        <td>${doacao.nomeONG}</td>
+                                        <td>${doacao.valorDoado}</td>
+                                        <td>${doacao.nomeDoComprovante}</td>
+                                        <td>${doacao.date}</td>                                            
+                                    </tr>`);
+        console.log("BUSCOU: "+ doacao.nomeONG)
+    }
+}
