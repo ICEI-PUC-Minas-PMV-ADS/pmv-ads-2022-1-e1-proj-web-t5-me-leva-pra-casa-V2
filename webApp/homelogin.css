@@ -1,0 +1,33 @@
+.menuItem{
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 40px;
+    color: rgb(0, 0, 114) !important;
+    margin-left: 40px;
+    transition: 0.3s;
+}
+
+.menuItem :hover{
+    color: rgb(71, 163, 255);
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+body{
+    background-image: url(bg.png);
+}
+
+li > a {
+    color: rgb(0, 0, 114);
+}
+
+.footer{
+    text-align: center;
+    font-size: 0.6rem;
+    text-decoration: none;
+}
