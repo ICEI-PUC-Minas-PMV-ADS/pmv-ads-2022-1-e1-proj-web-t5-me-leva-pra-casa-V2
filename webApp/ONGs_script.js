@@ -1,4 +1,4 @@
-// DECLARA OS DADOS INICIAIS DE ONGS
+// INICIO - DECLARA OS DADOS INICIAIS DE ONGS
 var db_ongs_inicial = {
     "data": [
         {
@@ -57,7 +57,7 @@ var db_ongs_inicial = {
             "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
             "textoBotaoONG": "Doação"
         }
-        
+
     ]
 }
 
@@ -65,65 +65,19 @@ var dbOngs = db_ongs_inicial
 
 function inicializaDadosONGs() {
     localStorage.setItem('db_ongs', dbOngs);
-    console.log('PASSOU AQUI NO inicializaDadosONGs')
-
     for (i = 0; i < dbOngs.data.length; i++) {
-        let ong = dbOngs.data[i];    
+        let ong = dbOngs.data[i];
 
-        var elemCardImg = document.getElementById("img-card-"+i);
-        var elemCardTitle = document.getElementById("card-title-"+i);
-        var elemCardDesc = document.getElementById("card-text-"+i);
-        var elemCardButton = document.getElementById("btn-card-"+i);
+        var elemCardImg = document.getElementById("img-card-" + i);
+        var elemCardTitle = document.getElementById("card-title-" + i);
+        var elemCardDesc = document.getElementById("card-text-" + i);
+        var elemCardButton = document.getElementById("btn-card-" + i);
 
-        
-        elemCardImg.src= ong.imagemONG
+        elemCardImg.src = ong.imagemONG
         elemCardTitle.innerText = ong.nomeONG
         elemCardDesc.innerText = ong.descONG
         elemCardButton.innerText = ong.textoBotaoONG
-        console.log("card-img "+i)
     }
-}
-
-var dados = [
-
-]
-localStorage.setItem("__dados__", JSON.stringify(dados))
-renderDataInTheTable(JSON.parse(localStorage.getItem("__dados__")))
-
-function cds() {
-    if (Array.isArray(dados)) {
-
-        localStorage.setItem("__dados__", JSON.stringify(dados))
-
-        $("#informativos tbody").html("")
-
-        dados.forEach(function (item) {
-
-            // template string
-            $("#informativos tbody").append(`<tr>
-            <tr>${item.ID}</td>
-            <tr>${item.Valordoado}</td>
-            <tr>${item.Anexarcomprovante}</td>
-            <td><button type="button" class="btn btn-secondary"></button></td>
-            <td><button type="button" class="btn btn-primary"></button></td>
-            </tr>`)
-        })
-
-
-    }
-}
-
-function renderDataInTheTable(todos) {
-    const mytable = document.getElementById("tbldados");
-    todos.forEach(todo => {
-        let newRow = document.createElement("tr");
-        Object.values(todo).forEach((value) => {
-            let cell = document.createElement("td");
-            cell.innerText = value;
-            newRow.appendChild(cell);
-        })
-        mytable.appendChild(newRow);
-    });
 }
 
 window.addEventListener('load', function () {
@@ -164,7 +118,6 @@ function fadeOutEffectInProgressBar() {
             elem.style.display = "none"
             clearInterval(fadeEffect);
             for (let i = 0; i < 4; i++) {
-                console.log('PASSOU AQUI NO FOR..' + i)
                 var ongsid = 'ongsRow' + i;
                 var elemRow = document.getElementById(ongsid);
                 elemRow.style.display = "flex"
@@ -172,47 +125,113 @@ function fadeOutEffectInProgressBar() {
         }
     }, 200);
 }
+// FIM - DECLARA OS DADOS INICIAIS DE ONGS
 
-$(function () {
-    //Executa ao carregar a tela 
-    dados = JSON.parse(localStorage.getItem("__dados__"))
-    if (dados) {
-        cds()
+// INICIO -LOGADO OU NAO LOGADO
+var buttonDonnationIdClicked = ""
+function btnDonnationClick(id) {
+    var isLogged = 'loggedIn'
+    if (isLogged == 'loggedIn') {
+        var elem = document.getElementById('modal-title-donnationModal');
+        elem.innerText = "TESTE" // BUSCAR O NOME DA ONGS
+        $("#donnationModal").modal('show');
+    } else {
+        $("#warningLoginModal").modal('show');
+    }
+    buttonDonnationIdClicked = id
+}
+// FIM -LOGADO OU NAO LOGADO
+
+// INICIO - VALIDANDO MODAL DE DOACAO
+
+function formatValue() {
+    var elem = document.getElementById('valueDonation');
+    var value = elem.value;
+
+    value = value + '';
+    value = parseInt(value.replace(/[\D]+/g, ''));
+    value = value + '';
+    value = value.replace(/([0-9]{2})$/g, ",$1");
+
+    if (value.length > 6) {
+        value = value.replace(/([0-9]{3}),([0-9]{2}$)/g, ".$1,$2");
     }
 
-    $("#btnConfirmar").click(function () {
-        //Evento click do botão Confirmar
+    elem.value = value;
+    if (value == 'NaN') elem.value = '0.00';
+}
 
-        let Valordoado = $("#txtNome").val()
-        let Anexarcomprovante = $("#txtIdade").val()
-
-
-
-        let registro = {}
-        registro.id = Math.floor(Math.random() * 10)
-        registro.Valordoado = Valordoado
-        registro.Anexarcomprovante = Anexarcomprovante
-
-
-
-
-        dados.push(registro)
-        localStorage.setItem("__dados__", JSON.stringify(dados))
-        renderDataInTheTable(dados)
-
-        alert("Registro salvo com sucesso")
-        $("#exampleModal").modal("hide")
-
-        //Limpeza dos campos 
-
-        $("#txtValor").val("")
-        $("#txtAnexar").val("")
-
-        cds()
-
-
+$(function () {
+    $("#bntCancel").click(function () {
+        var elem = document.getElementById('valueDonation');
+        elem.value = '0.00'
     })
 })
 
+function btnConfirmDonnationClick(elem) {
+    elem.prop("disabled", true);
+}
+
+$(function () {
+    $("#btnConfirmar").click(function () {
+
+        var elementvalordaDoacao = document.getElementById('valordaDoacao ');
+        var elementanexarComprovante = document.getElementById('aexarComprovante');
+
+        var donateValue = elementValordaDoacao.value
+
+        if (donateValue == '0.00') {
+            console.log("valor zerado - ERRO")
+            var inputDonation = document.getElementById('valueDonation');
+            inputDonation.after("<div class='invalid-feedback'> Para continuar a doação precisa ser maior que R$ 0,00 </div>")
+            console.log("entrou ERRO: ")
+        } else {
+
+            $(this).prop("disabled", true);
+            $(this).html(
+                `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...`
+            );
+
+            // AQUI VAMOS SALVAR NO LOCAL STORAGE
+
+            // VALOR DA DOACAO E COM PROVANTE
+
+        }
 
 
+        // $("#btnFetch").click(function() {
+        //     // disable button
+
+        //     // add spinner to button
+
+        // });
+
+        // var elem = document.getElementById('valueDonation');
+
+        // var elemValorDoado = document.getElementById("valorDoado");
+
+
+        // let Valordoado = $("#valorDoado").val()
+        // let Anexarcomprovante = $("#txtIdade").val()
+
+
+
+        // let registro = {}
+        // registro.id = Math.floor(Math.random() * 10)
+        // registro.Valordoado = Valordoado
+        // registro.Anexarcomprovante = Anexarcomprovante
+
+
+        // alert("Registro salvo com sucesso")
+        // $("#exampleModal").modal("hide")
+
+        // //Limpeza dos campos 
+
+        // $("#txtValor").val("")
+        // $("#txtAnexar").val("")
+
+        // cds()
+    })
+})
+
+// FIM - VALIDANDO MODAL DE DOACAO
