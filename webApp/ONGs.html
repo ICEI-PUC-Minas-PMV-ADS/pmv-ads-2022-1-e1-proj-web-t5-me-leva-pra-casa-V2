@@ -9,6 +9,9 @@
     <!-- Configurando Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="template-jéssica/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
@@ -31,35 +34,37 @@
     <!-- Menu Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
         <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <div class="container-fluid">
-            <div class="row" style="justify-content: center; align-items: center;">
-              <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
-                  width="150px" height="150px"></a>
-              <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
-                <strong>Home</strong></a>
-              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
-                <strong>Doe</strong></a>
-              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                href="adote.html"><strong>Adote</strong></a>
-              <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                href="ONGs.html"><strong>ONGs</strong></a>
+            <div class="container-fluid">
+                <div class="row" style="justify-content: center; align-items: center;">
+                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
+                            src="Logo.png" width="150px" height="150px"></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+                        <strong>Início</strong></a>
+                    <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html"> -->
+                        <!-- <strong>Doe</strong></a> -->
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="adote.html"><strong>Adote</strong></a>
+                    <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+                        href="ONGs.html"><strong>ONGs</strong></a>
+                </div>
             </div>
-          </div>
-          <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
-            <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
-              placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
-            <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
-              type="submit"><img src="search.png" width="20px;"></button>
-            <a class="nav-link" href="login.html">Login</a> |
-            <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
-            <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
-          </form>
+            <form class="form-inline my-2 my-lg-0"
+                style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST"
+                enctype="multipart/form-data">
+                <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
+                    placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+                <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
+                        src="search.png" width="20px;"></button>
+                <a class="nav-link" href="login.html">Login</a> |
+                <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
+                <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+            </form>
         </div>
-      </nav>
+    </nav>
     <!-- Fim da Navegacao -->
 
     <!-- Inicio do conteudo-->
@@ -242,13 +247,13 @@
     <div class="col-md-12">
 
         <table id="tbldados" class="table table-hover">
-                <tr>
-                    <th scope="col">Valor doado</th>
-                    <th scope="col">Anexar comprovante</th>
-                </tr>
-            </thead> 
-           
-                                      
+            <tr>
+                <th scope="col">Valor doado</th>
+                <th scope="col">Anexar comprovante</th>
+            </tr>
+            </thead>
+
+
         </table>
     </div>
 </div> -->
@@ -316,4 +321,5 @@
 </div>
 <!-- Script JS-->
 <script src="./ONGs_script.js"></script>
+
 </html>

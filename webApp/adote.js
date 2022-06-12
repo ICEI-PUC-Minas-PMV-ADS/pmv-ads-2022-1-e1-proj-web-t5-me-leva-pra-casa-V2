@@ -49,6 +49,7 @@ function renderizaDadosNosCards(itens) {
             <b>Sexo:</b> ${item.Sexo}
             <br> 
             <b>Porte:</b> ${item.Porte}
+            <button onclick="myFunction()">Click me</button>
         `
         divTres.append(p);
 

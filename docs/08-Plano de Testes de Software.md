@@ -32,6 +32,42 @@ Teste Funcionalidade cadastro
 
 
 ## Testes ADOTE:
+Teste de Responsividade
+  - Testar a responsividade dos elementos da tela em diferentes tamanhos e formatos.
+   
+  Resultado:
+  - Tela responsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge).
+
+
+  Testes de Botões:
+  - Verificar se os botões estão realizando as funções de forma correta.
+
+  Resultado:
+  - O botão ADICIONAR ANIMAIS funciona corretamente abrindo a janela modal para realizar o procedimento.
+  - Na tela ADOTE, o botão CLICK ME dos cards de animais, não exibe nenhum resultado no momento.
+  - Dentro do modal o botão SALVAR funciona corretamente.
+  - Dentro do modal o botão FECHAR funciona corretamente.
+  
+
+  Teste de Preenchimento dos Campos
+  - Verificar se os valores inseridos nos campos são validados.
+
+  Resultado:
+  - Não há restrição nos campos, quanto a letras, números, caracteres especiais ou campo vazio dentro da tela modal, sendo salvos normalmente.
+
+
+  Teste de Funcionalidade
+  - Verificar se os requisitos estabelecidos na programação de funcionalidades da tela ADOTE foram atendidos. 
+
+  Resultado:
+  - Os requisitos foram atendidos, porém a descrição não é exibida no card do pet. Se não houver inserido animais inicialmente, no Local Storage a tela não exibe nenhum pet para novos usuários que ainda não tenham se cadastrado. Deve-se clicar no ícone ADOTE e depois no ícone MINHA CONTA, então em ANIMAIS, abrindo-se o modal para Cadastro de Animais para a inserção dos pets.
+
+
+  Teste de Integração
+  - Verificar se as informações apresentadas na página estão de alguma forma vinculada com as informações das demais páginas.
+
+  Resultado:
+  - A tela ADOTE está vinculada à tela INICIAL e também à opção MINHA CONTA e ANIMAIS, onde são cadastrados os animais para adoção.
 
 
 ## Testes ONGS:
@@ -102,6 +138,25 @@ Execução das funcionalidades: funcionam, falta local para recuperar a senha e 
 
 ## Testes CADASTRE-SE:
 
+Objetivo: Testar responsividade da tela em diferentes resoluções.
+ - Data de início: 1/06/2022
+ - Saída esperada: Os campos e botões serão ajustas sem quebrar o layout.
+ - Saída real do sistema: O sistema ajustou sim os campos e botões, menus etc.
+ - Registro de execução: Sucesso no teste
+
+
+Objetivo: Testar inserção de informações nos campos.
+ - Data de início: 1/06/2022
+ - Saída esperada: Os campos receberem valores corretos e validados.
+ - Saída real do sistema: O sistema recebeu os valores mas não validou os carácteres e tipos do campo, exemplo: CPF esta recebendo texto.
+ - Registro de execução: Falha no teste
+
+
+Objetivo: Testar cadastro de usuario.
+ - Data de início: 1/06/2022
+ - Saída esperada: Usuario ser cadastrado com as devidas informações.
+ - Saída real do sistema: O sistema criou o usuário com todas as informações digitadas.
+ - Registro de execução: Sucesso no teste
 
 
 ## Testes MINHA CONTA:
