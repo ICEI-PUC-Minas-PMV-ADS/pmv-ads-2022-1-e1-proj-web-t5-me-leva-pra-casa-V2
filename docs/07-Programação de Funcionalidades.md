@@ -87,7 +87,7 @@ Tela quer permitirá o usuário ver informações referentes as doações feitas
 	- minha_conta_historico.html
 	- home.css
 	
-**Tela Minha Conta - Animais** `Dev Warlen`
+**Tela modal cadastro de animais** `Dev Warlen`
 
 Tela que será Feito o cadastro de animais para adoção. Todos os dados são armazenadas no LocalStorage.
 
