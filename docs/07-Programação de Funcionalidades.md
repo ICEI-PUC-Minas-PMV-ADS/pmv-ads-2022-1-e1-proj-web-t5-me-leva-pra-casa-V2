@@ -189,9 +189,10 @@ RF-06, RF-13, RF-14, RF-17 e RF-25.
 
 **Artefatos da funcionalidade**
 
-	- CADASTRO.html
+	- cadastr_Crud.html
 	- script.js
-	- style.css
+	- app.js
+	- cadastro_style.css
 	- img/
 	- template/
 	
