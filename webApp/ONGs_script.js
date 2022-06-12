@@ -1,54 +1,88 @@
-// var isLogged = false
-// $(document).ready(function () {
-//     $("#peitinho").click(function () {
-//         if (isLogged) {
-//             $("#exampleModal").modal('show');
-//             console.log("USUARIO LOGADO");
-//         } else {
-//             $("#exampleModal1").modal('show');
-//             console.log("USUARIO NÃ0 LOGADO");
-//         }
-// //     });
-// // });
+// DECLARA OS DADOS INICIAIS DE ONGS
+var db_ongs_inicial = {
+    "data": [
+        {
+            "id": 1,
+            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 1",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        },
+        {
+            "id": 2,
+            "imagemONG": "https://logos.flamingtext.com/City-Logos/Ong-Sketch-Logo.png",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 2",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        },
+        {
+            "id": 3,
+            "imagemONG": "https://envolverde.com.br/wp-content/uploads/ongs_2.jpg",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 3",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        },
+        {
+            "id": 4,
+            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 4",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        },
+        {
+            "id": 5,
+            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 5",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        },
+        {
+            "id": 6,
+            "imagemONG": "https://envolverde.com.br/wp-content/uploads/ongs_2.jpg",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 6",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        },
+        {
+            "id": 7,
+            "imagemONG": "https://logos.flamingtext.com/City-Logos/Ong-Sketch-Logo.png",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 7",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação",
+        },
+        {
+            "id": 8,
+            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
+            "nomeONG": "NOME DA ONG LOCAL STORAGE 8",
+            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "textoBotaoONG": "Doação"
+        }
+        
+    ]
+}
 
-// 'use strict''
+var dbOngs = db_ongs_inicial
 
-// const openModal = () => document.getElementById('modal')
-// .classList.add('active')
+function inicializaDadosONGs() {
+    localStorage.setItem('db_ongs', dbOngs);
+    console.log('PASSOU AQUI NO inicializaDadosONGs')
 
-// const closeModal = () => document.getElementById('modal')
-// .classList.add('active')
+    for (i = 0; i < dbOngs.data.length; i++) {
+        let ong = dbOngs.data[i];    
 
+        var elemCardImg = document.getElementById("img-card-"+i);
+        var elemCardTitle = document.getElementById("card-title-"+i);
+        var elemCardDesc = document.getElementById("card-text-"+i);
+        var elemCardButton = document.getElementById("btn-card-"+i);
 
-
-// //CRUD - create read update delete
-
-// const createClient = (client) => {
-//     localStorage.setItem("teste", "teste para o crud")
-// }
-
-
-// // eventos
-// document.getElementById('exampleModal')
-// .addEventListener('click', openModal)
-
-// Document.getElementById('exampleModal1')
-// .addEventListener('click, closeModal')
-
-// var dados = [
-
-// ]
-// localStorage.setItem("__dados__", JSON.stringify(dados))
-// renderDataInTheTable(JSON.parse(localStorage.getItem("__dados__")))
-
-// function cdsanimais() {
-//     if (Array.isArray(dados)) {
-
-//         localStorage.setItem("__dados__", JSON.stringify(dados))
-
-//         $("#tbldados tbody").html("")
-
-//         dados.forEach(function (item) {
+        
+        elemCardImg.src= ong.imagemONG
+        elemCardTitle.innerText = ong.nomeONG
+        elemCardDesc.innerText = ong.descONG
+        elemCardButton.innerText = ong.textoBotaoONG
+        console.log("card-img "+i)
+    }
+}
 
 var dados = [
 
@@ -94,7 +128,7 @@ function renderDataInTheTable(todos) {
 
 window.addEventListener('load', function () {
     progressBarAnimation();
-    console.log('PASSOU AQUI NO LOAD')
+    inicializaDadosONGs();
 })
 
 var i = 0;
@@ -119,7 +153,7 @@ function progressBarAnimation() {
 
 function fadeOutEffectInProgressBar() {
     var elem = document.getElementById("progressId");
-    
+
     var fadeEffect = setInterval(function () {
         if (!elem.style.opacity) {
             elem.style.opacity = 1;
@@ -129,14 +163,12 @@ function fadeOutEffectInProgressBar() {
         } else {
             elem.style.display = "none"
             clearInterval(fadeEffect);
-            var elemRow = document.getElementById("ongsRow0");
-            elemRow.style.display = "flex"
-            var elemRow = document.getElementById("ongsRow1");
-            elemRow.style.display = "flex"
-            var elemRow = document.getElementById("ongsRow2");
-            elemRow.style.display = "flex"
-            var elemRow = document.getElementById("ongsRow3");
-            elemRow.style.display = "flex"
+            for (let i = 0; i < 4; i++) {
+                console.log('PASSOU AQUI NO FOR..' + i)
+                var ongsid = 'ongsRow' + i;
+                var elemRow = document.getElementById(ongsid);
+                elemRow.style.display = "flex"
+            }
         }
     }, 200);
 }
