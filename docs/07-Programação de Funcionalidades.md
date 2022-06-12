@@ -172,15 +172,15 @@ RF-03, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24.
 	- img/
 	- template/
 
-**Tela Cadastro**
+**Tela Cadastro** `Dev Elizangela`
 
-Tela onde será formulário para cadastro, de acordo com o perfil do usuário (Pessoa Física ou Pessoa Juridíca) podendo permanecer com os campos da tela abertos ou carregar novos campos. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
+Tela onde será exibido o formulário de cadastro, com ferramentas de cadastrar, alterar, excluir, limpar formulário ou pesquisar usuários. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
 <div style="text-align:center">                            
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103081269/167304862-d0786ffe-f3e5-46c2-95eb-257985126480.PNG" width="700px" />
+<img src="https://user-images.githubusercontent.com/103081269/173230154-d3b36709-ef61-4bb2-9425-30b48683f1e6.PNG" width="700px" />
 </div>
 
 **Requisitos atendidos**
