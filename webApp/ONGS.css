@@ -91,6 +91,8 @@
   .modal-title {
     padding-left: 1em;
    padding-right: 1em;
-}
+  }
 
-
+  #ongsRow0, #ongsRow1, #ongsRow2, #ongsRow3  {
+    display: none;
+  }
