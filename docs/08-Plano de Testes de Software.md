@@ -138,6 +138,25 @@ Execução das funcionalidades: funcionam, falta local para recuperar a senha e 
 
 ## Testes CADASTRE-SE:
 
+Objetivo: Testar responsividade da tela em diferentes resoluções.
+ - Data de início: 1/06/2022
+ - Saída esperada: Os campos e botões serão ajustas sem quebrar o layout.
+ - Saída real do sistema: O sistema ajustou sim os campos e botões, menus etc.
+ - Registro de execução: Sucesso no teste
+
+
+Objetivo: Testar inserção de informações nos campos.
+ - Data de início: 1/06/2022
+ - Saída esperada: Os campos receberem valores corretos e validados.
+ - Saída real do sistema: O sistema recebeu os valores mas não validou os carácteres e tipos do campo, exemplo: CPF esta recebendo texto.
+ - Registro de execução: Falha no teste
+
+
+Objetivo: Testar cadastro de usuario.
+ - Data de início: 1/06/2022
+ - Saída esperada: Usuario ser cadastrado com as devidas informações.
+ - Saída real do sistema: O sistema criou o usuário com todas as informações digitadas.
+ - Registro de execução: Sucesso no teste
 
 
 ## Testes MINHA CONTA:
