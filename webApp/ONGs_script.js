@@ -175,10 +175,11 @@ function btnConfirmDonnationClick(elem) {
 $(function () {
     $("#btnConfirmar").click(function () {
 
-        var elementvalordaDoacao = document.getElementById('valordaDoacao ');
-        var elementanexarComprovante = document.getElementById('aexarComprovante');
+        var elementvalordaDoacao = document.getElementById('valueDonation');
 
-        var donateValue = elementValordaDoacao.value
+        var elementanexarComprovante = document.getElementById('anexarComprovante');
+
+        var donateValue = elementvalordaDoacao.value
 
         if (donateValue == '0.00') {
             console.log("valor zerado - ERRO")
