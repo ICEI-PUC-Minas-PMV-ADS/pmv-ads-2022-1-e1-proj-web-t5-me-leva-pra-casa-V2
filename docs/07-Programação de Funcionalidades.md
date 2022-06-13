@@ -67,15 +67,16 @@ RF-025
 	- home.css
 	- style.css
 
-**Tela Minha Conta - Histórico de Doações** `Dev Guilherme`
+**Tela Minha Conta - Histórico de Doações** 
+`Dev Guilherme fez o local e Jéssica fez as funcionalidades`
 
-Tela quer permitirá o usuário ver informações referentes as doações feitas por ele par ONGs, após efetuar o login.
+Tela quer permitirá o usuário ver informações referentes as doações feitas por ele através da ONGs, após efetuar o login.
 
 <div style="text-align:center">                            
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/173213696-ee981378-f769-4395-a0c5-6adab4d5d23b.jpg" width="700px" />
+<img src="https://user-images.githubusercontent.com/103081069/173258038-e2712c7d-89cb-436b-bb15-46bcb2aa9088.png" width="700px" />
 </div>
 
 **Requisitos atendidos**
@@ -149,7 +150,7 @@ RF-03, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24
 	- img/
 	- template/
 
-**Tela ONGs**
+**Tela ONGs** `Dev Jéssica`
 
 Tela onde será exibido diversas opções de ONGs. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
