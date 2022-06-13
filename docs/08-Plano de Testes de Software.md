@@ -160,6 +160,21 @@ Objetivo: Testar cadastro de usuario.
 
 
 ## Testes MINHA CONTA:
+Teste de Responsividade
+  - Testar a responsividade da tela em dispositivos diferentes: Mobile, tablet e laptop.
+   
+  Resultado:
+  - Tela responsiva em dispositivos mobile, tablet e laptop. Além de navegadores diversos ( Opera GX, Google Chrome, Firefox e Microsoft Edge)
+
+
+  Testes de Botões:
+ Verificar se os botões estão realizando as funções de forma correta.
+
+
+  Resultado:
+- Na aba meu perfil, os botões ''Editar'' e ''Excluir cadastro'' não funcionaram.
+
+-Na aba animais, o botão de adicionar um animal funcionou, sendo aberto um modal para preenchimento dos dados, onde é possível salvar as informções preenchidas ou fechar o modal. É possível excluir o cadastro, mas não edita-lo.
 
 
 
