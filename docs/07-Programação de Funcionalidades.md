@@ -225,3 +225,26 @@ Tela quer permitirá aos administradores acessar os usuários cadastrados na pla
 	- CRUD_usuarios.html
 	- CRUD_usuarios.js
 	- home.css
+
+
+**Tela Login** `Dev Breno`
+
+Tela onde será exibido o formulário de login, com campos para preenchimento de e-mail e senha, link direcionado para a tela de cadastro e botão entrar.
+
+<div style="text-align:center">                            
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103541502/173262046-95f9387a-ccfa-4ae2-9acb-df444a02b7bb.png" width="700px" />
+</div>
+
+**Requisitos atendidos**
+
+
+
+**Artefatos da funcionalidade**
+
+	- homelogin.css
+	- login_style.css
+	- login.html
+	- login.js
