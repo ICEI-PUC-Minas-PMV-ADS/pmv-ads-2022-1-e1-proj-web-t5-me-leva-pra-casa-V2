@@ -81,12 +81,15 @@ Tela quer permitirá o usuário ver informações referentes as doações feitas
 
 **Requisitos atendidos**
 
-
+RF-03.
 
 **Artefatos da funcionalidade**
 
 	- minha_conta_historico.html
 	- home.css
+	- ONGs.html
+	- ONGS_script.js
+	- ONGS.css
 	
 **Tela modal cadastro de animais** `Dev Warlen`
 
@@ -107,7 +110,7 @@ RF-13
 
 	- minha_conta_animais.html
 	- script.js
-      - style.css
+    - style.css
 	- template/
 
 **Tela cadastro animais** `Dev Warlen`
@@ -129,36 +132,20 @@ RF-01, RF-06, RF-07, RF-12, RF-17
 
 	- minha_conta_animais.html
 	- script.js
-      - style.css
+    - style.css
 	- template/
 
-**Tela Doe**
-
-Tela onde será possivel visualizar e, caso seja do interesse do usuário, doar algum valor para ONGs de sua escolha. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
-
-
-
-**Requisitos atendidos**
-
-RF-03, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24
-
-**Artefatos da funcionalidade**
-
-	- doe.html
-	- script.js
-	- style.css
-	- img/
-	- template/
 
 **Tela ONGs** `Dev Jéssica`
 
-Tela onde será exibido diversas opções de ONGs. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
+Tela onde será exibido as ONGs cadatradas. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
 <div style="text-align:center">                            
 </div>
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/54327906/167320140-d9699bc5-a2cd-4146-93de-a3ffd0f1016e.png" width="700px" />
+<img src="https://user-images.githubusercontent.com/103081069/173258284-8002c4e6-2b9d-42a3-a230-24a0a1f04a02.png"
+ width="700px" />
 </div>
 
 **Requisitos atendidos**
@@ -168,11 +155,31 @@ RF-03, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24.
 **Artefatos da funcionalidade**
 
 	- ONGs.html
-	- script.js
-	- style.css
-	- img/
-	- template/
+	- ONGS_script.js
+	- ONGS.css
 
+
+**Tela Doação** `Dev Jéssica`
+
+Tela será exibido no local ONGs, após clicar no botão para fazer a doação ela permite armazenar o valor que será doado juntamento com o compronte essas informações serão salvas em Minha Conta - Histórico de Doações.
+
+<div style="text-align:center">                            
+</div>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/103081069/173258316-dfc25af1-e530-4c88-9102-6723efd3f3f9.png" width="700px" />
+</div>
+
+**Requisitos atendidos**
+
+RF-003, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24
+
+**Artefatos da funcionalidade**
+
+    - ONGs.html
+	- ONGS_script.js
+	- ONGS.css
+	
 **Tela Cadastro** `Dev Elizangela`
 
 Tela onde será exibido o formulário de cadastro, com ferramentas de cadastrar, alterar, excluir, limpar formulário ou pesquisar usuários. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
