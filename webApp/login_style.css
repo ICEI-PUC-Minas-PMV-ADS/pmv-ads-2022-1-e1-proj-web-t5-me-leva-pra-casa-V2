@@ -6,8 +6,8 @@
 
 #LoginScreen{
     width: 350px;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -30%);
 }
