@@ -27,11 +27,12 @@ li > a {
     color: rgb(0, 0, 114);
 }
 
-.footer{
+footer{
+    display: block;
     text-align: center;
-    font-size: 0.6rem;
-    text-decoration: none;
+    font-size: 0.8rem;
 }
+
 /*Configurando formulário Cadastro*/
 .contain-cadastro {
     width: 85%;
