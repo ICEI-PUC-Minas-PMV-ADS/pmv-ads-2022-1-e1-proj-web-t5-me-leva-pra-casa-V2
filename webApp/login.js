@@ -68,7 +68,7 @@ function initLoginApp () {
 
 
 // Verifica se o login do usuário está ok e, se positivo, direciona para a página inicial
-function loginUser (login, senha) {
+function loginUser (email, senha) {
     
     // Verifica todos os itens do banco de dados de usuarios 
     // para localizar o usuário informado no formulario de login
@@ -76,7 +76,7 @@ function loginUser (login, senha) {
         var usuario = db_usuarios.usuarios[i];
         
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
-        if (login == usuario.login && senha == usuario.senha) {
+        if (email == usuario.email && senha == usuario.senha) {
             usuarioCorrente.id = usuario.id;
             usuarioCorrente.login = usuario.login;
             usuarioCorrente.email = usuario.email;
