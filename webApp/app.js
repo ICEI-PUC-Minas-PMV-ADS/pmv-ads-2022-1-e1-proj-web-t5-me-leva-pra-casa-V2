@@ -1,48 +1,6 @@
 // declara um conjunto inicial de contatos
 var db_usuarios_inicial = {
-    "data": [
-        {
-            "id": 1,
-            "nome": "João Silva", 
-            "email": "js@gmail.com",
-            "cpf": "03146795721",
-            "telefone": "010-692-6593", 
-            "rua": "Av A", 
-            "numero": "5",
-            "bairro": "Centro",
-            "cidade": "Londrina",
-            "estado": "Paraná",
-            "senha": "1234567"
-                   
-        },
-        {
-            "id": 2,
-            "nome": "Maia Santos", 
-            "email": "ms@gmail.com",
-            "cpf": "03146572100",
-            "telefone": "010-693-6593", 
-            "rua": "Av Carandaí", 
-            "numero": "308",
-            "bairro": "Centro",
-            "cidade": "Belo Horizonte",
-            "estado": "Minas Gerais",
-            "senha": "7654321"
-        },
-        {
-            "id": 3,
-            "nome": "Cleusa Souza", 
-            "email": "cs@hotmail.com",
-            "cpf": "02145572144",
-            "telefone": "021-693-6593", 
-            "rua": "Av Caju", 
-            "numero": "30",
-            "bairro": "Centro",
-            "cidade": "Curvelo",
-            "estado": "Minas Gerais",
-            "senha": "7654322"
-        }
-       
-    ]
+    "data": []
 }
 
 // Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais

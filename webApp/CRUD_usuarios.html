@@ -14,7 +14,7 @@
     <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
-    <link rel="stylesheet" href="cadastro_style.css">
+    <link rel="stylesheet" href="/webApp/CRUD_usuarios.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -134,17 +134,56 @@
                     <small>(*) Campos obrigatórios</small>
                 </div>
             </div>
-            <div class="form-group row">
-                <div class="col-md-12 botoes" >
+            <div class="form-group row" style="text-align:center;">
+                <div class="col-sm-12 botoes">
                     <input type="button" class="btn btn-success" id="btnInsert" value="Cadastrar">
-                    <input type="button" class="btn btn-secondary" id="btnClear" value="Cancelar">
+                    <input type="button" class="btn btn-warning botoes" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger botoes" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary botoes" id="btnClear" value="Limpar">
                 </div>
             </div>
         </form>
+
+        <div class="row">
+            <div class="col-12">
+                <table id="grid-usuarios" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">CPF</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col">Número</th>
+                            <th scope="col">Bairro</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Senha</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-usuarios">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="app.js"></script>
+    <script src="/webApp/app.js"></script>
     <script>
         function exibeUsuarios() {
             // Remove todas as linhas do corpo da tabela
@@ -236,8 +275,10 @@
                     cidade: campoCidade,
                     estado: campoEstado,
                     senha: campoSenha };
-
+                
+                $("#form-usuario")[0].reset();
                 updateUsuario(parseInt(campoId), usuario);
+                
 
                 // Reexibe os usuários
                 exibeUsuarios();
