@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="template-jéssica/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script src="ONGs_script.js" defer></script>
+    <script src="LOGADO-ONGs_script.js" defer></script>
     <title>CRUD</title>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="ONGS.css">
+    <link rel="stylesheet" href="LOGADO-home.css">
+    <link rel="stylesheet" href="LOGADO-ONGS.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -40,16 +40,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div class="container-fluid">
                 <div class="row" style="justify-content: center; align-items: center;">
-                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
+                    <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="LOGADO-home.html"> <img
                             src="Logo.png" width="150px" height="150px"></a>
-                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="LOGADO-home.html">
                         <strong>Início</strong></a>
                     <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html"> -->
                     <!-- <strong>Doe</strong></a> -->
                     <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                        href="adote.html"><strong>Adote</strong></a>
+                        href="LOGADO-adote.html"><strong>Adote</strong></a>
                     <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-                        href="ONGs.html"><strong>ONGs</strong></a>
+                        href="LOGADO-ONGs.html"><strong>ONGs</strong></a>
                 </div>
             </div>
             <form class="form-inline my-2 my-lg-0"
@@ -59,9 +59,8 @@
                     placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
                 <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
                         src="search.png" width="20px;"></button>
-                <a class="nav-link" href="login.html">Login</a> |
-                <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> <!--- |
-                <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a> --->
+                <a class="nav-link" href="LOGADO-minha_conta_perfil.html">Minha Conta</a> |
+                <a class="nav-link" href="/webApp/home.html">Sair</a>
             </form>
         </div>
     </nav>
@@ -69,7 +68,7 @@
 
     <!-- Inicio do conteudo-->
     <div class="container-fluid card" style="width: 80%; padding: 20px; margin-top: 30px;">
-        <div class="progress" id="progressId" >
+        <div class="progress" id="progressId">
             <div id="ongsProgressBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
             </div>
@@ -277,14 +276,14 @@
                 </h5>
 
                 <form id="needs-validation" novalidate>
-                    
+
                     <div class="form-group" id="form-group-donation">
                         <label id="valorDoado" for="">Valor a ser doado:</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">R$</span>
-                        <input id="valueDonation" onkeyup="formatValue();" type="text" class="form-control border"
-                            value="0.00" maxlength="10" name="valueDonation" required>
-                    </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">R$</span>
+                            <input id="valueDonation" onkeyup="formatValue();" type="text" class="form-control border"
+                                value="0.00" maxlength="10" name="valueDonation" required>
+                        </div>
                     </div>
                     <div class="form-group">
                         <div class="text">
@@ -299,7 +298,8 @@
             </div>
             <div class="modal-footer">
                 <button id="bntCancel" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button id="btnConfirmar" type="button" onclick="btnConfirmDonnationClick()" class="btn btn-primary">Confirmar</button>
+                <button id="btnConfirmar" type="button" onclick="btnConfirmDonnationClick()"
+                    class="btn btn-primary">Confirmar</button>
             </div>
         </div>
     </div>
