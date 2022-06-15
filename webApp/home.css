@@ -1,7 +1,7 @@
 
 .menuItem{
     font-family: 'Bebas Neue', cursive;;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(0, 0, 114) !important;
     margin-left: 40px;
     transition: 0.3s;
@@ -27,11 +27,12 @@ li > a {
     color: rgb(0, 0, 114);
 }
 
-.footer{
+footer{
+    display: block;
     text-align: center;
-    font-size: 0.6rem;
-    text-decoration: none;
+    font-size: 0.8rem;
 }
+
 /*Configurando formulário Cadastro*/
 .contain-cadastro {
     width: 85%;
@@ -45,6 +46,7 @@ li > a {
     background-color: #f9f9f9;
     padding: 0.5rem;
     margin-top: 5px;
+    height: 100%;
 }
 .card h2 {
     color: #000;
@@ -147,6 +149,7 @@ form, #alertCadastro {
 
 /*Final estilo formulário Cadastro*/
 
+/*Modal adote*/
 
 /*Modal Adote*/
 .modal{

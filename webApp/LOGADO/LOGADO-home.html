@@ -14,7 +14,7 @@
     <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/webApp/LOGADO/LOGADO-home.css">
     <link rel="stylesheet" href="style.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -38,16 +38,16 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="container-fluid">
         <div class="row" style="justify-content: center; align-items: center;">
-          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="/webApp/home.html"> <img src="Logo.png"
+          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="LOGADO-home.html"> <img src="Logo.png"
               width="150px" height="150px"></a>
-          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="/webApp/quem_somos.html">
+          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="/webApp/LOGADO/LOGADO-quem_somos.html">
             <strong>Quem Somos</strong></a>
           <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html"> -->
             <!-- <strong>Doe</strong></a> -->
           <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-            href="/webApp/adote.html"><strong>Adote</strong></a>
+            href="LOGADO-adote.html"><strong>Adote</strong></a>
           <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-            href="/webApp/ONGs.html"><strong>ONGs</strong></a>
+            href="LOGADO-ONGs.html"><strong>ONGs</strong></a>
         </div>
       </div>
       <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
@@ -55,9 +55,9 @@
           placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
         <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
           type="submit"><img src="search.png" width="20px;"></button>
-        <a class="nav-link" href="/webApp/login.html">Login</a> |
-        <a class="nav-link" href="/webApp/cadastro_Crud.html">Cadastre-se</a> <!--- |
-        <a class="nav-link" href="/webApp/minha_conta_perfil.html">Minha Conta</a> --->
+        <a class="nav-link" href="/webApp/minha_conta_perfil.html">Minha Conta</a> |
+        <a class="nav-link" href="/webApp/home.html">Sair</a>
+
       </form>
     </div>
   </nav>
@@ -71,13 +71,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="/webApp/adote.html" style="cursor: pointer;"><img class="card-img-top" src="/webApp/img/1.jpg" alt="Primeiro Slide"></a>
+        <img class="d-block " src="https://source.unsplash.com/random/2400x200?x=3" alt="Primeiro Slide">
       </div>
       <div class="carousel-item">
-        <a href="/webApp/ONGs.html" style="cursor: pointer;"><img class="card-img-top" src="/webApp/img/2.jpg" alt="Segundo Slide"></a>
+        <img class="d-block " src="https://source.unsplash.com/random/2400x200?x=2" alt="Segundo Slide">
       </div>
       <div class="carousel-item">
-        <a href="/webApp/minha_conta_animais.html" style="cursor: pointer;"><img class="card-img-top" src="/webApp/img/3.jpg" alt="Terceiro Slide"></a>
+        <img class="d-block " src="https://source.unsplash.com/random/2400x200?x=1" alt="Terceiro Slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -89,7 +89,19 @@
       <span class="sr-only">Próximo</span>
     </a>
   </div>
-
+  <!-- Sobre a empresa -->
+  <div class="card bg-white mt-3" style="max-width: 80%; margin: auto; ">
+    <div class="card-header" style="font-size: 30px;">Sobre o projeto</div>
+    <div class="card-body">
+      <p class="card-text">Ao observamos o grande número de animais nas ruas e a forma abstrata como eles são divulgados
+        em busca de novos lares vimos a oportunidade de apresentar este projeto
+        que trará de forma simples, meios para adotar ou doar animais de rua, ou também filhotes em caso de donos que
+        não tem codições de continuar com o animal.
+        Além disso, as ONGs que trabalham com animais doentes e abandonados poderão utilizar da plataforma para ter um
+        novo recurso para arrecadar doações, seja ela financeira
+        ou através da doação de alimentos e mantimentos</p>
+    </div>
+  </div>
   <!-- Card de informação -->
   <div class="container-fluid mt-3 card" style="width: 80%; padding: 10px;">
     <div class="row" style="padding-top: 20px; justify-content: center;">
@@ -115,7 +127,7 @@
 </body>
 
 <footer>
-<!--- <a href="CRUD_usuarios.html">Copyright © 2022 Todos os direitos reservados</a> -->
+<a href="LOGADO-CRUD_usuarios.html">Copyright © 2022 Todos os direitos reservados</a>
 </footer>
 
 </HTML>

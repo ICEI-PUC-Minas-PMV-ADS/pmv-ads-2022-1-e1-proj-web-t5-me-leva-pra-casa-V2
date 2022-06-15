@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <HTML>
 
 <head>
@@ -14,7 +14,7 @@
     <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
-    <link rel="stylesheet" href="cadastro_style.css">
+    <link rel="stylesheet" href="/webApp/CRUD_usuarios.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -39,10 +39,8 @@
         <div class="row" style="justify-content: center; align-items: center;">
           <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
               width="150px" height="150px"></a>
-
           <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="quem_somos.html">
             <strong>Quem Somos</strong></a>
-
           <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
             <strong>Doe</strong></a> -->
           <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
@@ -56,25 +54,24 @@
           placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
         <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
           type="submit"><img src="search.png" width="20px;"></button>
-        <a class="nav-link" href="login.html">Login</a> |
-
-        <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> <!--- |
-        <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a> --->
+          <a class="nav-link" href="/webApp/minha_conta_perfil.html">Minha Conta</a> |
+          <a class="nav-link" href="/webApp/home.html">Sair</a>
       </form>
     </div>
   </nav>
     <!-- Fim da Navegacao -->
-    <div class="container-fluid container-cadastro" style="margin-top: 30px; width: 80%;">
+
+
+    <div class="container-fluid container-cadastro" style="width: 80%; margin-top: 30px;">
         <div class="row">
             <div id="msg" class="col-sm-10 offset-sm-1 ">
                 <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
             </div>
         </div>
-      
-        
-      <div class="row">
-        <h2 class="mt-3 mb-2"> Cadastre-se </h2>
-      </div>
+
+        <div class="row">
+            <h2 class="mt-3 mb-2"> Usuários Cadastrados </h2>
+        </div>
 
         <form id="form-usuario">
             <div class="form-group row mt-3">
@@ -84,7 +81,7 @@
                 </div>
                 <div class="col-sm-8">
                     <label for="inputNome">Nome (*)</label>
-                    <input type="text" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7">
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Digite Nome completo">
                 </div>
             </div>
             <div class="form-group row">
@@ -94,7 +91,7 @@
                 </div>
                 <div class="col-sm-4">
                     <label for="inputCpf">CPF (*)</label>
-                    <input type="text" class="form-control" id="inputCpf" required placeholder="Digite o CPF" >
+                    <input type="text" class="form-control" id="inputCpf" required placeholder="Digite o CPF">
                 </div>
                 <div class="col-sm-4">
                     <label for="inputTelefone">Telefone (*)</label>
@@ -140,18 +137,59 @@
                     <small>(*) Campos obrigatórios</small>
                 </div>
             </div>
-            <div class="form-group row">
-                <div class="col-md-12 botoes" >
+            <div class="form-group row" style="text-align:center;">
+                <div class="col-sm-12 botoes">
                     <input type="button" class="btn btn-success" id="btnInsert" value="Cadastrar">
-                    <input type="button" class="btn btn-secondary" id="btnClear" value="Cancelar">
+                    <input type="button" class="btn btn-warning botoes" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-danger botoes" id="btnDelete" value="Excluir">
+                    <input type="button" class="btn btn-secondary botoes" id="btnClear" value="Limpar">
                 </div>
             </div>
         </form>
+
+        <div class="row">
+            <div class="col-12">
+                <table id="grid-usuarios" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">CPF</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col">Número</th>
+                            <th scope="col">Bairro</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Senha</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-usuarios">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-    <p class="error-validation template"></p>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="app.js"></script>
+    <script src="/webApp/app.js"></script>
+    <script>
 
+    </script>
 </body>
+
 </html>

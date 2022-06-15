@@ -1,0 +1,117 @@
+/*Mudando a Cofiguracao do btn-link do Bootstrap*/
+.btn-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgba(253, 253, 253, 0.997);
+}
+
+/*Configurando as opcoes do menu*/
+/* .navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1,02em;
+    text-decoration: none;
+    font: bold;
+    margin-left : 1em;
+} */
+/*Configurando barra de pesquisa*/
+/* .btn.btn-link{
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} */
+/*Pesquisa*/
+/* .custom-file-input {
+    background-color: transparent;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    background-color :#ffffff;
+    border-radius: 6px; */
+}
+/*Tamanho das Imagens ONGs*/
+/* .card.border-0 {
+    width: 500px;
+    padding-left: 1em;
+   padding-right: 1em;
+} */
+.container.p-3.bg-white.text-dark {
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.9970.3); /*Sombreado 3d formulário*/
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    margin-top: 5px;
+}
+/* Adote*/
+.card {
+    text-align: center;
+    color: rgb(0, 0, 0);  
+    display:flex
+}
+
+.button {
+    display: flex;
+    padding-left: 100px;
+    height: 30px;
+    padding: 0px;
+    background: #f1f1f3;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #ededf2;
+  }
+  
+  .button:active {
+    background: #e8e9ee;
+  }
+  
+  .button__text,
+  .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+  }
+  
+  .button__icon {
+    font-size: 1.3em;
+    background: rgba(0, 0, 0, 0.08);
+  }
+  
+  .modal-title {
+    padding-left: 1em;
+   padding-right: 1em;
+  }
+
+  #ongsRow0, #ongsRow1, #ongsRow2, #ongsRow3  {
+    display: none;
+  }
+
+  @keyframes spinner-border {
+    to { transform: rotate(360deg); }
+  } 
+  .spinner-border{
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      vertical-align: text-bottom;
+      border: .25em solid currentColor;
+      border-right-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: spinner-border .75s linear infinite;
+      animation: spinner-border .75s linear infinite;
+  }
+  .spinner-border-sm{
+      height: 1rem;
+      border-width: .2em;
+  }
