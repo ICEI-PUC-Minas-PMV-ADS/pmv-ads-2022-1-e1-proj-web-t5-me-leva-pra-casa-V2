@@ -87,3 +87,10 @@ label {
  #grid-contatos tbody {
      cursor: pointer;
  }
+ .error-validation {
+    color: #007bff;    
+    font-size: 0.9rem;
+ }
+ .template {
+    display: none;
+ }
