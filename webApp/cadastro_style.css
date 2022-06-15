@@ -42,28 +42,40 @@ li > a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #fff;
-    padding: 0.5rem;
+    background-color: #f9f9f9;
+    padding: 0.3rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3px;
     margin-bottom: 5px;
-    width: 90%;
-    border-radius: 4px;
+    width: 98%;
+    border-radius: 5px;
 }
+.container-cadastro input {
+    border: none;
+}
+
+.botoes{
+    text-align: center;
+}
+
+#btnClear{
+    margin-left: 30px;
+}
+
 label {
     font-weight: bolder;
 
 }
 ::placeholder {
-    color: lightskyblue !important;
+    color: #000 !important;
     opacity: 3;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:  lightskyblue !important;
+    color:  #000 !important;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:  lightskyblue !important;
+    color:  #000 !important;
     opacity:  3;
  }
  h2 {
@@ -74,4 +86,11 @@ label {
  }
  #grid-contatos tbody {
      cursor: pointer;
+ }
+ .error-validation {
+    color: #007bff;    
+    font-size: 0.9rem;
+ }
+ .template {
+    display: none;
  }
