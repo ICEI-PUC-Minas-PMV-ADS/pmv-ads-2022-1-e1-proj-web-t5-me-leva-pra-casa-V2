@@ -1,4 +1,4 @@
-//classe que vai receber as propriedades do objeto através do constructor
+//classe que vai receber as propriedades do objeto através do constructor.
 class Validator {
     constructor() {
         this.validations = [
