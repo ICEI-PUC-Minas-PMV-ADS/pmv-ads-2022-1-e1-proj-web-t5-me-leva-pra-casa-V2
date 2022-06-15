@@ -10,6 +10,13 @@ class Validator {
 //iniciando a validaçao dos inputs
 validate(form) {
 
+    //resgata todas as validações e limpa as antigas    
+    let currentValidations = document.querySelectorAll('form .error-validation');
+
+    if(currentValidations.length) {
+      this.cleanValidations(currentValidations);
+    }
+
     let inputs = form.getElementsByTagName('input');
    
 
@@ -71,6 +78,10 @@ printMessage(input, msg) {
       inputParent.appendChild(template);
     }
 
+  }
+  // remove todas as validações para fazer a checagem novamente
+  cleanValidations(validations) {
+    validations.forEach(el => el.remove());
   }
 
 }
