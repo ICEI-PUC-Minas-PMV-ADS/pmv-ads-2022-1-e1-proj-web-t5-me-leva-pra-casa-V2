@@ -13,14 +13,14 @@ validate(form) {
     //resgata todas as validações e limpa as antigas    
     let currentValidations = document.querySelectorAll('form .error-validation');
 
-    if(currentValidations.length) {
+    if(currentValidations.length > 0) {
       this.cleanValidations(currentValidations);
     }
 
     let inputs = form.getElementsByTagName('input');
    
 
-//HTMLCollection para array
+    //HTMLCollection para array
     let inputsArray = [...inputs];
 
 // loop nos inputs
