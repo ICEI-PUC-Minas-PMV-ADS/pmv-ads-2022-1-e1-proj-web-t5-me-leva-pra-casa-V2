@@ -5,6 +5,7 @@ class Validator {
             'data-min-length', 
             'data-max-length',
             'data-email-validate',
+            'data-only-letters',
 
         ]
     }
@@ -49,7 +50,6 @@ inputsArray.forEach(function(input){
 minlength(input, minValue) {
     //console.log(input);
     //console.log(minValue);
-    let inputlength = input.value.length;
 
     let errorMessage = `O campo precisa ter pelo menos ${minValue} caracteres`; 
 
@@ -68,7 +68,7 @@ let inputlength = input.value.length;
 
     let errorMessage = `O campo precisa ter menos que ${maxValue} caracteres`; 
 
-    if(inputlength < maxValue){
+    if(inputlength > maxValue){
         //console.log(errorMessage);
         this.printMessage(input,errorMessage);
     }
@@ -90,6 +90,21 @@ emailvalidate(input) {
     }
 
   }
+
+// valida se o input aceita apenas letras
+onlyletters(input) {
+
+    let re = /^[A-Za-z]+$/;
+
+    let inputValue = input.value;
+
+    let errorMessage = `Este campo não aceita números ou caracteres esppeciais`;
+
+    if(!re.test(inputValue)) {
+        this.printMessage(input, errorMessage);
+      }
+  
+}
 
 // método para imprimir mensagens de erro
 printMessage(input, msg) {
