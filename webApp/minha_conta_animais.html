@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <HTML>
+
 <head>
     <title>Me Leva Pra Casa - Histórico de Doações</title>
     <meta charset="utf-8">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="home.css">
     <!-- <link rel="stylesheet" href="nav.css"> -->
 </head>
+
 <body>
     <!-- Menu Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
@@ -22,10 +24,11 @@
                 <div class="row" style="justify-content: center; align-items: center;">
                     <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img
                             src="Logo.png" width="150px" height="150px"></a>
-                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="/webApp/quem_somos.html">
+                    <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;"
+                        href="/webApp/quem_somos.html">
                         <strong>Quem Somos</strong></a>
                     <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html"> -->
-                        <!-- <strong>Doe</strong></a> -->
+                    <!-- <strong>Doe</strong></a> -->
                     <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
                         href="adote.html"><strong>Adote</strong></a>
                     <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
@@ -91,8 +94,8 @@
                                 <th scope="col"></th>
                             </tr>
                         </thead>
-                       <tbody id="corpoTabela">
-                       </tbody>                       
+                        <tbody id="corpoTabela">
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -112,57 +115,60 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="">Nome</label>
+                                    <h6>Nome</h6>
                                     <input id="txtNome" type="text" class="form-control" placeholder="digite o nome...">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
+                                    <h6>Idade</h6>
                                     <select id="txtIdade" class="custom-select">
-                                        <option  selected>Idade</option>
-                                        <option value="Filhote" >Filhote</option>
-                                        <option  value="Jovem" >Jovem</option>
-                                        <option  value="Adulto" >Adulto</option>
-                                        <option  value="Sénior" >Sénior</option>
-                                      </select>
-                                
+                                        <option value="Filhote">Filhote</option>
+                                        <option value="Jovem">Jovem</option>
+                                        <option value="Adulto">Adulto</option>
+                                        <option value="Sénior">Sénior</option>
+                                    </select>
+
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <div class="form-group">
-                                        <label for="">Imagem</label>
-                                        <input id="txtImagem" type="text" class="form-control" placeholder="link imagem do animal"/>
+                                        <h6>Imagem</h6>
+                                        <input id="txtImagem" type="text" class="form-control"
+                                            placeholder="link imagem do animal" />
                                     </div>
                                 </div>
-                               
+
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <select  id="txtSexo" class="custom-select">
-                                        <option selected>sexo</option>
-                                        <option  value="Macho">Macho</option>
-                                        <option  value="Fêmea">Fêmea</option>
-                                       
-                                      </select>
-                                
+                                    <h6>Sexo</h6>
+                                    <select id="txtSexo" class="custom-select">
+                                        <option value="Macho">Macho</option>
+                                        <option value="Fêmea">Fêmea</option>
+
+                                    </select>
+
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="">Descricão</label>
-                                    <input id="txtDescricao" type="text" class="form-control" placeholder="digite a descrição"/>
+                                    <h6>Descrição</h6>
+                                    <input id="txtDescricao" type="text" class="form-control"
+                                        placeholder="digite a descrição" />
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <select id="txtPorte" class="custom-select">
-                                    <option selected>Porte</option>
-                                    <option value="Pequeno">Pequeno</option>
-                                    <option  value="Médio">Médio</option>
-                                    <option value="Grande">Grande</option>
-                                   
-                                  </select>
-                            
+                                <div class="form-group">
+                                    <h6>Porte</h6>
+                                    <select id="txtPorte" class="custom-select">
+                                        <option value="Pequeno">Pequeno</option>
+                                        <option value="Médio">Médio</option>
+                                        <option value="Grande">Grande</option>
+
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -173,7 +179,7 @@
                 </div>
             </div>
     </ul>
-/
+    /
     <!-- <br>
     <div class="col col-md-2" style="justify-content:center; margin: auto;">
         <button onclick="acao()" class="btn btn-primary" type"button">Adicionar Animais</button>
@@ -232,4 +238,5 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 <script src="./script.js"></script>
+
 </HTML>
