@@ -15,6 +15,7 @@
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
     <link rel="stylesheet" href="cadastro_style.css">
+    <link rel="stylesheet" href="cadastro_Crud.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -76,27 +77,24 @@
 
         <form id="form-usuario">
             <div class="form-group row mt-3">
-                <div class="col-sm-4">
-                    <label for="inputId">Id</label>
-                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
-                </div>
-                <div class="col-sm-8">
+                <div class="col-sm-12">
                     <label for="inputNome">Nome (*)</label>
-                    <input type="text" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
+                    <input type="text" name="inputNome" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-sm-4">
                     <label for="inputEmail">E-mail (*)</label>
-                    <input type="email" class="form-control" id="inputEmail" required placeholder="Digite o E-mail" data-email-validate>
+                    <input required type="email" name="inputEmail" class="form-control" data-min-length="2" id="inputEmail" placeholder="Digite o E-mail" 
+                    data-email-validate>
                 </div>
                 <div class="col-sm-4">
                     <label for="inputCpf">CPF (*)</label>
-                    <input type="text" class="form-control" id="inputCpf" required placeholder="Digite o CPF" >
+                    <input type="text" class="form-control" name="inputCpf" id="inputCpf" oninput="MascararCPF(this)" required placeholder="Digite o CPF">
                 </div>
                 <div class="col-sm-4">
                     <label for="inputTelefone">Telefone (*)</label>
-                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Digite o Telefone">
+                    <input type="number" class="form-control" id="inputTelefone" required placeholder="Digite o Telefone">
                 </div>                
             </div>
             <div class="form-group row">
@@ -123,34 +121,43 @@
                     <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado">
                 </div>
             </div>
-            <div class="form-group row">    
+               <div class="form-group row">    
                 <div class="col-sm-6">
                     <label for="inputSenha">Senha (*)</label>
-                    <input type="password" class="form-control" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres"  required>
+                    <input type="password" class="form-control" name="inputSenha" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres" data-password-validate data-required data-equal="inputConfirma">
                 </div>
                 <div class="col-sm-6">
                     <label for="inputConfirma">Confirmar Senha (*)</label>
-                    <input type="password" class="form-control" id="inputConfirma" placeholder="Confirme a Senha"  required>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-4">
-                    <small>(*) Campos obrigatórios</small>
+                    <input type="password" class="form-control" name="inputConfirma" id="inputConfirma" placeholder="Confirme a Senha" required data-equal="inputSenha">
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-md-12 botoes" >
-                    <input type="button" class="btn btn-success" id="btnInsert" value="Cadastrar">
-                    <input type="button" class="btn btn-secondary" id="btnClear" value="Cancelar">
+                    <input type="submit" class="btn btn-success" id="btnInsert" value="Cadastrar">
+                    <input type="submit" class="btn btn-secondary" id="btnClear" value="Cancelar">
                 </div>
             </div>
         </form>
     </div>
     <p class="error-validation template"></p>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="app.js"></script>
     <script src="valida_Cadastro.js"></script>
+    <script type="text/javascript">  
+        function MascararCPF(i){
+            var v = i.value;
+   
+                if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+                i.value = v.substring(0, v.length-1);
+                return;
+            }
+   
+            i.setAttribute("maxlength", "14");
+            if (v.length == 3 || v.length == 7) i.value += ".";
+            if (v.length == 11) i.value += "-";
+
+        }
+    </script>
 
 </body>
 </html>
