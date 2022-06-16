@@ -60,6 +60,13 @@ var db_ongs_inicial = {
 
     ]
 }
+var db_doacoes_inicial = {
+    "data": [
+        
+    ]
+}
+
+var db_doacao = db_doacoes_inicial
 
 var dbOngs = db_ongs_inicial
 
@@ -161,14 +168,6 @@ function btnDonnationClick(id) {
 
 // INICIO - VALIDANDO MODAL DE DOACAO
 
-var db_doacoes_inicial = {
-    "data": [
-        
-    ]
-}
-
-var db_doacao = db_doacoes_inicial
-
 function formatValue() {
     var elem = document.getElementById('valueDonation');
     var value = elem.value;
@@ -250,8 +249,8 @@ function btnConfirmDonnationClick() {
         };
         console.log("vai salver")
 
-        // db_doacao.data.push(novaDoacao);
         var db = JSON.parse(localStorage.getItem('db_doacao'));
+        if(db.data == null) localStorage.setItem('db_doacao', JSON.stringify(db_doacao));
         db.data.push(novaDoacao);
         localStorage.setItem('db_doacao', JSON.stringify(db));
         console.log("terminou de salvar: " + db.data.length)
