@@ -4,6 +4,7 @@ class Validator {
         this.validations = [
             'data-min-length', 
             'data-max-length',
+            'data-email-validate',
 
         ]
     }
@@ -59,6 +60,37 @@ minlength(input, minValue) {
 
 
 }
+
+//verfica se o input passou dos limite de caracteres
+maxlength(input, maxValue){
+
+let inputlength = input.value.length;
+
+    let errorMessage = `O campo precisa ter menos que ${maxValue} caracteres`; 
+
+    if(inputlength < maxValue){
+        //console.log(errorMessage);
+        this.printMessage(input,errorMessage);
+    }
+
+}
+
+// valida emails
+emailvalidate(input) {
+    var re = /\S+@\S+\.\S+/;
+
+    let email = input.value;
+
+    let errorMessage = `Insira um e-mail no padrão nome@email.com`;
+
+    console.log('oi');
+
+    if(!re.test(email)) {
+      this.printMessage(input, errorMessage);
+    }
+
+  }
+
 // método para imprimir mensagens de erro
 printMessage(input, msg) {
   
