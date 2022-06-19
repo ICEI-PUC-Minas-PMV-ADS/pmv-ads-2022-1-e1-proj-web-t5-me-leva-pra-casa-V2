@@ -151,7 +151,12 @@ form, #alertCadastro {
 
 /*Modal adote*/
 
-/*Modal Adote*/
-.modal{
-    display: none;
+/*botao Adote*/
+
+.botoes{
+   display: flex;
+   align-items: center;
+
+
 }
+
