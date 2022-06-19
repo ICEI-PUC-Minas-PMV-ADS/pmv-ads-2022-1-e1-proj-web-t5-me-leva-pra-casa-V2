@@ -54,6 +54,9 @@ li > a {
 .container-cadastro input {
     border: none;
 }
+.container-cadastro label {
+   font-size: 0.98rem;
+}
 
 .botoes{
     text-align: center;

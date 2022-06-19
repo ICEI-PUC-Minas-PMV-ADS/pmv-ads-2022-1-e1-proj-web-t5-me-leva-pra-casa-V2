@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-sm-4">
                     <label for="inputCpf">CPF (*)</label>
-                    <input type="text" class="form-control" name="inputCpf" id="inputCpf" oninput="MascararCPF(this)" required placeholder="Digite o CPF">
+                    <input type="text" class="form-control" name="inputCpf" id="inputCpf" oninput="MascararCPF(this)"  data-min-length="11" required placeholder="Digite o CPF">
                 </div>
                 <div class="col-sm-4">
                     <label for="inputTelefone">Telefone (*)</label>
@@ -104,21 +104,21 @@
                 </div>
                 <div class="col-sm-4">
                     <label for="inputNumero">Número</label>
-                    <input type="text" class="form-control" id="inputNumero"  placeholder="Digite o Número">
+                    <input type="text" class="form-control" id="inputNumero" oninput="MascararNumero(this)" placeholder="Digite o Número">
                 </div>
                 <div class="col-sm-4">
                     <label for="inputBairro">Bairro</label>
-                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro">
+                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro" data-only-letters="">
                 </div>
             </div>
             <div class="form-group row">    
                 <div class="col-sm-6">
                     <label for="inputCidade">Cidade</label>
-                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade">
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade" data-only-letters="">
                 </div>
                 <div class="col-sm-6">
                     <label for="inputEstado">Estado</label>
-                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado">
+                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado" data-only-letters="">
                 </div>
             </div>
                <div class="form-group row">    
@@ -141,8 +141,8 @@
     </div>
     <p class="error-validation template"></p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="app.js"></script>
     <script src="valida_Cadastro.js"></script>
+    <script src="app.js"></script>    
     <script type="text/javascript">  
         function MascararCPF(i){
             var v = i.value;
@@ -157,6 +157,19 @@
             if (v.length == 11) i.value += "-";
 
         }
+        
+    </script>
+    <script type="text/javascript">
+       function MascararNumero(i){
+          var v = i.value;
+   
+                if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+                i.value = v.substring(0, v.length-1);
+                return;
+            }
+   
+            i.setAttribute("maxlength", "6");
+          }
     </script>
 
 </body>
