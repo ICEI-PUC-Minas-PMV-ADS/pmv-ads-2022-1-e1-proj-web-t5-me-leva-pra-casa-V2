@@ -33,6 +33,12 @@ footer{
     font-size: 0.8rem;
 }
 
+/*Personalização Scroll */
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
 /*Configurando formulário Cadastro*/
 .contain-cadastro {
     width: 85%;
