@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+  <title>Me Leva Pra Casa - Cadastro</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configurando Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- Fim da Configuracao Bootstrap -->
+    <!-- Adicionando styles -->
+    <link rel="stylesheet" href="cadastro_style.css">
+    <link rel="stylesheet" href="cadastro_Crud.css">
+    <!-- Fim Adicionando styles -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</head>
+
+<body onload="init()">
+    <!-- Menu Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+    <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="container-fluid">
+        <div class="row" style="justify-content: center; align-items: center;">
+          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
+              width="150px" height="150px"></a>
+          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
+            <strong>Início</strong></a>
+          <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
+            <strong>Doe</strong></a> -->
+          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+            href="adote.html"><strong>Adote</strong></a>
+          <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
+            href="ONGs.html"><strong>ONGs</strong></a>
+        </div>
+      </div>
+      <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
+        <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
+          placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
+        <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
+          type="submit"><img src="search.png" width="20px;"></button>
+        <a class="nav-link" href="login.html">Login</a> |
+        <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
+        <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+      </form>
+    </div>
+  </nav>
+    <!-- Fim da Navegacao -->
+
+    <div class="container-fluid container-cadastro" style="margin-top: 30px; width: 80%;">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+      
+        
+      <div class="row">
+        <h2 class="mt-3 mb-2"> Cadastre-se </h2>
+      </div>
+
+        <form id="form-usuario">
+            <div class="form-group row mt-3">
+                <div class="col-sm-12 paddingInputs">
+                    <label for="inputNome">Nome (*)</label>
+                    <input type="text" name="inputNome" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4 paddingInputs">
+                    <label for="inputEmail">E-mail (*)</label>
+                    <input required type="email" name="inputEmail" class="form-control" data-min-length="2" id="inputEmail" placeholder="Digite o E-mail" 
+                    data-email-validate>
+                </div>
+                <div class="col-sm-4 paddingInputs">
+                    <label for="inputCNPJ">CNPJ (*)</label>
+                    <input type="text" class="form-control" name="inputCNPJ" id="inputCNPJ" oninput="MascararCNPJ(this)"  data-min-length="14" required placeholder="Digite o CPF">
+                </div>
+                <div class="col-sm-4 paddingInputs">
+                    <label for="inputTelefone">Telefone (*)</label>
+                    <input type="number" class="form-control" id="inputTelefone" required placeholder="Digite o Telefone">
+                </div>                
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4 paddingInputs">
+                    <label for="inputRua">Endereço</label>
+                    <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida" >
+                </div>
+                <div class="col-sm-4 paddingInputs">
+                    <label for="inputNumero">Número</label>
+                    <input type="text" class="form-control" id="inputNumero" oninput="MascararNumero(this)" placeholder="Digite o Número">
+                </div>
+                <div class="col-sm-4 paddingInputs">
+                    <label for="inputBairro">Bairro</label>
+                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro" data-only-letters="">
+                </div>
+            </div>
+            <div class="form-group row">    
+                <div class="col-sm-6 paddingInputs">
+                    <label for="inputCidade">Cidade</label>
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade" data-only-letters="">
+                </div>
+                <div class="col-sm-6 paddingInputs">
+                    <label for="inputEstado">Estado</label>
+                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado" data-only-letters="">
+                </div>
+            </div>
+               <div class="form-group row">    
+                <div class="col-sm-6 paddingInputs">
+                    <label for="inputSenha">Senha (*)</label>
+                    <input type="password" class="form-control" name="inputSenha" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres" data-password-validate data-required data-equal="inputConfirma">
+                </div>
+                <div class="col-sm-6 paddingInputs">
+                    <label for="inputConfirma">Confirmar Senha (*)</label>
+                    <input type="password" class="form-control" name="inputConfirma" id="inputConfirma" placeholder="Confirme a Senha" required data-equal="inputSenha">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-12 botoes" >
+                    <input type="submit" class="btn btn-success" id="btnInsert" value="Cadastrar">
+                    <input type="submit" class="btn btn-secondary" id="btnClear" value="Cancelar">
+                </div>
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="valida_Ong.js"></script>    
+    <script type="text/javascript">  
+        function MascararCNPJ(i){
+            var v = i.value;
+   
+                if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+                i.value = v.substring(0, v.length-1);
+                return;
+            }
+   
+            i.setAttribute("maxlength", "18");
+            if (v.length == 2 || v.length == 6) i.value += ".";
+            if (v.length == 10) i.value += "/";
+            if (v.length == 15) i.value += "-";
+
+        }
+        
+    </script>
+    <script type="text/javascript">
+       function MascararNumero(i){
+          var v = i.value;
+   
+                if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+                i.value = v.substring(0, v.length-1);
+                return;
+            }
+   
+            i.setAttribute("maxlength", "6");
+          }
+    </script>
+
+</body>
+</html>
