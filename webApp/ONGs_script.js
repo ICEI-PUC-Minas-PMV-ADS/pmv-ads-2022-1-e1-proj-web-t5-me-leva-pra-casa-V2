@@ -147,8 +147,8 @@ function fadeOutEffectInProgressBar() {
 var buttonDonnationIdClicked = ""
 
 function btnDonnationClick(id) {
-    var isLogged = 'loggedIn'
-    if (isLogged == 'loggedIn') {
+    var isLogged = 'setItem'
+    if (isLogged == 'loginUser') {
         var elem = document.getElementById('modal-title-donnationModal');
         let lastCharacterId = parseInt(id.slice(-1)); //btn-card-1
         let findId = lastCharacterId + 1
