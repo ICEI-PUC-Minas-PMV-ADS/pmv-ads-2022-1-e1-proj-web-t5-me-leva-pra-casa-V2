@@ -77,56 +77,56 @@
 
         <form id="form-usuario">
             <div class="form-group row mt-3">
-                <div class="col-sm-12">
+                <div class="col-sm-12 paddingInputs">
                     <label for="inputNome">Nome (*)</label>
                     <input type="text" name="inputNome" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputEmail">E-mail (*)</label>
                     <input required type="email" name="inputEmail" class="form-control" data-min-length="2" id="inputEmail" placeholder="Digite o E-mail" 
                     data-email-validate>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputCpf">CPF (*)</label>
                     <input type="text" class="form-control" name="inputCpf" id="inputCpf" oninput="MascararCPF(this)"  data-min-length="11" required placeholder="Digite o CPF">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputTelefone">Telefone (*)</label>
                     <input type="number" class="form-control" id="inputTelefone" required placeholder="Digite o Telefone">
                 </div>                
             </div>
             <div class="form-group row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputRua">Endereço</label>
                     <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida" >
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputNumero">Número</label>
                     <input type="text" class="form-control" id="inputNumero" oninput="MascararNumero(this)" placeholder="Digite o Número">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputBairro">Bairro</label>
                     <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro" data-only-letters="">
                 </div>
             </div>
             <div class="form-group row">    
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputCidade">Cidade</label>
                     <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade" data-only-letters="">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputEstado">Estado</label>
                     <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado" data-only-letters="">
                 </div>
             </div>
                <div class="form-group row">    
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputSenha">Senha (*)</label>
                     <input type="password" class="form-control" name="inputSenha" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres" data-password-validate data-required data-equal="inputConfirma">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputConfirma">Confirmar Senha (*)</label>
                     <input type="password" class="form-control" name="inputConfirma" id="inputConfirma" placeholder="Confirme a Senha" required data-equal="inputSenha">
                 </div>
@@ -141,8 +141,7 @@
     </div>
     <p class="error-validation template"></p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="valida_Cadastro.js"></script>
-    <script src="app.js"></script>    
+    <script src="valida_Cadastro.js"></script>    
     <script type="text/javascript">  
         function MascararCPF(i){
             var v = i.value;
