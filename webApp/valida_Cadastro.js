@@ -72,7 +72,7 @@ class Validator {
 
     let inputLength = input.value.length;
 
-    let errorMessage = `O campo precisa ter menos que ${maxValue} caracteres`;
+    let errorMessage = `O campo precisa ter no máximo ${maxValue} caracteres`;
 
     if(inputLength > maxValue) {
       this.printMessage(input, errorMessage);
