@@ -100,31 +100,31 @@
             <div class="form-group row">
                 <div class="col-sm-4 paddingInputs">
                     <label for="inputRua">Endereço</label>
-                    <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida" >
+                    <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida"  data-min-length="1" data-max-length="25">
                 </div>
                 <div class="col-sm-4 paddingInputs">
                     <label for="inputNumero">Número</label>
-                    <input type="text" class="form-control" id="inputNumero" oninput="MascararNumero(this)" placeholder="Digite o Número">
+                    <input type="text" class="form-control" id="inputNumero" oninput="MascararNumero(this)" data-min-length="1" placeholder="Digite o Número">
                 </div>
                 <div class="col-sm-4 paddingInputs">
                     <label for="inputBairro">Bairro</label>
-                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro" data-only-letters="">
+                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro" data-min-length="3" data-max-length="25" data-only-letters>
                 </div>
             </div>
             <div class="form-group row">    
                 <div class="col-sm-6 paddingInputs">
                     <label for="inputCidade">Cidade</label>
-                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade" data-only-letters="">
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade"  data-min-length="3" data-max-length="25" data-only-letters>
                 </div>
                 <div class="col-sm-6 paddingInputs">
                     <label for="inputEstado">Estado</label>
-                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado" data-only-letters="">
+                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado" data-min-length="3" data-max-length="25" data-only-letters>
                 </div>
             </div>
                <div class="form-group row">    
                 <div class="col-sm-6 paddingInputs">
                     <label for="inputSenha">Senha (*)</label>
-                    <input type="password" class="form-control" name="inputSenha" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres" data-password-validate data-required data-equal="inputConfirma">
+                    <input type="password" class="form-control" name="inputSenha" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres com caractere escpecial e número"  data-min-length="7" data-max-length="14" data-password-validate data-required data-equal="inputConfirma">
                 </div>
                 <div class="col-sm-6 paddingInputs">
                     <label for="inputConfirma">Confirmar Senha (*)</label>
@@ -141,7 +141,7 @@
     </div>
     <p class="error-validation template"></p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="valida_Cadastro.js"></script>    
+    <script src="/webApp/valida_Cadastro.js"></script>    
     <script type="text/javascript">  
         function MascararCPF(i){
             var v = i.value;
