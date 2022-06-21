@@ -17,8 +17,13 @@ label {
   position: absolute;
   top: 57px;
   font-size: 12px;
+  margin-top: 25px
 }
 
 .template {
   display: none;
+}
+
+.paddingInputs{
+  padding: 10px;
 }

@@ -1,3 +1,7 @@
+var imported = document.createElement('script');
+imported.src = 'app.js';
+document.head.appendChild(imported); 
+
 class Validator {
 
   constructor() {
@@ -110,7 +114,7 @@ class Validator {
 
     let inputToCompare = document.getElementsByName(inputName)[0];
 
-    let errorMessage = `Este campo precisa estar igual ao ${inputName}`;
+    let errorMessage = `As senhas devem ser iguais`;
 
     if(input.value != inputToCompare.value) {
       this.printMessage(input, errorMessage);
@@ -183,14 +187,15 @@ class Validator {
 
 }
 
-let form = document.getElementById('register-form');
-let submit = document.getElementById('btn-submit');
+let form = document.getElementById('form-usuario');
+let submit = document.getElementById('btnInsert');
 
 let validator = new Validator();
 
 // evento de envio do form, que valida os inputs
 submit.addEventListener('click', function(e) {
-  e.preventDefault();
 
+  e.preventDefault();
   validator.validate(form);
+  insertUsuario(form)
 });
