@@ -61,12 +61,10 @@ function init() {
         // Reexibe os usuarios
         exibeUsuarios();
 
+        window.location.href = "login.html"
+        
         // Limpa o formulario
         $("#form-usuario")[0].reset();
-
-        setTimeout (function(){
-            window.location.href = "login.html"
-        }, 2000);
     });
 
     // Intercepta o click do botão Alterar

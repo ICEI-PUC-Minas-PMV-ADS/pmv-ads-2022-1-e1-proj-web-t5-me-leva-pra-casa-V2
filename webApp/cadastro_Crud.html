@@ -11,10 +11,11 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+   <!--- <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script> --->
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
     <link rel="stylesheet" href="cadastro_style.css">
+    <link rel="stylesheet" href="cadastro_Crud.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -25,6 +26,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"></script>
+      <script src="app.js"></script>
 </head>
 
 <body onload="init()">
@@ -40,7 +42,7 @@
           <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
               width="150px" height="150px"></a>
           <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="home.html">
-            <strong>Início</strong></a>
+            <strong>Sobre</strong></a>
           <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
             <strong>Doe</strong></a> -->
           <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
@@ -55,8 +57,7 @@
         <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
           type="submit"><img src="search.png" width="20px;"></button>
         <a class="nav-link" href="login.html">Login</a> |
-        <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
-        <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+        <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a>
       </form>
     </div>
   </nav>
@@ -76,81 +77,124 @@
 
         <form id="form-usuario">
             <div class="form-group row mt-3">
-                <div class="col-sm-4">
-                    <label for="inputId">Id</label>
-                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
-                </div>
-                <div class="col-sm-8">
+                <div class="col-sm-12 paddingInputs">
                     <label for="inputNome">Nome (*)</label>
-                    <input type="text" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
+                    <input type="text" name="inputNome" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputEmail">E-mail (*)</label>
-                    <input type="email" class="form-control" id="inputEmail" required placeholder="Digite o E-mail" data-email-validate>
+                    <input required type="email" name="inputEmail" class="form-control" data-min-length="2" id="inputEmail" placeholder="Digite o E-mail" 
+                    data-email-validate>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputCpf">CPF (*)</label>
-                    <input type="text" class="form-control" id="inputCpf" required placeholder="Digite o CPF" >
+                    <input type="text" class="form-control" name="inputCpf" id="inputCpf" data-min-length="11" required placeholder="Digite o CPF">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputTelefone">Telefone (*)</label>
-                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Digite o Telefone">
+                    <input type="text" class="form-control" id="inputTelefone" maxlength="15" data-min-length="11" required placeholder="Digite o Celular">
                 </div>                
             </div>
             <div class="form-group row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputRua">Endereço</label>
-                    <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida" >
+                    <input type="text" class="form-control" id="inputRua" placeholder="Digite Rua ou Avenida"  data-min-length="1" data-max-length="25">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputNumero">Número</label>
-                    <input type="text" class="form-control" id="inputNumero"  placeholder="Digite o Número">
+                    <input type="text" class="form-control" id="inputNumero"  data-min-length="1" placeholder="Digite o Número">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 paddingInputs">
                     <label for="inputBairro">Bairro</label>
-                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro">
+                    <input type="text" class="form-control" id="inputBairro" placeholder="Digite Bairro" data-min-length="3" data-max-length="25" data-only-letters>
                 </div>
             </div>
             <div class="form-group row">    
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputCidade">Cidade</label>
-                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade">
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Digite a Cidade"  data-min-length="3" data-max-length="25" data-only-letters>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputEstado">Estado</label>
-                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado">
+                    <input type="text" class="form-control" id="inputEstado" placeholder="Digite o Estado" data-min-length="3" data-max-length="25" data-only-letters>
                 </div>
             </div>
-            <div class="form-group row">    
-                <div class="col-sm-6">
+               <div class="form-group row">    
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputSenha">Senha (*)</label>
-                    <input type="password" class="form-control" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres"  required>
+                    <input type="password" class="form-control" name="inputSenha" id="inputSenha" placeholder="Digite Senha mínimo 7 caracteres com caractere escpecial e número"  data-min-length="7" data-max-length="14" data-password-validate data-required data-equal="inputConfirma">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 paddingInputs">
                     <label for="inputConfirma">Confirmar Senha (*)</label>
-                    <input type="password" class="form-control" id="inputConfirma" placeholder="Confirme a Senha"  required>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-4">
-                    <small>(*) Campos obrigatórios</small>
+                    <input type="password" class="form-control" name="inputConfirma" id="inputConfirma" placeholder="Confirme a Senha" required data-equal="inputSenha">
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-md-12 botoes" >
-                    <input type="button" class="btn btn-success" id="btnInsert" value="Cadastrar">
-                    <input type="button" class="btn btn-secondary" id="btnClear" value="Cancelar">
+                    <input type="submit" class="btn btn-success" id="btnInsert" value="Cadastrar">
+                    <input type="submit" class="btn btn-secondary" id="btnClear" value="Cancelar">
                 </div>
             </div>
         </form>
     </div>
     <p class="error-validation template"></p>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="app.js"></script>
-    <script src="valida_Cadastro.js"></script>
+   <!-- <script src="/webApp/valida_Cadastro.js"></script>
+    <script type="text/javascript">  
+        function MascararCPF(i){
+            var v = i.value;
+   
+                if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+                i.value = v.substring(0, v.length-1);
+                return;
+            }
+   
+            i.setAttribute("maxlength", "14");
+            if (v.length == 3 || v.length == 7) i.value += ".";
+            if (v.length == 11) i.value += "-";
 
+        }
+        
+    </script>
+    <script type="text/javascript">
+       function MascararNumero(i){
+          var v = i.value;
+   
+                if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+                i.value = v.substring(0, v.length-1);
+                return;
+            }
+   
+            i.setAttribute("maxlength", "6");
+          }
+    </script>
+    <script type="text/javascript">
+      function MascararTelefone(o,f){
+          v_obj=o
+          v_fun=f
+          setTimeout("execMascararTelefone()",1)
+      }
+      function execMascararTelefone(){
+          v_obj.value=v_fun(v_obj.value)
+      }
+      function mtel(v){
+          v=v.replace(/\D/g,""); //Remove tudo o que não é dígito
+          v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+          v=v.replace(/(\d)(\d{4})$/,"$1-$2"); //Coloca hífen entre o quarto e o quinto dígitos
+          return v;
+      }
+      function id( el ){
+          return document.getElementById( el );
+      }
+      window.onload = function(){
+          id('inputTelefone').onkeyup = function(){
+              MascararTelefone( this, mtel );
+          }
+      }
+      
+  </script>
+--->
 </body>
 </html>

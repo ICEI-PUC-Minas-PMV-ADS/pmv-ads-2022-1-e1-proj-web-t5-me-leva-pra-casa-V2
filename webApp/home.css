@@ -31,6 +31,26 @@ footer{
     display: block;
     text-align: center;
     font-size: 0.8rem;
+    background-color: rgb(0, 0, 114);
+}
+
+.card > .card-header {
+    background-color: rgb(30, 119, 209);
+    color: white;
+}
+
+.card > ::-webkit-scrollbar{
+    background-color: transparent;
+    color: white;
+}
+
+.container-fluid > .card-header {
+    background-color: rgb(0, 0, 114);
+    color: white;
+}
+
+h3{
+    text-align: center;
 }
 
 /*Configurando formulário Cadastro*/
@@ -151,7 +171,12 @@ form, #alertCadastro {
 
 /*Modal adote*/
 
-/*Modal Adote*/
-.modal{
-    display: none;
+/*botao Adote*/
+
+.botoes{
+   display: flex;
+   align-items: center;
+
+
 }
+

@@ -28,10 +28,7 @@ function generateUUID() { // Public Domain/MIT
 
 // Dados de usuários para serem utilizados como carga inicial
 const dadosIniciais = {
-    data: [
-        { "id": generateUUID (), "login": "melevapracasa@admin.com", "senha": "admin123", "nome": "Administrador do Sistema", "email": "admin@abc.com"},
-        { "id": generateUUID (), "login": "melvapracasa@user.com", "senha": "user123", "nome": "Usuario Comum", "email": "user@abc.com"},
-    ]
+    data: []
 };
 
 
@@ -49,9 +46,6 @@ function initLoginApp () {
 
     // Verifica se existem dados já armazenados no localStorage
     if (!usuariosJSON) {  // Se NÃO há dados no localStorage
-        
-        // Informa sobre localStorage vazio e e que serão carregados os dados iniciais
-        alert('Dados de usuários não encontrados no localStorage. \n -----> Fazendo carga inicial.');
 
         // Copia os dados iniciais para o banco de dados 
         db_usuario = dadosIniciais;
@@ -77,10 +71,17 @@ function loginUser (email, senha) {
         
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
         if (email == usuario.email && senha == usuario.senha) {
-            usuarioCorrente.id = usuario.id;
-            usuarioCorrente.login = usuario.login;
+            usuarioCorrente.bairro = usuario.bairro;
+            usuarioCorrente.cidade = usuario.cidade;
+            usuarioCorrente.cpf = usuario.cpf;
             usuarioCorrente.email = usuario.email;
+            usuarioCorrente.estado = usuario.estado;
+            usuarioCorrente.id = usuario.id;
             usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.numero = usuario.numero;
+            usuarioCorrente.rua = usuario.rua;
+            usuarioCorrente.senha = usuario.senha;
+            usuarioCorrente.telefone = usuario.telefone;
             
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
