@@ -145,11 +145,12 @@ function fadeOutEffectInProgressBar() {
 
 // INICIO -LOGADO OU NAO LOGADO
 var buttonDonnationIdClicked = ""
-console.log("Executing login.js")
+
 
 function btnDonnationClick(id) {
-    var isLogged = 'setItem'
-    if (isLogged == 'getItem') {
+    var isLogged = localStorage.getItem('usuarioCorrente')
+    console.log("isLogged: "+ isLogged)
+    if (isLogged != null) {
         var elem = document.getElementById('modal-title-donnationModal');
         let lastCharacterId = parseInt(id.slice(-1)); //btn-card-1
         let findId = lastCharacterId + 1
