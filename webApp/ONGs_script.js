@@ -60,6 +60,13 @@ var db_ongs_inicial = {
 
     ]
 }
+var db_doacoes_inicial = {
+    "data": [
+        
+    ]
+}
+
+var db_doacao = db_doacoes_inicial
 
 var dbOngs = db_ongs_inicial
 
@@ -140,8 +147,8 @@ function fadeOutEffectInProgressBar() {
 var buttonDonnationIdClicked = ""
 
 function btnDonnationClick(id) {
-    var isLogged = 'loggedIn'
-    if (isLogged == 'loggedIn') {
+    var isLogged = 'setItem'
+    if (isLogged == 'loginUser') {
         var elem = document.getElementById('modal-title-donnationModal');
         let lastCharacterId = parseInt(id.slice(-1)); //btn-card-1
         let findId = lastCharacterId + 1
@@ -160,14 +167,6 @@ function btnDonnationClick(id) {
 // FIM -LOGADO OU NAO LOGADO
 
 // INICIO - VALIDANDO MODAL DE DOACAO
-
-var db_doacoes_inicial = {
-    "data": [
-        
-    ]
-}
-
-var db_doacao = db_doacoes_inicial
 
 function formatValue() {
     var elem = document.getElementById('valueDonation');
@@ -250,8 +249,8 @@ function btnConfirmDonnationClick() {
         };
         console.log("vai salver")
 
-        // db_doacao.data.push(novaDoacao);
         var db = JSON.parse(localStorage.getItem('db_doacao'));
+        if(db.data == null) localStorage.setItem('db_doacao', JSON.stringify(db_doacao));
         db.data.push(novaDoacao);
         localStorage.setItem('db_doacao', JSON.stringify(db));
         console.log("terminou de salvar: " + db.data.length)
