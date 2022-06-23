@@ -18,16 +18,8 @@
     background-color: white;
 }
 
-main{
-    background-image: url(azul.jpg);
-    padding:10px;
-    background-size:cover;
-    background-repeat: no-repeat;
-  
-    height: 100vh; 
-}
-.card{
-    margin-left:20rem;
+body{
+    background-image: url(bg.png);
 }
 
 li > a {
