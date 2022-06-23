@@ -129,7 +129,7 @@ function updateUsuario(id, usuario) {
 
     // Atualiza os dados no Local Storage
     sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
-    localStorage.setItem('db_usuario', JSON.stringify(db));
+    localStorage.setItem('db_usuario', JSON.stringify(usuarioCorrente));
 
 }
 
