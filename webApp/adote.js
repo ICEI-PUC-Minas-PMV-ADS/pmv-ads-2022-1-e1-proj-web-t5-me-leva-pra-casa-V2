@@ -49,10 +49,7 @@ function renderizaDadosNosCards(itens) {
             <b>Sexo:</b> ${item.Sexo}
             <br> 
             <b>Porte:</b> ${item.Porte}
-            <button type="button" class="btn btn-primary float-right" data-toggle="modal"
-            data-target="#modalSaibaMais">
-            Saiba Mais
-        </button>
+            <button onclick="myFunction()">Click me</button>
         `
         divTres.append(p);
 
@@ -60,26 +57,3 @@ function renderizaDadosNosCards(itens) {
     });
 }
 
-function iniciaModal(modalID) {
-			if(localStorage.fechaModal !== modalID) {
-				const modal = document.getElementById(modalID);
-				if(modal) {
-					modal.classList.add('mostrar');
-					modal.addEventListener('click', (e) => {
-						if(e.target.id == modalID || e.target.className == 'fechar') {
-							modal.classList.remove('mostrar');
-							localStorage.fechaModal = modalID;
-						}
-					});
-				}
-			}
-		}
-
-		const logo = document.querySelector('.contato .button');
-		logo.addEventListener('click', () => iniciaModal('modal-promocao'));
-
-		document.addEventListener('scroll', () => {
-			if(window.pageYOffset > 800) {
-				iniciaModal('modal-promocao')
-			}
-		})
