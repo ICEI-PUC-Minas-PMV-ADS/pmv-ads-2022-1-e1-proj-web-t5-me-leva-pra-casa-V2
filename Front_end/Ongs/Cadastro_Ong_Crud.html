@@ -14,8 +14,9 @@
     <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- Fim da Configuracao Bootstrap -->
     <!-- Adicionando styles -->
-    <link rel="stylesheet" href="cadastro_style.css">
-    <link rel="stylesheet" href="cadastro_Crud.css">
+    
+    <link rel="stylesheet" href="/Front_end/cadastro/cadastro_style.css">
+    <link rel="stylesheet" href="/Front_end/cadastro/cadastro_Crud.css">
     <!-- Fim Adicionando styles -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -38,26 +39,26 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="container-fluid">
         <div class="row" style="justify-content: center; align-items: center;">
-          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="home.html"> <img src="Logo.png"
+          <a class="navbar-brand col-md-1" style="margin:auto; width: 300px;" href="/Front_end/Home/home.html"> <img src="/Front_end/img/Logo.png"
               width="150px" height="150px"></a>
-          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="quem_somos.html">
+          <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="/Front_end/Quem somos/quem_somos.html">
             <strong>Sobre</strong></a>
           <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html">
             <strong>Doe</strong></a> -->
           <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-            href="adote.html"><strong>Adote</strong></a>
+            href="/Front_end/Adote/adote.html"><strong>Adote</strong></a>
           <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
-            href="ONGs.html"><strong>ONGs</strong></a>
+            href="/Front_end/Ongs/ONGs.html"><strong>ONGs</strong></a>
         </div>
       </div>
       <form class="form-inline my-2 my-lg-0" style="margin-right: 50px; padding-top: 20px; justify-content: center;" method="POST" enctype="multipart/form-data">
         <input class="form-control mr-sm-2 col-md-8" style=" border: solid 1px black;" type="search"
           placeholder="Pesquisar..." style="text-align: left;" aria-label="Pesquisar">
         <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;"
-          type="submit"><img src="search.png" width="20px;"></button>
-        <a class="nav-link" href="login.html">Login</a> |
-        <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> |
-        <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a>
+          type="submit"><img src="/Front_end/img/search.png" width="20px;"></button>
+        <a class="nav-link" href="/Front_end/login/login.html">Login</a> |
+        <a class="nav-link" href="/Front_end/cadastro/cadastro_Crud.html">Cadastre-se</a> |
+        <a class="nav-link" href="/Front_end/minha conta/LOGADO-minha_conta_perfil.html">Minha Conta</a>
       </form>
     </div>
   </nav>
@@ -142,7 +143,7 @@
     <p class="error-validation template"></p>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="/webApp/valida_Ong.js"></script>    
+    <script src="/Front_end/Ongs/valida_Ong.js"></script>    
     <script type="text/javascript">  
         function MascararCNPJ(i){
             var v = i.value;
