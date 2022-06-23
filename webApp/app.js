@@ -26,7 +26,9 @@ function exibeUsuarios() {
 }
 
 function init() {
+    if (!db){
     db = db_usuarios_inicial;
+    }
     // Adiciona funções para tratar os eventos 
     $("#btnInsert").click(function () {
         // Verfica se o formulário está preenchido corretamente
