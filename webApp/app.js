@@ -160,9 +160,6 @@ function init() {
 
 // Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais
 var db = JSON.parse(localStorage.getItem('db_usuario'));
-if (!db) {
-    db = db_usuarios_inicial
-};
 
 // Exibe mensagem em um elemento de ID msg
 function displayMessage(msg) {

@@ -1,8 +1,3 @@
-// declara um conjunto inicial de contatos
-var db_usuarios_inicial = {
-    "data": []
-}
-
 function exibeUsuarios() {
     // Remove todas as linhas do corpo da tabela
     $("#table-usuarios").html("");
@@ -143,8 +138,8 @@ function updateUsuario(campoId, usuario) {
     displayMessage("Usuário alterado com sucesso");
 
     // Atualiza os dados no Local Storage
-    sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
-    localStorage.setItem('db_usuario', JSON.stringify(usuarioCorrente));
+    sessionStorage.setItem ('usuarioCorrente', JSON.stringify (db));
+    localStorage.setItem('db_usuario', JSON.stringify(db));
 
 }
 
