@@ -82,8 +82,23 @@ function excluiItem(id) {
     limpaTabela();
     renderizaDadosNaTabela(dadosFiltrados);
 }
-function editarItem(id) {
-    const dados = buscaDadosLocalStorage();
-    const item = dados.find(item => item.Id == id);
-    console.log(item);
-}
+
+    function editarItem(id) {
+        
+        $("modalRegistro").modal("show")
+     
+         dados.forEach(function(item) {
+            if (item.ID == id) {
+                 $("#txtNome").val(item.Nome)
+                 $("#txtIdade").val(item.Idade)
+                 $("#txtPorte").val(item.Porte)
+                 $("#txtSexo").val(item.Sexo)
+                 $("#txtDescricao").val(item.Descricao)
+                 $("#txtImagem").val(item.Imagem)
+     
+            } 
+         })
+     
+        
+     }
+    
