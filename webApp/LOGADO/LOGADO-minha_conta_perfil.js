@@ -7,7 +7,7 @@ function exibeUsuarios() {
     // Remove todas as linhas do corpo da tabela
     $("#table-usuarios").html("");
 
-        let usuario = usuarioCorrente; 
+        let usuario = usuarioCorrente.data[0]; 
     // Popula a tabela com os registros do banco de dados 
         $("#table-usuarios").append(`<tr><td scope="row">${usuario.id}</td>
                                         <td>${usuario.nome}</td>

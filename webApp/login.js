@@ -5,7 +5,7 @@ const LOGIN_URL = "login.html";
 var db_usuario = {};
 
 // Objeto para o usuário corrente
-var usuarioCorrente = {};
+var usuarioCorrente = {"data": []};
 
 // função para gerar códigos randômicos a serem utilizados como código de usuário
 // Fonte: https://stackoverflow.com/questions/105034/how-to-create-guid-uuid
@@ -72,18 +72,20 @@ function loginUser (email, senha) {
         
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
         if (email == usuario.email && senha == usuario.senha) {
-            usuarioCorrente.bairro = usuario.bairro;
-            usuarioCorrente.cidade = usuario.cidade;
-            usuarioCorrente.cpf = usuario.cpf;
-            usuarioCorrente.email = usuario.email;
-            usuarioCorrente.estado = usuario.estado;
-            usuarioCorrente.id = usuario.id;
-            usuarioCorrente.nome = usuario.nome;
-            usuarioCorrente.numero = usuario.numero;
-            usuarioCorrente.rua = usuario.rua;
-            usuarioCorrente.senha = usuario.senha;
-            usuarioCorrente.telefone = usuario.telefone;
-            
+            let usuarioLogado = {
+                "bairro": usuario.bairro,
+                "cidade": usuario.cidade,
+                "cpf": usuario.cpf,
+                "email": usuario.email,
+                "estado": usuario.estado,
+                "id": usuario.id,
+                "nome": usuario.nome,
+                "numero": usuario.numero,
+                "rua": usuario.rua,
+                "senha": usuario.senha,
+                "telefone": usuario.telefone,
+            };
+            usuarioCorrente.data.push(usuarioLogado);
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
 
