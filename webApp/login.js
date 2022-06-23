@@ -28,7 +28,7 @@ function generateUUID() { // Public Domain/MIT
 
 // Dados de usuários para serem utilizados como carga inicial
 const dadosIniciais = {
-    data: []
+    "data": []
 };
 
 
@@ -49,6 +49,7 @@ function initLoginApp () {
 
         // Copia os dados iniciais para o banco de dados 
         db_usuario = dadosIniciais;
+        usuarioCorrente = dadosIniciais;
 
         // Salva os dados iniciais no local Storage convertendo-os para string antes
         localStorage.setItem('db_usuario', JSON.stringify (dadosIniciais));
