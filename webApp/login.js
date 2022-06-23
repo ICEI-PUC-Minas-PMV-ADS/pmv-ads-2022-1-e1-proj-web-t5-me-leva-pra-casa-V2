@@ -85,6 +85,7 @@ function loginUser (email, senha) {
                 "senha": usuario.senha,
                 "telefone": usuario.telefone,
             };
+            usuarioCorrente.data.splice(0);
             usuarioCorrente.data.push(usuarioLogado);
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
