@@ -43,7 +43,8 @@ function init() {
         let campoCidade = $("#inputCidade").val();
         let campoEstado = $("#inputEstado").val(); 
         let campoSenha = $("#inputSenha").val();                
-        let usuario = { nome: campoNome, 
+        let usuario = { id: campoId,
+            nome: campoNome, 
             email: campoEmail,
             cpf: campoCpf,
             telefone: campoTelefone, 
@@ -55,7 +56,7 @@ function init() {
             senha: campoSenha };
         
         $("#form-usuario")[0].reset();
-        updateUsuario(campoId, usuario);
+        updateUsuario(parseInt(campoId), usuario);
         
 
         // Reexibe os usuários
@@ -102,7 +103,7 @@ function init() {
         $("#inputTelefone").val(colunas[4].innerText);
         $("#inputRua").val(colunas[5].innerText);
         $("#inputNumero").val(colunas[6].innerText);
-        $("#inputComp").val(colunas[7].innerText);
+        $("#inputBairro").val(colunas[7].innerText);
         $("#inputCidade").val(colunas[8].innerText);
         $("#inputEstado").val(colunas[9].innerText);
         $("#inputSenha").val(colunas[10].innerText);
@@ -117,28 +118,17 @@ function displayMessage(msg) {
     }
 
 
-function updateUsuario(campoId, usuario) {
+function updateUsuario(id, usuario) {
     // Localiza o indice do objeto a ser alterado no array a partir do seu cpf
     var db = JSON.parse(localStorage.getItem('db_usuario'));
-    let index = db.data.map(obj => obj.campoId).indexOf(campoId);
-    // Altera os dados do objeto no array
-    usuarioCorrente.nome = usuario.nome,
-    usuarioCorrente.email = usuario.email,
-    usuarioCorrente.cpf = usuario.cpf,
-    usuarioCorrente.telefone = usuario.telefone,
-    usuarioCorrente.rua = usuario.rua,
-    usuarioCorrente.numero = usuario.numero,
-    usuarioCorrente.bairro = usuario.bairro,
-    usuarioCorrente.cidade = usuario.cidade,
-    usuarioCorrente.estado = usuario.estado,
-    usuarioCorrente.senha =  usuario.senha,
-
-    db.data[index] = usuarioCorrente;
+    let index = db.data.map(obj => obj.id).indexOf(id);
+    db.data[index] = usuario;
+    usuarioCorrente.data[0] = usuario;
 
     displayMessage("Usuário alterado com sucesso");
 
     // Atualiza os dados no Local Storage
-    sessionStorage.setItem ('usuarioCorrente', JSON.stringify (db));
+    sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
     localStorage.setItem('db_usuario', JSON.stringify(db));
 
 }
