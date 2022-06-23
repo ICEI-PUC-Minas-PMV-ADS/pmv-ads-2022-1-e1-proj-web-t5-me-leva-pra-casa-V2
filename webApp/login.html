@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Link CSS -->
     <link rel="stylesheet" href="login_style.css">
-    <link rel="stylesheet" href="/webApp/home.css">
+
     <!-- Link Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="template/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- <script src="template/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>        -->
     <!-- Style HOME -->
-    <link rel="stylesheet" href="homelogin.css">
+    <link rel="stylesheet" href="/webApp/homelogin.css">
     <title>Me Leva Pra Casa - Login</title>
 </head>
 
@@ -36,7 +36,7 @@
                     <a class="nav-link menuItem  col-md-1" style="margin: auto; width: 300px;" href="quem_somos.html">
                         <strong>Sobre</strong></a>
                     <!-- <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;" href="doe.html"> -->
-                        <!-- <strong>Doe</strong></a> -->
+                    <!-- <strong>Doe</strong></a> -->
                     <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
                         href="adote.html"><strong>Adote</strong></a>
                     <a class="nav-link menuItem  col-md-1" style="margin:auto;width: 300px;"
@@ -51,80 +51,90 @@
                 <button class="btn btn-outline-primary my-2 my-sm-0 col-md-2" style="width: 50px;" type="submit"><img
                         src="search.png" width="20px;"></button>
                 <a class="nav-link" href="login.html">Login</a> |
-                <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a> <!--- |
+                <a class="nav-link" href="cadastro_Crud.html">Cadastre-se</a>
+                <!--- |
                 <a class="nav-link" href="minha_conta_perfil.html">Minha Conta</a> --->
             </form>
         </div>
     </nav>
     <!-- Fim da Navegacao -->
-
-    <!-- Start login form -->
+    <main>
+        <!-- Start login form -->
         <div class="row my-3">
             <div class="col">
-    <div class="card" id="LoginScreen">
-        <div class="card-body" id="login-form">
-            <h3>LOGIN</h3>
-            <form>
-                <br>
-                <!-- Email -->
-                <div class="form-group" style="width:100%;text-align:center">
-                  <label for="email"><i class="fa fa-envelope"></i></label>
-                  <input type="email" class="form-control" id="email" placeholder="Digite o seu email" required>
+                <div class="card" id="LoginScreen">
+                    <div class="card-body" id="login-form">
+                        <h3>LOGIN</h3>
+                        <form>
+                            <br>
+                            <!-- Email -->
+                            <div class="form-group" style="width:100%;text-align:center">
+                                <label for="email"><i class="fa fa-envelope"></i></label>
+                                <input type="email" class="form-control" id="email" placeholder="Digite o seu email"
+                                    required>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="form-group" style="width:100%;text-align:center">
+                                <label for="password"><i class="fa fa-lock"></i></label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Digite a sua senha" required>
+                            </div>
+
+                            <!-- Button -->
+                            <button type="submit" class="btn btn-primary btn-block">Vamos lá!</button>
+
+                            <br> <br>
+
+                            <!--  -->
+                            <div class="input-box">
+                                <p>Ainda não tem uma conta? <a href="cadastro_Crud.html">Cadastre-se.</a></p>
+                        </form>
+                    </div>
                 </div>
-
-                <!-- Password -->
-                <div class="form-group" style="width:100%;text-align:center">
-                  <label for="password"><i class="fa fa-lock"></i></label>
-                  <input type="password" class="form-control" id="password" placeholder="Digite a sua senha" required>
-                </div>
-
-                <!-- Button -->
-                <button type="submit" class="btn btn-primary btn-block">Vamos lá!</button>
-
-                <br> <br>
-
-                <!--  -->
-                <div class="input-box">
-                    <p>Ainda não tem uma conta? <a href="cadastro_Crud.html">Cadastre-se.</a></p>
-              </form>         
+            </div>
         </div>
-      </div>
-    </div>
-</div>
-          <!-- End login form -->
-
+        <!-- End login form -->
+    </main>
     <script src="login.js"></script>
     <script>
         // Declara uma função para processar o formulário de login
-        function processaFormLogin (event) {                
-                // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-                event.preventDefault ();
+        function processaFormLogin(event) {
+            // Cancela a submissão do formulário para tratar sem fazer refresh da tela
+            event.preventDefault();
 
-                // Obtem os dados de email e password a partir do formulário de login
-                var email = document.getElementById('email').value;
-                var password = document.getElementById('password').value;
+            // Obtem os dados de email e password a partir do formulário de login
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
 
-                // Valida login e se estiver ok, redireciona para tela inicial da aplicação
-                resultadoLogin = loginUser (email, password);
-                if (resultadoLogin) {
-                    window.location.href = '/webApp/LOGADO/LOGADO-home.html';
-                }
-                else { // Se login falhou, avisa ao usuário
-                    alert ('Email ou senha incorretos');
-                }
+            // Valida login e se estiver ok, redireciona para tela inicial da aplicação
+            resultadoLogin = loginUser(email, password);
+            if (resultadoLogin) {
+                window.location.href = '/webApp/LOGADO/LOGADO-home.html';
+            }
+            else { // Se login falhou, avisa ao usuário
+                alert('Email ou senha incorretos');
+            }
         }
 
-        function salvaLogin (event) {
+        function salvaLogin(event) {
             // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-            event.preventDefault ();
-            }
+            event.preventDefault();
+        }
 
         // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
-        document.getElementById ('login-form').addEventListener ('submit', processaFormLogin);
+        document.getElementById('login-form').addEventListener('submit', processaFormLogin);
     </script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
