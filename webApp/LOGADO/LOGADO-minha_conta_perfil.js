@@ -133,12 +133,12 @@ function updateUsuario(id, usuario) {
 
 }
 
-function deleteUsuario(campoId) {    
+function deleteUsuario(id) {    
     // Filtra o array removendo o elemento com o id passado
-    usuarioCorrente = usuarioCorrente.filter(function (element) { return element.campoId != campoId });
+    usuarioCorrente.data = usuarioCorrente.data.filter(function (element) { return element.id != id });
 
     displayMessage("Usuário removido com sucesso");
-
+    window.location.href = "/webApp/home.html"
     // Atualiza os dados no Local Storage
     sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
     localStorage.setItem('db_usuario', JSON.stringify (usuarioCorrente));

@@ -131,14 +131,6 @@ function init() {
         $("#form-usuario")[0].reset();
     });
 
-    // Oculta a mensagem de aviso após alguns segundos
-    $('#msg').bind("DOMSubtreeModified", function () {
-        window.setTimeout(function () {
-            $(".alert").fadeTo(500, 0).slideUp(500, function () {
-                $(this).remove();
-            });
-        }, 5000);
-    });
 
     // Preenche o formulário quando o usuario clicar em uma linha da tabela 
     $("#grid-usuarios").on("click", "tr", function (e) {
