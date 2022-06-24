@@ -4,18 +4,62 @@ function exibeUsuarios() {
 
         let usuario = usuarioCorrente.data[0]; 
     // Popula a tabela com os registros do banco de dados 
-        $("#table-usuarios").append(`<tr><td scope="row">${usuario.id}</td>
-                                        <td>${usuario.nome}</td>
-                                        <td>${usuario.email}</td>
-                                        <td>${usuario.cpf}</td>
-                                        <td>${usuario.telefone}</td>
-                                        <td>${usuario.rua}</td>
-                                        <td>${usuario.numero}</td>
-                                        <td>${usuario.bairro}</td>
-                                        <td>${usuario.cidade}</td>
-                                        <td>${usuario.estado}</td> 
-                                        <td>${usuario.senha}</td>                                               
-                                    </tr>`);
+        $("#form-usuario").append(`<div class="form-group row mt-3">
+                                    <div class="col-sm-4">
+                                      <label for="inputId">Id</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputId" value="${usuario.id}" disabled>
+                                    </div>
+                                    <div class="col-sm-8">
+                                      <label for="inputNome">Nome</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputNome" required
+                                        value="${usuario.nome}">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <div class="col-sm-4">
+                                      <label for="inputEmail">E-mail</label>
+                                      <input type="email" class="form-control form-meu-perfil" id="inputEmail" required value="${usuario.email}">
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <label for="inputCpf">CPF</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputCpf" required value="${usuario.cpf}">
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <label for="inputTelefone">Telefone</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputTelefone" required
+                                        value="${usuario.telefone}">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <div class="col-sm-4">
+                                      <label for="inputRua">Endereço</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputRua" value="${usuario.rua}">
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <label for="inputNumero">Número</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputNumero" value="${usuario.numero}">
+                                    </div>
+                                    <div class="col-sm-4">
+                                      <label for="inputBairro">Bairro</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputBairro" value="${usuario.bairro}">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <div class="col-sm-6">
+                                      <label for="inputCidade">Cidade</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputCidade" value="${usuario.cidade}">
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <label for="inputEstado">Estado</label>
+                                      <input type="text" class="form-control form-meu-perfil" id="inputEstado" value="${usuario.estado}">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row" style="text-align:center;">
+                                  <div class="col-sm-12 mt-3 botoes">
+                                    <input type="button" class="btn btn-warning botoes" id="btnUpdate" value="Alterar Dados">
+                                    <input type="button" class="btn btn-danger botoes" style="margin-left: 20px;" id="btnDelete" value="Deletar Cadastro">
+                                  </div>
+                                </div>`);
 }
 
 function init() {

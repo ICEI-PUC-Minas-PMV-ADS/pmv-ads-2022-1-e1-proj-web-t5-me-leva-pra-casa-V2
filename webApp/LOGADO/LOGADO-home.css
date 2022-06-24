@@ -33,6 +33,10 @@ footer{
     font-size: 0.8rem;
 }
 
+label{
+    font-weight: bold;
+}
+
 /*Configurando formulário Cadastro*/
 .contain-cadastro {
     width: 85%;
@@ -84,7 +88,7 @@ footer{
     margin-right: 20;    
 }
 .form-control {
-    border: none;
+    border: solid 1px lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,8 +152,6 @@ form, #alertCadastro {
 }
 
 /*Final estilo formulário Cadastro*/
-
-/*Modal adote*/
 
 /*Modal Adote*/
 .modal{
