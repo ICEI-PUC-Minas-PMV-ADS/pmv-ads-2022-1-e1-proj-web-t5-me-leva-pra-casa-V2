@@ -3,58 +3,58 @@ var db_ongs_inicial = {
     "data": [
         {
             "id": 1,
-            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 1",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175186412-35566c39-d73b-4a8a-a529-b482e64146a3.jpg",
+            "nomeONG": "ONG VALORIZA VIDA",
+            "descONG": "Associação de proteção e valorização da vida de gatos e cachorros. Aquidabã-SE @ONGVALORIZAVIDA",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 2,
-            "imagemONG": "https://logos.flamingtext.com/City-Logos/Ong-Sketch-Logo.png",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 2",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175185555-f43d433c-b004-4c0e-b69e-aecc26ce596f.jpg",
+            "nomeONG": "ONG DOG E CAT",
+            "descONG": "Atua principalmente no resgate de animais feridos ou em situação de risco. Ribeirão Preto-SP @ONGDOGECAT",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 3,
-            "imagemONG": "https://envolverde.com.br/wp-content/uploads/ongs_2.jpg",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 3",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175185697-0a78c481-60d4-466c-8080-918f0dd7cb55.jpg",
+            "nomeONG": "ONG GATO E CACHORRO",
+            "descONG": "Oferecem condições e cuidados necessários para que possam se recuperar. Contagem-MG @ONGGATOECACHORRO",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 4,
-            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 4",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175182973-b78ecb4a-5b3f-478b-b4b6-7e5d029160b7.jpg",
+            "nomeONG": "ONG RESGATA ANIMAL",
+            "descONG": "Tem como objetivo resgatar e acolher animais em situação de vulnerabilidade. Cotia-SP @ONGRESGATAANIMAL",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 5,
-            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 5",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175183247-929fec55-491d-4cf0-b7b3-f342fbda10be.jpg",
+            "nomeONG": "PROTEGER ANIMAIS",
+            "descONG": "Foi criada para proteger, amar e cuidar dos gatos e cachorros de rua.Copacabana-RJ @PROTEGERANIMAIS",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 6,
-            "imagemONG": "https://envolverde.com.br/wp-content/uploads/ongs_2.jpg",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 6",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175183986-7d0880a6-b60c-4213-b16f-27deb2552b94.jpg",
+            "nomeONG": "ONG PROTEÇÃO GATO",
+            "descONG": "A ONG de proteção trabalha com a reabilitação de gatos e a posterior adoção. Atibaia-SP @ONGPROTECAOGATO",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 7,
-            "imagemONG": "https://logos.flamingtext.com/City-Logos/Ong-Sketch-Logo.png",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 7",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175186071-f8357fcd-bfdc-45c7-855c-8ae0fd3a8462.jpg",
+            "nomeONG": "SOS PET",
+            "descONG": "Em 2017 um grupo de vizinhos se uniu para realizar resgates de cachorros e gatos abandonados. Parnaíba-SP @SOSPET",
             "textoBotaoONG": "Doação",
         },
         {
             "id": 8,
-            "imagemONG": "https://blog.esolidar.com/wp-content/uploads/2020/05/ONG-confiavel-como-transmitir-a-sua-mensagem.png",
-            "nomeONG": "NOME DA ONG LOCAL STORAGE 8",
-            "descONG": "This is a wider card with supporting text below as a natural lead-in to additional content",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175184562-77132baf-c34d-4127-9286-784a286a3d26.jpg",
+            "nomeONG": "ONG CENTRO DE DOACAO",
+            "descONG": "Já foram realizadas muitas adoções ao longo dos anos de  gatos e cachorros. Itabuna-BA @ONGCENTRODEDOACAO",
             "textoBotaoONG": "Doação"
         }
 
@@ -273,7 +273,7 @@ function btnConfirmDonnationClick() {
 
 function exibeDoacoes() {
 
-    limpartudo();
+    //limpartudo();
     let db = JSON.parse(localStorage.getItem('db_doacao'));
     console.log("entrou em exibeDoacoes: " + db.data.length)
     $("#table-doacoes").html("");
