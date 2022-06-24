@@ -49,7 +49,10 @@ function renderizaDadosNosCards(itens) {
             <b>Sexo:</b> ${item.Sexo}
             <br> 
             <b>Porte:</b> ${item.Porte}
-            <button onclick="myFunction()">Click me</button>
+            <button type="button" class="btn btn-primary float-right" data-toggle="modal"
+            data-target="#modalSaibaMais">
+            Saiba Mais
+        </button>
         `
         divTres.append(p);
 
