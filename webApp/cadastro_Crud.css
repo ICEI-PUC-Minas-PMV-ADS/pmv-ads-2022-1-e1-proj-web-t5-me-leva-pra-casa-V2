@@ -3,6 +3,10 @@ label {
   font-size: .8rem;
 }
 
+#inputNome, #inputEmail, #inputCpf, #inputTelefone, #inputRua, #inputNumero, #inputBairro, #inputCidade, #inputEstado, #inputSenha, #inputConfirma{
+  border: solid 1px lightgray;
+}
+
 #agreement {
   margin-right: 5px;
 }
