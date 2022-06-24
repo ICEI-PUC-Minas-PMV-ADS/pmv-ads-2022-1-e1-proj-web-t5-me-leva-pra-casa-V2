@@ -198,6 +198,12 @@ function btnConfirmDonnationClick(elem) {
     elem.prop("disabled", true);
 }
 
+var db_doacoes_inicial = {
+    "data": [
+        
+    ]
+}
+
 function btnConfirmDonnationClick() {
     var buttonId = document.getElementById('btnConfirmar');
     var elemDonation = document.getElementById('valueDonation');
@@ -249,11 +255,17 @@ function btnConfirmDonnationClick() {
             "date": actualDate,
             "nomeDoComprovante": attachmentFileName
         };
-        console.log("vai salver")
+        console.log("vai salvar")
 
         var db = JSON.parse(localStorage.getItem('db_doacao'));
-        if(db.data == null) localStorage.setItem('db_doacao', JSON.stringify(db_doacao));
-        db.data.push(novaDoacao);
+        console.log("DOACAO: "+db)
+        if(db == null) { 
+            localStorage.setItem('db_doacao', JSON.stringify(db_doacoes_inicial));
+            var newDb = JSON.parse(localStorage.getItem('db_doacao'));
+            db.data.push(novaDoacao);
+        } else {
+            db.data.push(novaDoacao);
+        }
         localStorage.setItem('db_doacao', JSON.stringify(db));
         console.log("terminou de salvar: " + db.data.length)
         setTimeout(function(){

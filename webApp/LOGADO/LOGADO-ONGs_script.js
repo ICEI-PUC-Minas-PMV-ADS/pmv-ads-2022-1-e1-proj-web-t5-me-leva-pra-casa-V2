@@ -248,7 +248,7 @@ function btnConfirmDonnationClick() {
             "date": actualDate,
             "nomeDoComprovante": attachmentFileName
         };
-        console.log("vai salver")
+        console.log("vai salvar")
 
         var db = JSON.parse(localStorage.getItem('db_doacao'));
         console.log("DOACAO: "+db)
