@@ -4,6 +4,7 @@ var db_usuarios_inicial = {
 }
 
 function exibeUsuarios() {
+    console.log("ENTROU na exibeUsuarios: ")
     // Remove todas as linhas do corpo da tabela
     $("#table-usuarios").html("");
 
@@ -23,135 +24,139 @@ function exibeUsuarios() {
                                         <td>${usuario.senha}</td>                                               
                                     </tr>`);
     }
+    console.log("FINALIZOU na exibeUsuarios: ")
 }
 
 function init() {
     if (!db){
     db = db_usuarios_inicial;
     }
-    // Adiciona funções para tratar os eventos 
-    $("#btnInsert").click(function () {
-        // Verfica se o formulário está preenchido corretamente
-        if (!$('#form-usuario')[0].checkValidity()) {
-            displayMessage("Preencha o formulário corretamente.");
-            return;
-        }
-
-        // Obtem os valores dos campos do formulário
-        let campoNome = $("#inputNome").val();
-        let campoEmail = $("#inputEmail").val();
-        let campoCpf = $("#inputCpf").val();
-        let campoTelefone = $("#inputTelefone").val();
-        let campoRua = $("#inputRua").val();
-        let campoNumero = $("#inputNumero").val();
-        let campoBairro = $("#inputBairro").val();
-        let campoCidade = $("#inputCidade").val();
-        let campoEstado = $("#inputEstado").val(); 
-        let campoSenha = $("#inputSenha").val();                
-        let usuario = { nome: campoNome, 
-            email: campoEmail,
-            cpf: campoCpf,
-            telefone: campoTelefone, 
-            rua: campoRua, 
-            numero: campoNumero,
-            bairro: campoBairro,
-            cidade: campoCidade,
-            estado: campoEstado,
-            senha:campoSenha };
-
-        insertUsuario(usuario);
-
-        // Reexibe os usuarios
-        exibeUsuarios();
-
-        window.location.href = "login.html"
-        
-        // Limpa o formulario
-        $("#form-usuario")[0].reset();
-    });
-
-    // Intercepta o click do botão Alterar
-    $("#btnUpdate").click(function () {
-        // Obtem os valores dos campos do formulário
-        let campoId = $("#inputId").val();
-        if (campoId == "") {
-            displayMessage("Selecione um usuário para ser alterado.");
-            return;
-        }
-        let campoNome = $("#inputNome").val();
-        let campoEmail = $("#inputEmail").val();
-        let campoCpf = $("#inputCpf").val();
-        let campoTelefone = $("#inputTelefone").val();
-        let campoRua = $("#inputRua").val();
-        let campoNumero = $("#inputNumero").val();
-        let campoBairro = $("#inputBairro").val();
-        let campoCidade = $("#inputCidade").val();
-        let campoEstado = $("#inputEstado").val(); 
-        let campoSenha = $("#inputSenha").val();                
-        let usuario = { nome: campoNome, 
-            email: campoEmail,
-            cpf: campoCpf,
-            telefone: campoTelefone, 
-            rua: campoRua, 
-            numero: campoNumero,
-            bairro: campoBairro,
-            cidade: campoCidade,
-            estado: campoEstado,
-            senha: campoSenha };
-        
-        $("#form-usuario")[0].reset();
-        updateUsuario(parseInt(campoId), usuario);
-        
-
-        // Reexibe os usuários
-        exibeUsuarios();
-
-        // Limpa o formulario
-        $("#form-usuario")[0].reset();
-    });
-
-    // Intercepta o click do botão Excluir
-    $("#btnDelete").click(function () {
-        let campoId = $("#inputId").val();
-        if (campoId == "") {
-            displayMessage("Selecione um usuario a ser excluído.");
-            return;
-        }
-        deleteUsuario(parseInt(campoId));
-
-        // Reexibe os usuários
-        exibeUsuarios();
-
-        // Limpa o formulario
-        $("#form-usuario")[0].reset();
-    });
-
-    // Intercepta o click do botão Listar Usuários
-    $("#btnClear").click(function () {
-        $("#form-usuario")[0].reset();
-    });
-
-
-    // Preenche o formulário quando o usuario clicar em uma linha da tabela 
-    $("#grid-usuarios").on("click", "tr", function (e) {
-        let linhaUsuario = this;
-        colunas = linhaUsuario.querySelectorAll("td");
-
-        $("#inputId").val(colunas[0].innerText);
-        $("#inputNome").val(colunas[1].innerText);
-        $("#inputEmail").val(colunas[2].innerText);
-        $("#inputCpf").val(colunas[3].innerText);
-        $("#inputTelefone").val(colunas[4].innerText);
-        $("#inputRua").val(colunas[5].innerText);
-        $("#inputNumero").val(colunas[6].innerText);
-        $("#inputComp").val(colunas[7].innerText);
-        $("#inputCidade").val(colunas[8].innerText);
-        $("#inputEstado").val(colunas[9].innerText);
-        $("#inputSenha").val(colunas[10].innerText);
-    });
-
     exibeUsuarios();
 }
+
+// Adiciona funções para tratar os eventos 
+$("#btnInsert").click(function () {
+    console.log("ENTROU  btnInsert: click ")
+    // Verfica se o formulário está preenchido corretamente
+    if (!$('#form-usuario')[0].checkValidity()) {
+        displayMessage("Preencha o formulário corretamente.");
+        return;
+    }
+
+    // Obtem os valores dos campos do formulário
+    let campoNome = document.getElementById("inputNome").value;
+    let campoEmail = $("#inputEmail").val();
+    let campoCpf = $("#inputCpf").val();
+    let campoTelefone = $("#inputTelefone").val();
+    let campoRua = $("#inputRua").val();
+    let campoNumero = $("#inputNumero").val();
+    let campoBairro = $("#inputBairro").val();
+    let campoCidade = $("#inputCidade").val();
+    let campoEstado = $("#inputEstado").val(); 
+    let campoSenha = $("#inputSenha").val();                
+    let usuario = { nome: campoNome, 
+        email: campoEmail,
+        cpf: campoCpf,
+        telefone: campoTelefone, 
+        rua: campoRua, 
+        numero: campoNumero,
+        bairro: campoBairro,
+        cidade: campoCidade,
+        estado: campoEstado,
+        senha:campoSenha };
+
+        
+    console.log("VAI ENTRAR NO INSERT inputNome btnInsert: "+campoNome)
+    insertUsuario(usuario);
+
+    // Reexibe os usuarios
+    exibeUsuarios();
+
+    window.location.href = "login.html"
+    
+    // Limpa o formulario
+    $("#form-usuario")[0].reset();
+});
+
+ // Intercepta o click do botão Alterar
+ $("#btnUpdate").click(function () {
+    // Obtem os valores dos campos do formulário
+    let campoId = $("#inputId").val();
+    if (campoId == "") {
+        displayMessage("Selecione um usuário para ser alterado.");
+        return;
+    }
+    let campoNome = $("#inputNome").val();
+    let campoEmail = $("#inputEmail").val();
+    let campoCpf = $("#inputCpf").val();
+    let campoTelefone = $("#inputTelefone").val();
+    let campoRua = $("#inputRua").val();
+    let campoNumero = $("#inputNumero").val();
+    let campoBairro = $("#inputBairro").val();
+    let campoCidade = $("#inputCidade").val();
+    let campoEstado = $("#inputEstado").val(); 
+    let campoSenha = $("#inputSenha").val();                
+    let usuario = { nome: campoNome, 
+        email: campoEmail,
+        cpf: campoCpf,
+        telefone: campoTelefone, 
+        rua: campoRua, 
+        numero: campoNumero,
+        bairro: campoBairro,
+        cidade: campoCidade,
+        estado: campoEstado,
+        senha: campoSenha };
+    
+    $("#form-usuario")[0].reset();
+    updateUsuario(parseInt(campoId), usuario);
+    
+
+    // Reexibe os usuários
+    exibeUsuarios();
+
+    // Limpa o formulario
+    $("#form-usuario")[0].reset();
+});
+
+// Intercepta o click do botão Excluir
+$("#btnDelete").click(function () {
+    let campoId = $("#inputId").val();
+    if (campoId == "") {
+        displayMessage("Selecione um usuario a ser excluído.");
+        return;
+    }
+    deleteUsuario(parseInt(campoId));
+
+    // Reexibe os usuários
+    exibeUsuarios();
+
+    // Limpa o formulario
+    $("#form-usuario")[0].reset();
+});
+
+// Intercepta o click do botão Listar Usuários
+$("#btnClear").click(function () {
+    $("#form-usuario")[0].reset();
+});
+
+
+// Preenche o formulário quando o usuario clicar em uma linha da tabela 
+$("#grid-usuarios").on("click", "tr", function (e) {
+    let linhaUsuario = this;
+    colunas = linhaUsuario.querySelectorAll("td");
+
+    $("#inputId").val(colunas[0].innerText);
+    $("#inputNome").val(colunas[1].innerText);
+    $("#inputEmail").val(colunas[2].innerText);
+    $("#inputCpf").val(colunas[3].innerText);
+    $("#inputTelefone").val(colunas[4].innerText);
+    $("#inputRua").val(colunas[5].innerText);
+    $("#inputNumero").val(colunas[6].innerText);
+    $("#inputComp").val(colunas[7].innerText);
+    $("#inputCidade").val(colunas[8].innerText);
+    $("#inputEstado").val(colunas[9].innerText);
+    $("#inputSenha").val(colunas[10].innerText);
+});
 
 // Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais
 var db = JSON.parse(localStorage.getItem('db_usuario'));
@@ -162,6 +167,7 @@ function displayMessage(msg) {
 }
 
 function insertUsuario(usuario) {
+    console.log("ENTROU  insertUsuario: ")
     // Calcula novo Id a partir do último código existente no array (PODE GERAR ERRO SE A BASE ESTIVER VAZIA)
     let novoId = 1;
     if (db.data.length != 0) 
@@ -183,10 +189,16 @@ function insertUsuario(usuario) {
 
     // Insere o novo objeto no array
     db.data.push(novoUsuario);
-    displayMessage("Usuário inserido com sucesso");
+    console.log("VAI ADICIONAR USUARIO  btnInsert: "+ novoUsuario.email)
+    
 
     // Atualiza os dados no Local Storage
     localStorage.setItem('db_usuario', JSON.stringify(db));
+
+    console.log("ADICIONOU USUARIO  NO LOCALSTORANGE: "+ JSON.stringify(db))
+
+    displayMessage("Usuário inserido com sucesso");
+
 }
 
 function updateUsuario(id, usuario) {

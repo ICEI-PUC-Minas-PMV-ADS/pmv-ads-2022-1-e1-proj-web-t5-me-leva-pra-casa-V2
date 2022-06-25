@@ -78,7 +78,7 @@
         <form id="form-usuario">
             <div class="form-group row mt-3">
                 <div class="col-sm-12 paddingInputs">
-                    <label for="inputNome">Nome (*)</label>
+                    <label for="labelNome">Nome (*)</label>
                     <input type="text" name="inputNome" class="form-control" id="inputNome" required placeholder="Digite Nome completo" data-min-length="7" data-max-length="40" data-only-letters>
                 </div>
             </div>
@@ -140,8 +140,9 @@
         </form>
     </div>
     <p class="error-validation template"></p>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <!-- <script src="/webApp/valida_Cadastro.js"></script> --->
+  <script src="/webApp/valida_Cadastro.js"></script>
     <script type="text/javascript">  
         function MascararCPF(i){
             var v = i.value;

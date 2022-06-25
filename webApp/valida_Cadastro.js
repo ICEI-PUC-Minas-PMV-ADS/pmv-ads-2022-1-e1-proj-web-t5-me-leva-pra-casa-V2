@@ -188,6 +188,7 @@ class Validator {
 }
 
 let form = document.getElementById('form-usuario');
+console.log("ENTROU NO  btnInsert dentro do cadastro: ")
 let submit = document.getElementById('btnInsert');
 
 let validator = new Validator();
