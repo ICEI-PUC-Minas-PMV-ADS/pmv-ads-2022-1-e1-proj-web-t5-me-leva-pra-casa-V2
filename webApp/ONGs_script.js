@@ -221,7 +221,7 @@ function btnConfirmDonnationClick() {
     if (donateValue == '0.00') {
         console.log("valor zerado - ERRO")
         var inputDonation = document.getElementById('valueDonation');
-        inputDonation.after("<div class='invalid-feedback'> Para continuar a doação precisa ser maior que R$ 0,00 </div>")
+        inputDonation.after("Para continuar a doação precisa ser maior que R$ 0,00")
         console.log("entrou ERRO: ")
     } else {
 
@@ -266,7 +266,7 @@ function btnConfirmDonnationClick() {
         } else {
             db.data.push(novaDoacao);
         }
-        
+
         localStorage.setItem('db_doacao', JSON.stringify(db));
         console.log("terminou de salvar: " + db.data.length)
         setTimeout(function(){
