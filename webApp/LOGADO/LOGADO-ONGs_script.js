@@ -3,56 +3,56 @@ var db_ongs_inicial = {
     "data": [
         {
             "id": 1,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175186412-35566c39-d73b-4a8a-a529-b482e64146a3.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749174-c9dc84ff-195f-41da-a696-d689642f2b02.jpg",
             "nomeONG": "ONG VALORIZA VIDA",
             "descONG": "Associação de proteção e valorização da vida de gatos e cachorros. Aquidabã-SE @ONGVALORIZAVIDA",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 2,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175185555-f43d433c-b004-4c0e-b69e-aecc26ce596f.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749250-b5e45e74-bc2d-4dd4-bc1a-3c94663be996.jpg",
             "nomeONG": "ONG DOG E CAT",
             "descONG": "Atua principalmente no resgate de animais feridos ou em situação de risco. Ribeirão Preto-SP @ONGDOGECAT",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 3,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175185697-0a78c481-60d4-466c-8080-918f0dd7cb55.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749298-11668304-6e4a-4650-a790-6c39fbb30f04.jpg",
             "nomeONG": "ONG GATO E CACHORRO",
             "descONG": "Oferecem condições e cuidados necessários para que possam se recuperar. Contagem-MG @ONGGATOECACHORRO",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 4,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175182973-b78ecb4a-5b3f-478b-b4b6-7e5d029160b7.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749344-0c52455c-9f5a-429e-b04d-9a5fdc123696.jpg",
             "nomeONG": "ONG RESGATA ANIMAL",
             "descONG": "Tem como objetivo resgatar e acolher animais em situação de vulnerabilidade. Cotia-SP @ONGRESGATAANIMAL",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 5,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175183247-929fec55-491d-4cf0-b7b3-f342fbda10be.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749392-ba863d76-2872-4443-b136-f5cc747e6c08.jpg",
             "nomeONG": "PROTEGER ANIMAIS",
             "descONG": "Foi criada para proteger, amar e cuidar dos gatos e cachorros de rua.Copacabana-RJ @PROTEGERANIMAIS",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 6,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175183986-7d0880a6-b60c-4213-b16f-27deb2552b94.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749595-1312a99b-6846-4d8f-817e-3b11298bbb29.png",
             "nomeONG": "ONG PROTEÇÃO GATO",
             "descONG": "A ONG de proteção trabalha com a reabilitação de gatos e a posterior adoção. Atibaia-SP @ONGPROTECAOGATO",
             "textoBotaoONG": "Doação"
         },
         {
             "id": 7,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175186071-f8357fcd-bfdc-45c7-855c-8ae0fd3a8462.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749691-d524d6f3-78a1-4e20-b626-14fcb712dba5.jpg",
             "nomeONG": "SOS PET",
             "descONG": "Em 2017 um grupo de vizinhos se uniu para realizar resgates de cachorros e gatos abandonados. Parnaíba-SP @SOSPET",
             "textoBotaoONG": "Doação",
         },
         {
             "id": 8,
-            "imagemONG": "https://user-images.githubusercontent.com/103081069/175184562-77132baf-c34d-4127-9286-784a286a3d26.jpg",
+            "imagemONG": "https://user-images.githubusercontent.com/103081069/175749715-1cd5145f-66ea-4549-ad01-faa0369f0973.jpg",
             "nomeONG": "ONG CENTRO DE DOACAO",
             "descONG": "Já foram realizadas muitas adoções ao longo dos anos de  gatos e cachorros. Itabuna-BA @ONGCENTRODEDOACAO",
             "textoBotaoONG": "Doação"
