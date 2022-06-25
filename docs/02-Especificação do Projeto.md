@@ -120,26 +120,20 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-004| A plataforma deve exibir um calendário de vacinação.  | ALTA | 
 |RF-005| A plataforma deve divulgar campanhas de castração dos animais. | ALTA | 
 |RF-006| A plataforma deve oferecer um menu adicional que permita ao usuário divulgar um animal para ser adotado | ALTA | 
-|RF-007| A plataforma deve permitir ao usuário publicar um animal desaparecido para ser encontrado. | ALTA | 
 |RF-008| O site deve apresentar na página principal fotos dinâmicas dos animais divulgados como prioridade aos animais mais antigos no site. | ALTA | 
-|RF-009| O site deve apresentar, um cabeçalho com as seguintes guias: Sobre, Adote, Divulgue, dicas. | ALTA | 
-|RF-010| No cabeçalho deve conter uma caixa destinada a login,senha cadastre-se  e recupere sua senha. | ALTA | 
+|RF-009| O site deve apresentar, um cabeçalho com as seguintes guias: Sobre, Adote e ONGs. | ALTA | 
+|RF-010| No cabeçalho deve conter uma caixa destinada a login/sair, cadastre-se e minha conta. | ALTA | 
 |RF-011| A plataforma deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar o animal de acordo com: espécie, gênero, raça, porte, cor e idade. | ALTA | 
 |RF-012| A Plataforma deve apresentar, para cada animal, uma imagem correspondente e uma breve descrição sobre o mesmo. (Thumbnail) | ALTA | 
 |RF-013| A plataforma deve oferecer um formulário para a adoção responsável. | ALTA | 
 |RF-014| A plataforma deve oferecer a funcionalidade de cadastro para todos usuários. | ALTA | 
-|RF-015| A plataforma deverá encaminhar os perfis criados para um moderador antes de serem publicados. | MÉDIA | 
-|RF-016| A plataforma deve permitir ao usuário anexar vídeos e fotos dos animais. | MÉDIA | 
-|RF-017| A plataforma deve conter um mecanismo para cadastro de anunciantes e adotantes. | MÉDIA | 
+|RF-016| A plataforma deve permitir ao usuário anexar fotos dos animais. | MÉDIA |  
 |RF-018| A plataforma deve permitir a publicação apenas de “cachorros” e “gatos” | MÉDIA | 
-|RF-019| A plataforma deve oferecer a funcionalidade de denunciar uma má conduta/publicação que não esteja de acordo com as normas da plataforma. | MÉDIA | 
-|RF-020| A plataforma deve permitir ao usuário criador do anúncio,a exclusão do perfil do animal. | BAIXA | 
-|RF-021| A plataforma deve mostrar os animais que já foram adotados/encontrados.  | BAIXA | 
+|RF-020| A plataforma deve permitir ao usuário criador do anúncio,a exclusão do perfil do animal. | BAIXA |  
 |RF-022| A plataforma deve permitir que os usuários entrem em contato com as ONGs. | BAIXA | 
 |RF-023| O site deve permitir a comunicação entre o anunciante e adotante e vice-versa. | BAIXA | 
 |RF-024| A plataforma deve oferecer a funcionalidade de compartilhamento dos perfis criados. | BAIXA | 
 |RF-025| Consulta e alterações de dados pessoais dos usuários. | BAIXA |
-|RF-026| A plataforma deve permitir que o usuário criador da divulgação altere o status do animal para “adotado” ou “encontrado” caso o animal tenha encontrado seu lar. | BAIXA |
 
 
 
@@ -148,14 +142,11 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
-|RNF-002| O site irá rodar apenas via browser, sem a necessidade de ser responsivo. |  ALTA | 
 |RNF-003| O site deverá ser programado usando as linguagens HTML, CSS e JavaScript |  ALTA |
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).  |  ALTA |
 |RNF-005| O site terá um tempo de resposta rápido, para ser dinâmico e fácil para o usuário. |  ALTA |
 |RNF-006| O sistema estará disponível em todas as horas do dia. |  ALTA |
-|RNF-007| O sistema irá se comunicar com o banco via SQL. |  ALTA |
 |RNF-008| O sistema deverá coletar informações pessoais dos usuários a fim de manter registro e prosseguir com os processos dentro do site. |  ALTA |
-|RNF-009| Ter um algoritmo que associe as características de um cachorro perdido, com um cachorro encontrado publicados na plataforma para informar a pessoa sobre um possível animal que possa ser o dela. |  ALTA |
 
 
 
@@ -165,7 +156,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 03/04/2022. |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022. |
 |02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend        |
 |03| A equipe não pode subcontratar o desenvolvimento do trabalho        |
 

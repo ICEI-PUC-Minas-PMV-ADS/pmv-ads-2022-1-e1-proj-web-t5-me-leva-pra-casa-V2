@@ -35,9 +35,9 @@ A equipe está organizada da seguinte maneira:
 
  `Equipe de Desenvolvimento:` Breno Lago, Elizângela Mara R. Oliveira, Guilherme Henrique, Ian Merlo Correa, Jéssica S. Santos, Warlen Alves
 
- `Equipe de QA:` Ian Merlo
+ `Equipe de QA:` Breno Lago, Elizângela Mara R. Oliveira, Guilherme Henrique, Ian Merlo Correa, Jéssica S. Santos, Warlen Alves
 
- `Equipe de Design:` Elizângela Oliveira
+ `Equipe de Design:` Elizângela Oliveira, Guilherme Henrique
 
 
 ### Processo
