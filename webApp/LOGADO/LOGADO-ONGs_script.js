@@ -60,6 +60,13 @@ var db_ongs_inicial = {
 
     ]
 }
+var db_doacoes_inicial = {
+    "data": [
+        
+    ]
+}
+
+var db_doacao = db_doacoes_inicial
 
 var dbOngs = db_ongs_inicial
 

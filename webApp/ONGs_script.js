@@ -266,6 +266,7 @@ function btnConfirmDonnationClick() {
         } else {
             db.data.push(novaDoacao);
         }
+        
         localStorage.setItem('db_doacao', JSON.stringify(db));
         console.log("terminou de salvar: " + db.data.length)
         setTimeout(function(){
