@@ -44,7 +44,7 @@ $("#btnInsert").click(function () {
     }
 
     // Obtem os valores dos campos do formulário
-    let campoNome = document.getElementById("inputNome").value;
+    let campoNome = $("#inputNome").val();;
     let campoEmail = $("#inputEmail").val();
     let campoCpf = $("#inputCpf").val();
     let campoTelefone = $("#inputTelefone").val();
