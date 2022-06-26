@@ -10,6 +10,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="adote.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -56,38 +57,7 @@
             <!-- listagem de cards no script -->
         </div>
     </div>
-    <!-- Fim do Conteudo -->
-    <!-- <main class="cards">
-        <section class="card shop">
-            <div class="icon">
-                <img src="./img/fundo-cinza.png" alt="Contact us.">
-            </div>
-            <h3>Thor</h3>
-           <b>Macho|Sénior</b>
-            <span>Vira-lata macho com 13 aninhos. Um cão mega companheiro e adorável</span>
-            <button>Saiba Mais</button>
-        </section>
-        <section class="card shop" >
-            <div class="icon">
-                <img src="./img/fundo-cinza.png" alt="Shop here.">
-            </div>
-            <h3>Mingau</h3>
-            <b>Fêmea|Filhote</b>
-            <span>Devido as regras do condomínio não poderemos
-              manter ela.</span>
-            <button>Saiba Mais</button>
-        </section>
-        <section class="card shop">
-            <div class="icon">
-                <img src="./img/fundo-cinza.png" alt="About us.">
-            </div>
-            <h3>Marley</h3>
-           <b>Macho|Jovem</b>
-            <span>Ele está a procura de um lar cheio de amor para cuidar dele</span>
-            <button>Saiba Mais</button>
-        </section>
-    </main> -->
-    </div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="modalSaibaMais" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -95,39 +65,80 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <img class="img-fluid " src="./img/fundo-cinza.png" alt="fotodog">
+
 
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <h2 class="modal-title">Malu</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur!</p>
+                <div class="modalbody">
+                    <h1 class="modal-title">Jupter</h1>
+                    <br>
+
+                    <b>Fêmea|Filhote</b>
+                    <br>
+                    <b>A história Da Jupter:</b>
+                    <br>
+                    <p>
+                        Como não se apaixonar por essa fofura?
+
+                        Jupter é essa gatinha cheia de charme com essas listrinhas e seus lindos olhinhos azuis 💙
+
+                        Essa princesa é carinhosa, brincalhona e se dá super bem com outros gatinhos.
+
+                        Está castrada, vermifugada, vacinada e testada fiv e felv (negativo), prontinha para um lar de
+                        amor e uma família para toooda a vida.</p>
                     <div class="modal-footer mt-5">
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Adotar pet</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" data-toggle="modal" data-target="#modalContato" class="btn btn-primary"
+                            data-dismiss="modal">Adotar pet</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</body>
-</body>
-<!-- Modal -->
-<div class="modal fade" id="modalsaiba" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal">
-        <button class="fechar">x</button>
-        <h3 class="subtitulo">Cadastre-se na Newsletter</h3>
-        <form>
-            <input type="text" class="input" placeholder="Email">
-            <input type="button" class="button" value="Cadastrar">
-        </form>
+    <!-- Modal -->
+    <div class="modal" id="modalContato" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <a href="#"><i class="fa fa-comments"></i> </a> -->
+
+                    <b>Deseja adotar esse pet?</b>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <!-- <a href="#"><i class="fa fa-comments"></i> </a> -->
+
+
+                <div class="modaladote">
+                    <p>Entre em contato com o protetor:</p>
+                    <a href="#"> <i class="fa fa-envelope"></i> </a>
+                    <label for="recipient-name" class="col-form-label">E-mail:</label>
+                    <a href="test@gmail.com" class="primary-link open-modal">adotar@gmail.com</a>
+                    <br>
+                    <a href="#"> <i class="fa fa-whatsapp"></i> </a>
+                    <label for="recipient-name" class="col-form-label">Celular:</label>
+                    <a href="https://api.whatsapp.com/send?phone=5511965226478&amp;text=Olá! Vi o/a KALI no Amigo Não se Compra e gostaria de saber como faço para adotar!"
+                        class="primary-link open-modal" target="_blank">
+                        (31) 01234-4321
+                    </a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+
+</body>
+
+
 <script src="./adote.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
