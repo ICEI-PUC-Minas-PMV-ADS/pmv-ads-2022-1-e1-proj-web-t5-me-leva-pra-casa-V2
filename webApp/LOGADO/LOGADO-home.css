@@ -157,3 +157,15 @@ form, #alertCadastro {
 .modal{
     display: none;
 }
+.modaladote{
+    vertical-align: middle;
+    padding: 1.5rem;
+    border-radius: 0.9rem;
+    
+}
+.modalbody{
+    vertical-align: middle;
+    padding: 1.5rem;
+    border-radius: 0.9rem;
+    
+}
