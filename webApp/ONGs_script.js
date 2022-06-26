@@ -270,7 +270,7 @@ function btnConfirmDonnationClick() {
         localStorage.setItem('db_doacao', JSON.stringify(db));
         console.log("terminou de salvar: " + db.data.length)
         setTimeout(function(){
-            location.href = "minha_conta_historico.html";
+            location.href = "LOGADO-minha_conta_historico.html";
         }, 2000);
     }
     

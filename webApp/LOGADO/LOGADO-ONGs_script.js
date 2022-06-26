@@ -264,7 +264,7 @@ function btnConfirmDonnationClick() {
             var newDb = JSON.parse(localStorage.getItem('db_doacao'));
             db.data.push(novaDoacao);
         } else {
-            // db.data.push(novaDoacao);
+            db.data.push(novaDoacao);
         }
         
         localStorage.setItem('db_doacao', JSON.stringify(db));
