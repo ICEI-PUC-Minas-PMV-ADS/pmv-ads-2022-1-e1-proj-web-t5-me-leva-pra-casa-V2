@@ -1,14 +1,15 @@
 # Plano de Testes de Software
 
 
-##Os requisitos para realização dos testes de software são:##
+Os requisitos para realização dos testes de software são:
 	-Site publicado na Internet
 	-Navegador da Internet - Chrome, Firefox ou Edge
 	-Conectividade de Internet para acesso às plataformas (APISs)
 
 Os testes funcionais a serem realizados no site são descritos a seguir.
 
-##Caso de Teste: CT-01 - Tela de Início##
+**Caso de Teste: CT-01 - Tela de Início**
+
 Requisitos Associados:
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -21,7 +22,9 @@ Requisitos Associados:
 
 Passos:
 	- 1) Ao logar na aplicação, sera redirecionado para a tela de início
+
 	- 2) Verificar as informações de animais e divulgações do site
+
 	- 3) Visualizar a página principal e sua responsividade
 
 Critérios de Êxito:
@@ -29,7 +32,8 @@ Critérios de Êxito:
 	ONGs, calendário de vacínas e etc...
 
 
-##Caso de Teste: CT-02 - Tela de Cadastro##
+**Caso de Teste: CT-02 - Tela de Cadastro**
+
 Requisitos Associados:
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -39,6 +43,7 @@ Requisitos Associados:
 
 Passos:
 	- 1) Na tela de login, clicar em cadastre-se
+
 	- 2) Preencher as informações requeridas e criar o usuario
 
 Critérios de Êxito:
@@ -46,7 +51,7 @@ Critérios de Êxito:
 	de limpar e responsividade.
 
 
-##Caso de Teste: CT-03 - Tela de ONGs##
+**Caso de Teste: CT-03 - Tela de ONGs**
 Requisitos Associados:
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -57,6 +62,7 @@ Requisitos Associados:
 
 Passos:
 	- 1) Ao logar, clicar sobre a aba: ONGs
+
 	- 2) Visualizar as opções de ONGs e testar a doação
 
 Critérios de Êxito:
@@ -65,7 +71,7 @@ Critérios de Êxito:
 
 
 
-##Caso de Teste: CT-04 - Tela de Login##
+**Caso de Teste: CT-04 - Tela de Login**
 Requisitos Associados:
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -81,7 +87,7 @@ Critérios de Êxito:
 	e se suas informações estão passando e sendo analisadas.
 
 
-##Caso de Teste: CT-05 - Tela de Adote##
+**Caso de Teste: CT-05 - Tela de Adote**
 Requisitos Associados:
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -97,7 +103,9 @@ Requisitos Associados:
 
 Passos:
 	- 1) Ao realizar o login, navegar ate a aba Adote
+
 	- 2) Verificar a lista de animais e escolher um
+
 	- 3) Testar o modal para adoção do animal
 
 Critérios de Êxito:
@@ -105,7 +113,7 @@ Critérios de Êxito:
 	da funcionalidade do modal. Testar os campos para envio da proposta.
 
 
-##Caso de Teste: CT-06 - Tela de Minha Conta##
+**Caso de Teste: CT-06 - Tela de Minha Conta**
 Requisitos Associados:
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -117,6 +125,7 @@ Requisitos Associados:
 
 Passos:
 	- 1) Ao realizar o login, navegar ate o menu Minha Conta
+
 	- 2) Verificar a opções de testar cada funcionalidade
 
 Critérios de Êxito:
