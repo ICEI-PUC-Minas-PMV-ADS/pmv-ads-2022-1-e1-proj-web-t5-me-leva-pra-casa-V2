@@ -21,6 +21,7 @@ Requisitos Associados:
 |RF-005| A plataforma deve divulgar campanhas de castração dos animais. | ALTA | 
 
 Passos:
+
 	- 1) Ao logar na aplicação, sera redirecionado para a tela de início
 
 	- 2) Verificar as informações de animais e divulgações do site
@@ -42,6 +43,7 @@ Requisitos Associados:
 
 
 Passos:
+
 	- 1) Na tela de login, clicar em cadastre-se
 
 	- 2) Preencher as informações requeridas e criar o usuario
@@ -61,6 +63,7 @@ Requisitos Associados:
 
 
 Passos:
+
 	- 1) Ao logar, clicar sobre a aba: ONGs
 
 	- 2) Visualizar as opções de ONGs e testar a doação
@@ -80,6 +83,7 @@ Requisitos Associados:
 
 
 Passos:
+
 	- 1) Ao realizar o cadastro, verificar se seu login ira ser executado
 
 Critérios de Êxito:
@@ -102,6 +106,7 @@ Requisitos Associados:
 
 
 Passos:
+
 	- 1) Ao realizar o login, navegar ate a aba Adote
 
 	- 2) Verificar a lista de animais e escolher um
@@ -124,6 +129,7 @@ Requisitos Associados:
 
 
 Passos:
+
 	- 1) Ao realizar o login, navegar ate o menu Minha Conta
 
 	- 2) Verificar a opções de testar cada funcionalidade
