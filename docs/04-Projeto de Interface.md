@@ -30,17 +30,18 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 <img src="https://user-images.githubusercontent.com/103081269/162961549-8e815cc5-80fd-4780-bc34-86df162af6c3.PNG" width="700px" />
 </div>
 
-## Tela Home-Page
+## Tela Início
 
-A tela de Home-page com base na estrutura padrão traz a Logo, o Menu de Aplicação e Banner, seguido pelo Bloco de conteúdo. Dentre os componentes do Menu estão:
+A tela de Início com base na estrutura padrão traz a Logo, o Menu de Aplicação e Banner, seguido pelo Bloco de conteúdo. Dentre os componentes do Menu estão:
 
-- **Home** tela inicial.
-- **Doe**  que leva o usuário à tela  Doações.
+- **Início** tela inicial.
+- **Sobre** que leva o usuário a tela de informações sobre o grupo responsável pelo site.
 - **Adote**  que leva o usuário à tela de Descrição dos animais.
 - **ONGs**  que leva o usuário à tela das ONGs e abrigos parceiras do site.
 - **Pesquisar**  barra _search_ que leva o usuário à tela de Resultado de animais catalogados ou outras telas.
 - **Login**  
-- **Cadastre-se**  
+- **Cadastre-se**
+- **Minha Conta**  
 
 O bloco de Conteúdo traz uma pequena descrição sobre o problema e a ideia do projeto.
 
@@ -95,16 +96,6 @@ Quando o usuário clicar em adotar aparecerá uma tela de cadastro e nessa tela 
 <img src="https://user-images.githubusercontent.com/103080396/164325940-5e21c139-6085-4c9d-a504-9908c8950061.jpg" width="700px" />
 </div>
 
-## Tela Doações
-
-A Tela de Doações permite o intermédio das pessoas interessadas em doar algum valor financeiro às Ongs,abrigos e afins. A tela de doações é uma janela modal (surge sobre outras janelas) quando o usuário pressiona o ícone “dinheiro com asas" na tela ONgs. Nesta tela, a intenção de doação é registrada e um número pix é exibido. É visualizada e o usuário pode informar um valor e buscar uma Ong específica ou escolher entre os já sugeridos. Em seguida deve confirmar ou cancelar a intenção. Na sequência, a tela é fechada voltando para o ambiente anterior.
-
-<div style="text-align:center">                             A figura 8 representa a Tela Doações.
-</div>
-<br>
-<div align="center">
-<img src="https://user-images.githubusercontent.com/103080396/167306936-2e4075d9-f5b2-4e9f-b04e-d0011cadd25c.jpg" width="700px" />
-</div>
 
 ## Tela de Resultado da Busca
 

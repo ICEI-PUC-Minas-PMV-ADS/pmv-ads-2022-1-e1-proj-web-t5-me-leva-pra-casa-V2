@@ -17,7 +17,7 @@ ONGs
 
 A responsividade segue o padrão do Bootstrap
 
-- **HomePage**
+- **Início**
 
 Tela princial do sistema, com informações importantes, anúncios e mais!
 

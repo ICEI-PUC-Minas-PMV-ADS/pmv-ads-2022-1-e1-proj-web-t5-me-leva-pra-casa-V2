@@ -180,7 +180,7 @@ RF-003, RF-09, RF-10, RF-11, RF-22, RF-23, RF-24
 	- ONGS_script.js
 	- ONGS.css
 	
-**Tela Cadastro** `Dev Elizangela`
+**Tela Cadastro** `Dev Elizangela e Ian`
 
 Tela onde será exibido o formulário de cadastro, com ferramentas de cadastrar, alterar, excluir, limpar formulário ou pesquisar usuários. Todos os dados são armazenadas no LocalStorage com estruturas dados baseada em JSON.
 
