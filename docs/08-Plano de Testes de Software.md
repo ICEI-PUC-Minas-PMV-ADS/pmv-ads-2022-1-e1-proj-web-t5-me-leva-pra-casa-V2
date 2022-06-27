@@ -1,182 +1,124 @@
 # Plano de Testes de Software
 
-## Testes INICIO:
- Teste de Responsividade
-  - Testar a responsividade da tela em outros tamanhos: Mobile, tablet e laptop.
-   
-  Resultado:
-  - Tela responsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge)
+
+##Os requisitos para realização dos testes de software são:##
+	-Site publicado na Internet
+	-Navegador da Internet - Chrome, Firefox ou Edge
+	-Conectividade de Internet para acesso às plataformas (APISs)
+
+Os testes funcionais a serem realizados no site são descritos a seguir.
+
+##Caso de Teste: CT-01 - Tela de Início##
+Requisitos Associados:
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| A plataforma deve promover a divulgação dos animais. | ALTA | 
+|RF-002|A plataforma deve promover campanha de conscientização contra o abandono dos animais.| ALTA |
+|RF-003| A plataforma deve divulgar campanhas para arrecadação de fundos para ONGs Abrigos e afins. | ALTA | 
+|RF-004| A plataforma deve exibir um calendário de vacinação.  | ALTA | 
+|RF-005| A plataforma deve divulgar campanhas de castração dos animais. | ALTA | 
+
+Passos:
+	- 1) Ao logar na aplicação, sera redirecionado para a tela de início
+	- 2) Verificar as informações de animais e divulgações do site
+	- 3) Visualizar a página principal e sua responsividade
+
+Critérios de Êxito:
+	- Visualizar alguns animais e diversas notícias como conscientizações, arrecadação de fundos para
+	ONGs, calendário de vacínas e etc...
 
 
-  Testes de Botões:
- Verificar se os botões estão realizando as funções de forma correta.
+##Caso de Teste: CT-02 - Tela de Cadastro##
+Requisitos Associados:
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-014| A plataforma deve oferecer a funcionalidade de cadastro para todos usuários. | ALTA | 
 
 
-  Resultado:
-  - O botão SAIBA MAIS do card CAMPANHA DE VACINAÇÃO não está executando nenhuma função
-  - O botão SAIBA MAIS do card CAMPANHA DE ADOÇÃO não está executando nenhuma função
-  
-COPYRIGHT
+Passos:
+	- 1) Na tela de login, clicar em cadastre-se
+	- 2) Preencher as informações requeridas e criar o usuario
 
-Teste Funcionalidade cadastro
-
-
- Resultado:
-- Botão CADASTRAR USUARIO funcionando corretamente.
-- Caixa NOME está permitindo adicionar números e caracteres especiais
-- Caixa CELULAR está permitindo adicionar letras e caracteres especiais
-- Caixa CIDADE DO USUÁRIO está permitindo adicionar números e caracteres especiais
-
-## Testes ADOTE:
-Teste de Responsividade
-  - Testar a responsividade dos elementos da tela em diferentes tamanhos e formatos.
-   
-  Resultado:
-  - Tela responsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge).
+Critérios de Êxito:
+	- Validar campos, informções, caracteres e se o usuario foi criado em local storage. Testar a funcionalidade
+	de limpar e responsividade.
 
 
-  Testes de Botões:
-  - Verificar se os botões estão realizando as funções de forma correta.
+##Caso de Teste: CT-03 - Tela de ONGs##
+Requisitos Associados:
 
-  Resultado:
-  - O botão ADICIONAR ANIMAIS funciona corretamente abrindo a janela modal para realizar o procedimento.
-  - Na tela ADOTE, o botão CLICK ME dos cards de animais, não exibe nenhum resultado no momento.
-  - Dentro do modal o botão SALVAR funciona corretamente.
-  - Dentro do modal o botão FECHAR funciona corretamente.
-  
-
-  Teste de Preenchimento dos Campos
-  - Verificar se os valores inseridos nos campos são validados.
-
-  Resultado:
-  - Não há restrição nos campos, quanto a letras, números, caracteres especiais ou campo vazio dentro da tela modal, sendo salvos normalmente.
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-003| A plataforma deve divulgar campanhas para arrecadação de fundos para ONGs Abrigos e afins. | ALTA | 
+|RF-022| A plataforma deve permitir que os usuários entrem em contato com as ONGs. | BAIXA | 
 
 
-  Teste de Funcionalidade
-  - Verificar se os requisitos estabelecidos na programação de funcionalidades da tela ADOTE foram atendidos. 
+Passos:
+	- 1) Ao logar, clicar sobre a aba: ONGs
+	- 2) Visualizar as opções de ONGs e testar a doação
 
-  Resultado:
-  - Os requisitos foram atendidos, porém a descrição não é exibida no card do pet. Se não houver inserido animais inicialmente, no Local Storage a tela não exibe nenhum pet para novos usuários que ainda não tenham se cadastrado. Deve-se clicar no ícone ADOTE e depois no ícone MINHA CONTA, então em ANIMAIS, abrindo-se o modal para Cadastro de Animais para a inserção dos pets.
-
-
-  Teste de Integração
-  - Verificar se as informações apresentadas na página estão de alguma forma vinculada com as informações das demais páginas.
-
-  Resultado:
-  - A tela ADOTE está vinculada à tela INICIAL e também à opção MINHA CONTA e ANIMAIS, onde são cadastrados os animais para adoção.
-
-
-## Testes ONGS:
- Teste de Reponsividade
-  - Testar a responsividade dos elementos da tela em diferentes tamanhos e formatos.
-   
-  Resultado:
-  - Tela repsonsiva em dispositivos mobile e navegadores diversos (Chrome, Firefox e Edge)
-
-
-  Testes de Botões:
-  - Verficiar se os botões estão realizando as funções de forma correta.
-
-  Resultado:
-  - O botão DOAÇÃO funciona corretamente abrindo a janela modal para realizar o procedimento.
-  - Dentro do modal o botão CANCELAR não funciona 100% uma vez que ao preencher os campos e clicar no botão, quando realizado o processo de clicar em DOAÇÃO novamente as informações preenchidas anteriormente são mantidas. Mas o botão cumpre em parte sua função uma vez que ao clicar sobre ele a janela modal é fechada.
-  - Dentro do modal o botão CONFIRMAR funciona parcialmente, ele mostra uma mensagem de sucesso, contudo os dados preenchidos no formulário não são registrados no Local Storage.
-  - Ainda dentro do modal o botão ANEXAR COMPROVANTE funciona adequadamente permitindo que o usuário escolha uma imagem ou arquivo PDF com o comprovante de pagamento.
-
-
-  Teste de Preenchimento dos Campos
-  - Verificar se os valores inseridos no campo do valor da doação são validados
-
-  Resultado:
-  - Dentro deste campo é possivel preencher apenas número, contudo não é feita a distinção entre número positivos e negativos, e não há obrigatoriedade de preencher a casa dos centavos.
-
-
-  Teste de Funcionalidade
-  - Verificar se os requisitos básicos para que seja feita a doação são verificados antes de efetivar a ação.
-
-  Resultado:
-  - Não há obrigatoriedade de fazer Login para eftivar a doação, consequentemente não há como identificar a transação feita pelo usuário.
-
-
-  Teste de Integração
-  - Verificar se as informações apresentadas na página estão de alguma forma vinculada com as informações das demais páginas.
-
-  Resultado:
-  - A tela das ONGs cadastradas para doação não puxa a informação dos usuários CNPJ cadastrados na plataforma para compor a página, ela ainda encontra-se estática sem receber dados de uma outra fonte.
-  - O comprovante e valores informados para doação não são registrados na aba HISTÓRICO DE DOAÇÕES que se encontra dentro da janela MINHA CONTA.
+Critérios de Êxito:
+	- Validar as informações das ONGs listadas, e testar o modal e funcionalidades dentro dele para
+	doação via PIX.
 
 
 
-## Testes LOGIN:
+##Caso de Teste: CT-04 - Tela de Login##
+Requisitos Associados:
 
-Objetivo: testar a responsividade no smartphone e navegabilidade.
-- Dimensões smartphone (iPhone Se, XR, 12 Pro, Galaxy S8+,  Galaxy S20 Ultra): não responsivo,
-- Dimensões da navegabilidade (1434 x 1776):  responsivo.
-
-Execução da responsividade: Navegabilidade responsivo, dimensões de smartphones não responsivos.
-
-Objetivo: testar os campos.
-- Local do e-mail: aceita letras e números
-- Local da senha: permitindo letras e números.
-- Local cadastre-se: botão corresponde
-
-Execução dos campos: permite inserir dados. 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-010| No cabeçalho deve conter uma caixa destinada a login/sair, cadastre-se e minha conta. | ALTA | 
 
 
+Passos:
+	- 1) Ao realizar o cadastro, verificar se seu login ira ser executado
 
-Objetivo: testar a funcionalidade.
-- Local vamos lá: com alerta correspondente.
-- Local cadastre-se: leva para o local de cadastre-se.
-
-Execução das funcionalidades: funcionam, falta local para recuperar a senha e deixar conectado. 
- 
-
-
-## Testes CADASTRE-SE:
-
-Objetivo: Testar responsividade da tela em diferentes resoluções.
- - Data de início: 1/06/2022
- - Saída esperada: Os campos e botões serão ajustas sem quebrar o layout.
- - Saída real do sistema: O sistema ajustou sim os campos e botões, menus etc.
- - Registro de execução: Sucesso no teste
+Critérios de Êxito:
+	- Após preencher o email e senha informados anteriormente, validar se o seu usuário esta correto
+	e se suas informações estão passando e sendo analisadas.
 
 
-Objetivo: Testar inserção de informações nos campos.
- - Data de início: 1/06/2022
- - Saída esperada: Os campos receberem valores corretos e validados.
- - Saída real do sistema: O sistema recebeu os valores mas não validou os carácteres e tipos do campo, exemplo: CPF esta recebendo texto.
- - Registro de execução: Falha no teste
+##Caso de Teste: CT-05 - Tela de Adote##
+Requisitos Associados:
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| A plataforma deve promover a divulgação dos animais. | ALTA | 
+|RF-002|A plataforma deve promover campanha de conscientização contra o abandono dos animais.| ALTA |,
+|RF-006| A plataforma deve oferecer um menu adicional que permita ao usuário divulgar um animal para ser adotado | ALTA | 
+|RF-012| A Plataforma deve apresentar, para cada animal, uma imagem correspondente e uma breve descrição sobre o mesmo. (Thumbnail) | ALTA | 
+|RF-013| A plataforma deve oferecer um formulário para a adoção responsável. | ALTA | 
+|RF-016| A plataforma deve permitir ao usuário anexar fotos dos animais. | MÉDIA | 
+|RF-018| A plataforma deve permitir a publicação apenas de “cachorros” e “gatos” | MÉDIA | 
 
 
-Objetivo: Testar cadastro de usuario.
- - Data de início: 1/06/2022
- - Saída esperada: Usuario ser cadastrado com as devidas informações.
- - Saída real do sistema: O sistema criou o usuário com todas as informações digitadas.
- - Registro de execução: Sucesso no teste
+Passos:
+	- 1) Ao realizar o login, navegar ate a aba Adote
+	- 2) Verificar a lista de animais e escolher um
+	- 3) Testar o modal para adoção do animal
+
+Critérios de Êxito:
+	- Verificar a lista de animais disponíveis para a doção e após isso tentar agendar a adoção através
+	da funcionalidade do modal. Testar os campos para envio da proposta.
 
 
-## Testes MINHA CONTA:
-Teste de Responsividade
-  - Testar a responsividade da tela em dispositivos diferentes: Mobile, tablet e laptop.
-   
-  Resultado:
-  - Tela responsiva em dispositivos mobile, tablet e laptop. Além de navegadores diversos ( Opera GX, Google Chrome, Firefox e Microsoft Edge)
+##Caso de Teste: CT-06 - Tela de Minha Conta##
+Requisitos Associados:
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-010| No cabeçalho deve conter uma caixa destinada a login/sair, cadastre-se e minha conta. | ALTA | 
+|RF-020| A plataforma deve permitir ao usuário criador do anúncio,a exclusão do perfil do animal. | BAIXA | 
+|RF-025| Consulta e alterações de dados pessoais dos usuários. | BAIXA |
 
 
-  Testes de Botões:
- Verificar se os botões estão realizando as funções de forma correta.
+Passos:
+	- 1) Ao realizar o login, navegar ate o menu Minha Conta
+	- 2) Verificar a opções de testar cada funcionalidade
 
-
-  Resultado:
-- Na aba meu perfil, os botões ''Editar'' e ''Excluir cadastro'' não funcionaram.
-
--Na aba animais, o botão de adicionar um animal funcionou, sendo aberto um modal para preenchimento dos dados, onde é possível salvar as informções preenchidas ou fechar o modal. É possível excluir o cadastro, mas não edita-lo.
-
-
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
-
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
+Critérios de Êxito:
+	- Verificar se as informações de sua conta estiverem corretas e testar se suas alterações em cada
+	opção esta sendo feita e correta.
