@@ -122,7 +122,7 @@ function init() {
 
         // Limpa o formulario
         $("#form-usuario")[0].reset();
-        window.location.href = "/webApp/home.html"
+        window.location.href = "/webApp/index.html"
     });
 
 
@@ -182,7 +182,7 @@ function deleteUsuario(id) {
     usuarioCorrente.data = usuarioCorrente.data.filter(function (element) { return element.id != id });
 
     displayMessage("Usuário removido com sucesso");
-    window.location.href = "/webApp/home.html"
+    window.location.href = "/webApp/index.html"
     // Atualiza os dados no Local Storage
     sessionStorage.setItem('usuarioCorrente', JSON.stringify(usuarioCorrente));
     localStorage.setItem('db_usuario', JSON.stringify (usuarioCorrente));
